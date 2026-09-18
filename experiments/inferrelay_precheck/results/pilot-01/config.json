@@ -1,0 +1,72 @@
+{
+  "model": "facebook/opt-125m",
+  "weights_root": "~/opt_weights",
+  "seed": 17,
+  "warmup": 1,
+  "repeats": 3,
+  "min_seconds": 0.03,
+  "cpu_threads": 4,
+  "gpu_budget_gib": 4,
+  "rss_budget_gib": 6,
+  "e0": {
+    "prompts": [
+      32,
+      128
+    ],
+    "batches": [
+      1
+    ],
+    "microbatches": [
+      1,
+      2
+    ],
+    "gen_len": 4,
+    "trace_prompt": 128
+  },
+  "components": {
+    "groups": [
+      1,
+      2
+    ],
+    "batches": [
+      1
+    ],
+    "prefill_queries": [
+      16,
+      128
+    ],
+    "decode_past": [
+      32,
+      256
+    ],
+    "buffer_steps": 4
+  },
+  "e3": {
+    "bandwidth_gbps": [
+      2.5,
+      10
+    ],
+    "one_way_latency_us": [
+      100
+    ],
+    "endpoint_staging_gbps": [
+      8
+    ],
+    "endpoint_fixed_us": 10,
+    "remote_compute_factors": [
+      1
+    ],
+    "buffers": [
+      1,
+      2
+    ],
+    "requests": [
+      1,
+      4
+    ],
+    "arrival_gap_ms": [
+      0
+    ],
+    "cycles": 2
+  }
+}

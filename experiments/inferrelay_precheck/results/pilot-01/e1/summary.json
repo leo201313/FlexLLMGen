@@ -1,0 +1,418 @@
+[
+  {
+    "group": 1,
+    "weight_bytes": 14175744,
+    "status": "ok",
+    "transfers": {
+      "actual_tensors_pageable": {
+        "cuda_ms": {
+          "n": 24,
+          "p50": 1.2498720288276672,
+          "p95": 1.2947472155094146,
+          "p99": 1.297126760482788
+        },
+        "wall_ms": {
+          "n": 24,
+          "p50": 1.258491538465023,
+          "p95": 1.3054070062935352,
+          "p99": 1.3154600141569972
+        },
+        "effective_GBps": 11.341756334283529,
+        "pcie_after_transfer": {
+          "max_link_width": "16",
+          "current_link_width": "4",
+          "max_link_speed": "32.0 GT/s PCIe",
+          "current_link_speed": "32.0 GT/s PCIe"
+        }
+      },
+      "actual_tensors_pinned": {
+        "cuda_ms": {
+          "n": 27,
+          "p50": 1.1144319772720337,
+          "p95": 1.1185088396072387,
+          "p99": 1.1207890963554383
+        },
+        "wall_ms": {
+          "n": 27,
+          "p50": 1.1221016757190228,
+          "p95": 1.128569571301341,
+          "p99": 1.1295402701944113
+        },
+        "effective_GBps": 12.720151870282963,
+        "pcie_after_transfer": {
+          "max_link_width": "16",
+          "current_link_width": "4",
+          "max_link_speed": "32.0 GT/s PCIe",
+          "current_link_speed": "32.0 GT/s PCIe"
+        }
+      },
+      "contiguous_slab_pageable": {
+        "cuda_ms": {
+          "n": 26,
+          "p50": 1.1696799993515015,
+          "p95": 1.1874159574508667,
+          "p99": 1.2040800154209137
+        },
+        "wall_ms": {
+          "n": 26,
+          "p50": 1.177896512672305,
+          "p95": 1.1975228553637862,
+          "p99": 1.2212161673232913
+        },
+        "effective_GBps": 12.119335209509757,
+        "pcie_after_transfer": {
+          "max_link_width": "16",
+          "current_link_width": "4",
+          "max_link_speed": "32.0 GT/s PCIe",
+          "current_link_speed": "32.0 GT/s PCIe"
+        }
+      },
+      "contiguous_slab_pinned": {
+        "cuda_ms": {
+          "n": 28,
+          "p50": 1.0963039994239807,
+          "p95": 1.0991775751113892,
+          "p99": 1.1025020802021026
+        },
+        "wall_ms": {
+          "n": 28,
+          "p50": 1.1039189994335175,
+          "p95": 1.1093628127127886,
+          "p99": 1.1168424086645246
+        },
+        "effective_GBps": 12.930486441213578,
+        "pcie_after_transfer": {
+          "max_link_width": "16",
+          "current_link_width": "4",
+          "max_link_speed": "32.0 GT/s PCIe",
+          "current_link_speed": "32.0 GT/s PCIe"
+        }
+      }
+    },
+    "compute": [
+      {
+        "cuda_ms": {
+          "n": 217,
+          "p50": 0.12508800625801086,
+          "p95": 0.14297600388526913,
+          "p99": 0.16128383874893187
+        },
+        "wall_ms": {
+          "n": 217,
+          "p50": 0.13371603563427925,
+          "p95": 0.15292195603251454,
+          "p99": 0.17373792827129364
+        },
+        "q": 16,
+        "past": 0,
+        "batch": 1,
+        "semantic": "short_prefill_proxy",
+        "h2d_over_compute": 8.909183307097946
+      },
+      {
+        "cuda_ms": {
+          "n": 166,
+          "p50": 0.1679999977350235,
+          "p95": 0.1841839961707592,
+          "p99": 0.19735359996557233
+        },
+        "wall_ms": {
+          "n": 166,
+          "p50": 0.17678854055702686,
+          "p95": 0.19292079377919436,
+          "p99": 0.20864398684352636
+        },
+        "q": 128,
+        "past": 0,
+        "batch": 1,
+        "semantic": "short_prefill_proxy",
+        "h2d_over_compute": 6.633523763671483
+      },
+      {
+        "cuda_ms": {
+          "n": 229,
+          "p50": 0.11884800344705582,
+          "p95": 0.12888960242271424,
+          "p99": 0.14538751900196076
+        },
+        "wall_ms": {
+          "n": 229,
+          "p50": 0.12756092473864555,
+          "p95": 0.13876697048544884,
+          "p99": 0.15382705256342888
+        },
+        "q": 1,
+        "past": 32,
+        "batch": 1,
+        "semantic": "decode_real_history",
+        "h2d_over_compute": 9.37695161003263
+      },
+      {
+        "cuda_ms": {
+          "n": 234,
+          "p50": 0.11611199751496315,
+          "p95": 0.12139200270175933,
+          "p99": 0.1435968056321144
+        },
+        "wall_ms": {
+          "n": 234,
+          "p50": 0.12471945956349373,
+          "p95": 0.13539856299757955,
+          "p99": 0.1524528581649065
+        },
+        "q": 1,
+        "past": 256,
+        "batch": 1,
+        "semantic": "decode_real_history",
+        "h2d_over_compute": 9.597905480253397
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1941536768,
+      "gpu_allocated_peak_bytes": 52207104,
+      "gpu_reserved_peak_bytes": 60817408,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 4742285312,
+        "allocated_bytes.current": 4641517096,
+        "allocated_bytes.freed": 100768216,
+        "allocated_bytes.peak": 4666709541,
+        "allocation.allocated": 1657,
+        "allocation.current": 17,
+        "allocation.freed": 1640,
+        "allocation.peak": 198,
+        "host_alloc_time.avg": 550,
+        "host_alloc_time.count": 198,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 109072,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 198,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 591720448,
+        "reserved_bytes.current": 591720448,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 591720448,
+        "segment.allocated": 198,
+        "segment.current": 198,
+        "segment.freed": 0,
+        "segment.peak": 198
+      }
+    },
+    "pinned_weight_live_bytes": 14175744,
+    "max_explicit_pinned_live_bytes": 28351488
+  },
+  {
+    "group": 2,
+    "weight_bytes": 28351488,
+    "status": "ok",
+    "transfers": {
+      "actual_tensors_pageable": {
+        "cuda_ms": {
+          "n": 12,
+          "p50": 2.6803839206695557,
+          "p95": 2.7158400654792785,
+          "p99": 2.7166848587989807
+        },
+        "wall_ms": {
+          "n": 12,
+          "p50": 2.689993241801858,
+          "p95": 2.7311922051012516,
+          "p99": 2.736393976956606
+        },
+        "effective_GBps": 10.57739817843626,
+        "pcie_after_transfer": {
+          "max_link_width": "16",
+          "current_link_width": "4",
+          "max_link_speed": "32.0 GT/s PCIe",
+          "current_link_speed": "32.0 GT/s PCIe"
+        }
+      },
+      "actual_tensors_pinned": {
+        "cuda_ms": {
+          "n": 14,
+          "p50": 2.2323520183563232,
+          "p95": 2.244305598735809,
+          "p99": 2.248515508174896
+        },
+        "wall_ms": {
+          "n": 14,
+          "p50": 2.239988651126623,
+          "p95": 2.254558471031487,
+          "p99": 2.256603860296309
+        },
+        "effective_GBps": 12.700276554445544,
+        "pcie_after_transfer": {
+          "max_link_width": "16",
+          "current_link_width": "4",
+          "max_link_speed": "32.0 GT/s PCIe",
+          "current_link_speed": "32.0 GT/s PCIe"
+        }
+      },
+      "contiguous_slab_pageable": {
+        "cuda_ms": {
+          "n": 13,
+          "p50": 2.376192092895508,
+          "p95": 2.3970752239227293,
+          "p99": 2.3972134685516355
+        },
+        "wall_ms": {
+          "n": 13,
+          "p50": 2.384915016591549,
+          "p95": 2.411565277725458,
+          "p99": 2.418213803321123
+        },
+        "effective_GBps": 11.931479817968887,
+        "pcie_after_transfer": {
+          "max_link_width": "16",
+          "current_link_width": "4",
+          "max_link_speed": "32.0 GT/s PCIe",
+          "current_link_speed": "32.0 GT/s PCIe"
+        }
+      },
+      "contiguous_slab_pinned": {
+        "cuda_ms": {
+          "n": 14,
+          "p50": 2.189072012901306,
+          "p95": 2.191600036621094,
+          "p99": 2.193763198852539
+        },
+        "wall_ms": {
+          "n": 14,
+          "p50": 2.1964681800454855,
+          "p95": 2.2054375847801566,
+          "p99": 2.214568587951362
+        },
+        "effective_GBps": 12.951372925564062,
+        "pcie_after_transfer": {
+          "max_link_width": "16",
+          "current_link_width": "4",
+          "max_link_speed": "32.0 GT/s PCIe",
+          "current_link_speed": "32.0 GT/s PCIe"
+        }
+      }
+    },
+    "compute": [
+      {
+        "cuda_ms": {
+          "n": 120,
+          "p50": 0.23667200654745102,
+          "p95": 0.25815359801054,
+          "p99": 0.26421054810285566
+        },
+        "wall_ms": {
+          "n": 120,
+          "p50": 0.2455851063132286,
+          "p95": 0.2697553252801299,
+          "p99": 0.27378758415579796
+        },
+        "q": 16,
+        "past": 0,
+        "batch": 1,
+        "semantic": "short_prefill_proxy",
+        "h2d_over_compute": 9.43226049806931
+      },
+      {
+        "cuda_ms": {
+          "n": 93,
+          "p50": 0.31196799874305725,
+          "p95": 0.3184767961502075,
+          "p99": 0.3251020848751068
+        },
+        "wall_ms": {
+          "n": 93,
+          "p50": 0.32098405063152313,
+          "p95": 0.3335481509566307,
+          "p99": 0.34856460988521576
+        },
+        "q": 128,
+        "past": 0,
+        "batch": 1,
+        "semantic": "short_prefill_proxy",
+        "h2d_over_compute": 7.155708365443376
+      },
+      {
+        "cuda_ms": {
+          "n": 129,
+          "p50": 0.2200320065021515,
+          "p95": 0.23849600255489348,
+          "p99": 0.24751743972301482
+        },
+        "wall_ms": {
+          "n": 129,
+          "p50": 0.2289186231791973,
+          "p95": 0.2506282180547714,
+          "p99": 0.256784800440073
+        },
+        "q": 1,
+        "past": 32,
+        "batch": 1,
+        "semantic": "decode_real_history",
+        "h2d_over_compute": 10.145578608512553
+      },
+      {
+        "cuda_ms": {
+          "n": 124,
+          "p50": 0.22446399927139282,
+          "p95": 0.2568031907081604,
+          "p99": 0.2862022373080253
+        },
+        "wall_ms": {
+          "n": 124,
+          "p50": 0.23366953246295452,
+          "p95": 0.26622049044817686,
+          "p99": 0.2955818967893719
+        },
+        "q": 1,
+        "past": 256,
+        "batch": 1,
+        "semantic": "decode_real_history",
+        "h2d_over_compute": 9.945256368961207
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 2002141184,
+      "gpu_allocated_peak_bytes": 97073152,
+      "gpu_reserved_peak_bytes": 119537664,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5027764224,
+        "allocated_bytes.current": 4725456441,
+        "allocated_bytes.freed": 302307783,
+        "allocated_bytes.peak": 4775841333,
+        "allocation.allocated": 1818,
+        "allocation.current": 33,
+        "allocation.freed": 1785,
+        "allocation.peak": 199,
+        "host_alloc_time.avg": 577,
+        "host_alloc_time.count": 199,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114929,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 199,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274880,
+        "reserved_bytes.current": 625274880,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274880,
+        "segment.allocated": 199,
+        "segment.current": 199,
+        "segment.freed": 0,
+        "segment.peak": 199
+      }
+    },
+    "pinned_weight_live_bytes": 28351488,
+    "max_explicit_pinned_live_bytes": 56702976
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "weight_load_span_sum_ms": 2.0649087131023407,
+  "compute_span_sum_ms": 34.50006949901581,
+  "weight_ready_gap_proxy_ms": 0.0,
+  "original_sync_wall_sum_ms": 2.7699382044374943,
+  "causal_weight_wait_ms": null,
+  "warning": "Gap proxy can include host scheduling and allocator delay; global sync waits on all streams. GPU-resident weight_load spans are not H2D transfers."
+}

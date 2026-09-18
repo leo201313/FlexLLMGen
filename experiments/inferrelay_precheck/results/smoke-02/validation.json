@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "e0_cases": 36,
+  "e1_compute_shapes": 56,
+  "e2_shapes": 56,
+  "buffer_traces": 8,
+  "schedule_unit_tests": 5,
+  "output_ids_match": true,
+  "source_snapshot_hashes_match": true,
+  "original_tracked_files_modified": false,
+  "weights_files": 197
+}

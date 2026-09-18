@@ -1,0 +1,483 @@
+{
+  "parameters": {
+    "requests": 1,
+    "arrival_gap_ms": 0,
+    "cycles": 1,
+    "buffers": 2,
+    "bandwidth_gbps": 2.5,
+    "latency_us": 100,
+    "staging_GBps": 8,
+    "staging_fixed_us": 10,
+    "activation_bytes": 196608,
+    "return_bytes": 4,
+    "remote_compute_factor": 1,
+    "copy_penalty": 1.0,
+    "compute_penalty": 1.0
+  },
+  "measurement_shape": {
+    "group": 2,
+    "q": 128,
+    "past": 0,
+    "batch": 1
+  },
+  "contiguous": {
+    "makespan_ms": 10.775399578396225,
+    "request_latency_ms": [
+      10.775399578396225
+    ],
+    "queue_before_first_compute_ms": [
+      2.2371840476989746
+    ],
+    "exposed_weight_wait_sum_ms": 8.040384203195572,
+    "communication_path_sum_ms": 0.9183114000000003,
+    "events": [
+      {
+        "resource": "h2d0",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 0,
+        "slot": 0,
+        "start_ms": 0,
+        "end_ms": 2.2371840476989746
+      },
+      {
+        "resource": "compute0",
+        "kind": "block_group",
+        "request": 0,
+        "group": 0,
+        "slot": 0,
+        "start_ms": 2.2371840476989746,
+        "end_ms": 2.53996804356575
+      },
+      {
+        "resource": "h2d0",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 1,
+        "slot": 1,
+        "start_ms": 2.2371840476989746,
+        "end_ms": 4.474368095397949
+      },
+      {
+        "resource": "compute0",
+        "kind": "block_group",
+        "request": 0,
+        "group": 1,
+        "slot": 1,
+        "start_ms": 4.474368095397949,
+        "end_ms": 4.777152091264725
+      },
+      {
+        "resource": "h2d0",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 2,
+        "slot": 0,
+        "start_ms": 4.474368095397949,
+        "end_ms": 6.711552143096924
+      },
+      {
+        "resource": "compute0",
+        "kind": "block_group",
+        "request": 0,
+        "group": 2,
+        "slot": 0,
+        "start_ms": 6.711552143096924,
+        "end_ms": 7.014336138963699
+      },
+      {
+        "resource": "h2d0",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 3,
+        "slot": 1,
+        "start_ms": 6.711552143096924,
+        "end_ms": 8.948736190795898
+      },
+      {
+        "resource": "compute0",
+        "kind": "block_group",
+        "request": 0,
+        "group": 3,
+        "slot": 1,
+        "start_ms": 8.948736190795898,
+        "end_ms": 9.251520186662674
+      },
+      {
+        "resource": "h2d1",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 4,
+        "slot": 0,
+        "start_ms": 0,
+        "end_ms": 2.2371840476989746
+      },
+      {
+        "resource": "d2h0",
+        "kind": "activation_d2h",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 9.251520186662674,
+        "end_ms": 9.286096186662673
+      },
+      {
+        "resource": "network",
+        "kind": "wire",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 9.286096186662673,
+        "end_ms": 10.015241786662674
+      },
+      {
+        "resource": "h2d1",
+        "kind": "activation_h2d",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 10.015241786662674,
+        "end_ms": 10.049817786662674
+      },
+      {
+        "resource": "compute1",
+        "kind": "block_group",
+        "request": 0,
+        "group": 4,
+        "slot": 0,
+        "start_ms": 10.049817786662674,
+        "end_ms": 10.35260178252945
+      },
+      {
+        "resource": "h2d1",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 5,
+        "slot": 1,
+        "start_ms": 2.2371840476989746,
+        "end_ms": 4.474368095397949
+      },
+      {
+        "resource": "compute1",
+        "kind": "block_group",
+        "request": 0,
+        "group": 5,
+        "slot": 1,
+        "start_ms": 10.35260178252945,
+        "end_ms": 10.655385778396225
+      },
+      {
+        "resource": "d2h1",
+        "kind": "activation_d2h",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 10.655385778396225,
+        "end_ms": 10.665386278396225
+      },
+      {
+        "resource": "network",
+        "kind": "wire",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 10.665386278396225,
+        "end_ms": 10.765399078396225
+      },
+      {
+        "resource": "h2d0",
+        "kind": "activation_h2d",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 10.765399078396225,
+        "end_ms": 10.775399578396225
+      }
+    ],
+    "wire_messages": 2
+  },
+  "relay": {
+    "makespan_ms": 8.304583534830476,
+    "request_latency_ms": [
+      8.304583534830476
+    ],
+    "queue_before_first_compute_ms": [
+      2.2371840476989746
+    ],
+    "exposed_weight_wait_sum_ms": 2.2371840476989746,
+    "communication_path_sum_ms": 4.250695511930849,
+    "events": [
+      {
+        "resource": "h2d0",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 0,
+        "slot": 0,
+        "start_ms": 0,
+        "end_ms": 2.2371840476989746
+      },
+      {
+        "resource": "compute0",
+        "kind": "block_group",
+        "request": 0,
+        "group": 0,
+        "slot": 0,
+        "start_ms": 2.2371840476989746,
+        "end_ms": 2.53996804356575
+      },
+      {
+        "resource": "h2d1",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 1,
+        "slot": 0,
+        "start_ms": 0,
+        "end_ms": 2.2371840476989746
+      },
+      {
+        "resource": "d2h0",
+        "kind": "activation_d2h",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 2.53996804356575,
+        "end_ms": 2.57454404356575
+      },
+      {
+        "resource": "network",
+        "kind": "wire",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 2.57454404356575,
+        "end_ms": 3.30368964356575
+      },
+      {
+        "resource": "h2d1",
+        "kind": "activation_h2d",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 3.30368964356575,
+        "end_ms": 3.33826564356575
+      },
+      {
+        "resource": "compute1",
+        "kind": "block_group",
+        "request": 0,
+        "group": 1,
+        "slot": 0,
+        "start_ms": 3.33826564356575,
+        "end_ms": 3.6410496394325254
+      },
+      {
+        "resource": "h2d0",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 2,
+        "slot": 1,
+        "start_ms": 2.2371840476989746,
+        "end_ms": 4.474368095397949
+      },
+      {
+        "resource": "d2h1",
+        "kind": "activation_d2h",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 3.6410496394325254,
+        "end_ms": 3.6756256394325253
+      },
+      {
+        "resource": "network",
+        "kind": "wire",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 3.6756256394325253,
+        "end_ms": 4.404771239432526
+      },
+      {
+        "resource": "h2d0",
+        "kind": "activation_h2d",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 4.474368095397949,
+        "end_ms": 4.50894409539795
+      },
+      {
+        "resource": "compute0",
+        "kind": "block_group",
+        "request": 0,
+        "group": 2,
+        "slot": 1,
+        "start_ms": 4.50894409539795,
+        "end_ms": 4.811728091264725
+      },
+      {
+        "resource": "h2d1",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 3,
+        "slot": 1,
+        "start_ms": 3.33826564356575,
+        "end_ms": 5.5754496912647244
+      },
+      {
+        "resource": "d2h0",
+        "kind": "activation_d2h",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 4.811728091264725,
+        "end_ms": 4.8463040912647255
+      },
+      {
+        "resource": "network",
+        "kind": "wire",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 4.8463040912647255,
+        "end_ms": 5.575449691264725
+      },
+      {
+        "resource": "h2d1",
+        "kind": "activation_h2d",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 5.575449691264725,
+        "end_ms": 5.610025691264726
+      },
+      {
+        "resource": "compute1",
+        "kind": "block_group",
+        "request": 0,
+        "group": 3,
+        "slot": 1,
+        "start_ms": 5.610025691264726,
+        "end_ms": 5.912809687131501
+      },
+      {
+        "resource": "h2d0",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 4,
+        "slot": 0,
+        "start_ms": 4.50894409539795,
+        "end_ms": 6.746128143096924
+      },
+      {
+        "resource": "d2h1",
+        "kind": "activation_d2h",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 5.912809687131501,
+        "end_ms": 5.947385687131502
+      },
+      {
+        "resource": "network",
+        "kind": "wire",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 5.947385687131502,
+        "end_ms": 6.6765312871315015
+      },
+      {
+        "resource": "h2d0",
+        "kind": "activation_h2d",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 6.746128143096924,
+        "end_ms": 6.780704143096925
+      },
+      {
+        "resource": "compute0",
+        "kind": "block_group",
+        "request": 0,
+        "group": 4,
+        "slot": 0,
+        "start_ms": 6.780704143096925,
+        "end_ms": 7.0834881389637
+      },
+      {
+        "resource": "h2d1",
+        "kind": "weight_h2d",
+        "request": 0,
+        "group": 5,
+        "slot": 0,
+        "start_ms": 5.610025691264726,
+        "end_ms": 7.8472097389637
+      },
+      {
+        "resource": "d2h0",
+        "kind": "activation_d2h",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 7.0834881389637,
+        "end_ms": 7.1180641389637005
+      },
+      {
+        "resource": "network",
+        "kind": "wire",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 7.1180641389637005,
+        "end_ms": 7.8472097389637
+      },
+      {
+        "resource": "h2d1",
+        "kind": "activation_h2d",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 7.8472097389637,
+        "end_ms": 7.881785738963701
+      },
+      {
+        "resource": "compute1",
+        "kind": "block_group",
+        "request": 0,
+        "group": 5,
+        "slot": 0,
+        "start_ms": 7.881785738963701,
+        "end_ms": 8.184569734830475
+      },
+      {
+        "resource": "d2h1",
+        "kind": "activation_d2h",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 8.184569734830475,
+        "end_ms": 8.194570234830476
+      },
+      {
+        "resource": "network",
+        "kind": "wire",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 8.194570234830476,
+        "end_ms": 8.294583034830476
+      },
+      {
+        "resource": "h2d0",
+        "kind": "activation_h2d",
+        "request": 0,
+        "group": -1,
+        "slot": -1,
+        "start_ms": 8.294583034830476,
+        "end_ms": 8.304583534830476
+      }
+    ],
+    "wire_messages": 6
+  }
+}

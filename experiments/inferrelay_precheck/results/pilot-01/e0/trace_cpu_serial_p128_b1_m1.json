@@ -1,0 +1,1877 @@
+{
+  "traceEvents": [
+    {
+      "name": "weight_load L0 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 362.7839982509613,
+      "dur": 6246.784120798111
+    },
+    {
+      "name": "compute L0 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6627.359867095947,
+      "dur": 79.7119140625
+    },
+    {
+      "name": "weight_load L1 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6716.095924377441,
+      "dur": 388.16022872924805
+    },
+    {
+      "name": "compute L1 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7104.832172393799,
+      "dur": 76.63965225219727
+    },
+    {
+      "name": "weight_load L2 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 7187.615871429443,
+      "dur": 749.1841316223145
+    },
+    {
+      "name": "compute L2 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7937.407970428467,
+      "dur": 78.46403121948242
+    },
+    {
+      "name": "weight_load L3 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8016.384124755859,
+      "dur": 379.93621826171875
+    },
+    {
+      "name": "compute L3 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8396.927833557129,
+      "dur": 74.27215576171875
+    },
+    {
+      "name": "weight_load L4 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8477.343559265137,
+      "dur": 746.4323043823242
+    },
+    {
+      "name": "compute L4 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9224.384307861328,
+      "dur": 74.56016540527344
+    },
+    {
+      "name": "weight_load L5 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9299.424171447754,
+      "dur": 386.688232421875
+    },
+    {
+      "name": "compute L5 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9686.71989440918,
+      "dur": 80.86395263671875
+    },
+    {
+      "name": "weight_load L6 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9773.728370666504,
+      "dur": 743.2317733764648
+    },
+    {
+      "name": "compute L6 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 10517.536163330078,
+      "dur": 73.69613647460938
+    },
+    {
+      "name": "weight_load L7 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 10591.71199798584,
+      "dur": 380.4798126220703
+    },
+    {
+      "name": "compute L7 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 10972.800254821777,
+      "dur": 72.70336151123047
+    },
+    {
+      "name": "weight_load L8 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11051.679611206055,
+      "dur": 740.7360076904297
+    },
+    {
+      "name": "compute L8 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11793.024063110352,
+      "dur": 78.20796966552734
+    },
+    {
+      "name": "weight_load L9 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11871.711730957031,
+      "dur": 379.7760009765625
+    },
+    {
+      "name": "compute L9 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12252.096176147461,
+      "dur": 73.40812683105469
+    },
+    {
+      "name": "weight_load L10 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12331.680297851562,
+      "dur": 741.3120269775391
+    },
+    {
+      "name": "compute L10 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 13073.599815368652,
+      "dur": 77.66437530517578
+    },
+    {
+      "name": "weight_load L11 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 13151.74388885498,
+      "dur": 376.8959045410156
+    },
+    {
+      "name": "compute L11 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 13529.248237609863,
+      "dur": 76.25579833984375
+    },
+    {
+      "name": "weight_load L12 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 13611.680030822754,
+      "dur": 742.4001693725586
+    },
+    {
+      "name": "compute L12 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 14354.656219482422,
+      "dur": 76.57623291015625
+    },
+    {
+      "name": "weight_load L13 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 14431.743621826172,
+      "dur": 377.28023529052734
+    },
+    {
+      "name": "compute L13 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 14809.599876403809,
+      "dur": 75.93631744384766
+    },
+    {
+      "name": "weight_load L14 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 14891.679763793945,
+      "dur": 740.3841018676758
+    },
+    {
+      "name": "compute L14 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 15632.672309875488,
+      "dur": 78.55987548828125
+    },
+    {
+      "name": "weight_load L15 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 15711.68041229248,
+      "dur": 377.1524429321289
+    },
+    {
+      "name": "compute L15 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 16089.439392089844,
+      "dur": 76.09748840332031
+    },
+    {
+      "name": "weight_load L16 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 16171.680450439453,
+      "dur": 740.3831481933594
+    },
+    {
+      "name": "compute L16 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 16912.67204284668,
+      "dur": 78.55987548828125
+    },
+    {
+      "name": "weight_load L17 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 16991.71257019043,
+      "dur": 378.5266876220703
+    },
+    {
+      "name": "compute L17 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 17370.847702026367,
+      "dur": 72.63946533203125
+    },
+    {
+      "name": "weight_load L18 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 17449.63264465332,
+      "dur": 734.8480224609375
+    },
+    {
+      "name": "compute L18 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 18185.056686401367,
+      "dur": 71.83837890625
+    },
+    {
+      "name": "weight_load L19 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 18257.343292236328,
+      "dur": 380.0010681152344
+    },
+    {
+      "name": "compute L19 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 18637.95280456543,
+      "dur": 73.24790954589844
+    },
+    {
+      "name": "weight_load L20 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 18717.344284057617,
+      "dur": 736.2880706787109
+    },
+    {
+      "name": "compute L20 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 19454.240798950195,
+      "dur": 72.41439819335938
+    },
+    {
+      "name": "weight_load L21 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 19527.20069885254,
+      "dur": 379.2304992675781
+    },
+    {
+      "name": "compute L21 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 19907.039642333984,
+      "dur": 75.96778869628906
+    },
+    {
+      "name": "weight_load L22 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 19989.152908325195,
+      "dur": 741.4703369140625
+    },
+    {
+      "name": "compute L22 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 20731.231689453125,
+      "dur": 77.47268676757812
+    },
+    {
+      "name": "weight_load L23 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 20809.18312072754,
+      "dur": 377.8572082519531
+    },
+    {
+      "name": "compute L23 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 21187.64877319336,
+      "dur": 73.31085205078125
+    },
+    {
+      "name": "weight_load L24 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 21265.056610107422,
+      "dur": 736.8946075439453
+    },
+    {
+      "name": "compute L24 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 22002.527236938477,
+      "dur": 71.48933410644531
+    },
+    {
+      "name": "weight_load L25 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 22074.464797973633,
+      "dur": 5960.86311340332
+    },
+    {
+      "name": "compute L25 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 28035.903930664062,
+      "dur": 253.79180908203125
+    },
+    {
+      "name": "weight_load L0 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 28341.184616088867,
+      "dur": 6238.496780395508
+    },
+    {
+      "name": "compute L0 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 34599.71237182617,
+      "dur": 61.11907958984375
+    },
+    {
+      "name": "weight_load L1 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 34668.99108886719,
+      "dur": 386.81793212890625
+    },
+    {
+      "name": "compute L1 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 35056.3850402832,
+      "dur": 61.824798583984375
+    },
+    {
+      "name": "weight_load L2 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 35123.870849609375,
+      "dur": 745.9220886230469
+    },
+    {
+      "name": "compute L2 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 35870.36895751953,
+      "dur": 35.167694091796875
+    },
+    {
+      "name": "weight_load L3 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 35906.43310546875,
+      "dur": 379.8065185546875
+    },
+    {
+      "name": "compute L3 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 36286.84616088867,
+      "dur": 56.9610595703125
+    },
+    {
+      "name": "weight_load L4 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 36349.60174560547,
+      "dur": 743.133544921875
+    },
+    {
+      "name": "compute L4 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 37093.31130981445,
+      "dur": 27.3590087890625
+    },
+    {
+      "name": "weight_load L5 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 37121.53625488281,
+      "dur": 384.735107421875
+    },
+    {
+      "name": "compute L5 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 37506.8473815918,
+      "dur": 56.194305419921875
+    },
+    {
+      "name": "weight_load L6 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 37569.53430175781,
+      "dur": 741.4741516113281
+    },
+    {
+      "name": "compute L6 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 38311.614990234375,
+      "dur": 27.9693603515625
+    },
+    {
+      "name": "weight_load L7 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 38340.38543701172,
+      "dur": 380.157470703125
+    },
+    {
+      "name": "compute L7 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 38721.153259277344,
+      "dur": 56.70166015625
+    },
+    {
+      "name": "weight_load L8 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 38783.64944458008,
+      "dur": 741.8556213378906
+    },
+    {
+      "name": "compute L8 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 39526.1116027832,
+      "dur": 33.72955322265625
+    },
+    {
+      "name": "weight_load L9 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 39560.70327758789,
+      "dur": 382.6255798339844
+    },
+    {
+      "name": "compute L9 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 39943.904876708984,
+      "dur": 58.3038330078125
+    },
+    {
+      "name": "weight_load L10 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 40008.705139160156,
+      "dur": 740.7989501953125
+    },
+    {
+      "name": "compute L10 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 40750.1106262207,
+      "dur": 34.786224365234375
+    },
+    {
+      "name": "weight_load L11 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 40785.79330444336,
+      "dur": 379.2304992675781
+    },
+    {
+      "name": "compute L11 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 41165.59982299805,
+      "dur": 57.567596435546875
+    },
+    {
+      "name": "weight_load L12 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 41228.95812988281,
+      "dur": 738.3384704589844
+    },
+    {
+      "name": "compute L12 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 41967.90313720703,
+      "dur": 27.008056640625
+    },
+    {
+      "name": "weight_load L13 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 41995.80764770508,
+      "dur": 376.5449523925781
+    },
+    {
+      "name": "compute L13 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 42372.95913696289,
+      "dur": 58.177947998046875
+    },
+    {
+      "name": "weight_load L14 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 42437.6335144043,
+      "dur": 736.0000610351562
+    },
+    {
+      "name": "compute L14 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 43174.24011230469,
+      "dur": 29.3426513671875
+    },
+    {
+      "name": "weight_load L15 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 43204.4792175293,
+      "dur": 377.2163391113281
+    },
+    {
+      "name": "compute L15 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 43582.30209350586,
+      "dur": 57.506561279296875
+    },
+    {
+      "name": "weight_load L16 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 43645.599365234375,
+      "dur": 736.6104125976562
+    },
+    {
+      "name": "compute L16 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 44382.816314697266,
+      "dur": 28.736114501953125
+    },
+    {
+      "name": "weight_load L17 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 44412.41455078125,
+      "dur": 376.7051696777344
+    },
+    {
+      "name": "compute L17 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 44789.72625732422,
+      "dur": 58.048248291015625
+    },
+    {
+      "name": "weight_load L18 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 44854.270935058594,
+      "dur": 735.0425720214844
+    },
+    {
+      "name": "compute L18 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 45589.92004394531,
+      "dur": 28.255462646484375
+    },
+    {
+      "name": "weight_load L19 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 45619.07196044922,
+      "dur": 376.96075439453125
+    },
+    {
+      "name": "compute L19 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 45996.639251708984,
+      "dur": 57.76214599609375
+    },
+    {
+      "name": "weight_load L20 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 46060.1921081543,
+      "dur": 736.0000610351562
+    },
+    {
+      "name": "compute L20 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 46796.76818847656,
+      "dur": 27.3284912109375
+    },
+    {
+      "name": "weight_load L21 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 46824.928283691406,
+      "dur": 377.98309326171875
+    },
+    {
+      "name": "compute L21 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 47203.521728515625,
+      "dur": 58.84552001953125
+    },
+    {
+      "name": "weight_load L22 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 47268.863677978516,
+      "dur": 736.0649108886719
+    },
+    {
+      "name": "compute L22 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 48005.53512573242,
+      "dur": 29.2816162109375
+    },
+    {
+      "name": "weight_load L23 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 48035.67886352539,
+      "dur": 376.2245178222656
+    },
+    {
+      "name": "compute L23 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 48412.479400634766,
+      "dur": 58.208465576171875
+    },
+    {
+      "name": "weight_load L24 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 48474.78485107422,
+      "dur": 737.5984191894531
+    },
+    {
+      "name": "compute L24 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 49212.95928955078,
+      "dur": 27.774810791015625
+    },
+    {
+      "name": "weight_load L25 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 49241.18423461914,
+      "dur": 5955.039978027344
+    },
+    {
+      "name": "compute L25 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 55196.83074951172,
+      "dur": 210.4339599609375
+    },
+    {
+      "name": "weight_load L0 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 55451.67922973633,
+      "dur": 6239.170074462891
+    },
+    {
+      "name": "compute L0 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 61708.19091796875,
+      "dur": 56.2896728515625
+    },
+    {
+      "name": "weight_load L1 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 61771.934509277344,
+      "dur": 386.7225646972656
+    },
+    {
+      "name": "compute L1 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 62159.263610839844,
+      "dur": 58.624267578125
+    },
+    {
+      "name": "weight_load L2 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 62221.98486328125,
+      "dur": 745.086669921875
+    },
+    {
+      "name": "compute L2 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 62967.647552490234,
+      "dur": 29.857635498046875
+    },
+    {
+      "name": "weight_load L3 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 62998.3024597168,
+      "dur": 379.6501159667969
+    },
+    {
+      "name": "compute L3 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 63378.55911254883,
+      "dur": 58.238983154296875
+    },
+    {
+      "name": "weight_load L4 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 63442.59262084961,
+      "dur": 742.1150207519531
+    },
+    {
+      "name": "compute L4 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 64185.31036376953,
+      "dur": 34.5001220703125
+    },
+    {
+      "name": "weight_load L5 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 64220.733642578125,
+      "dur": 388.2293701171875
+    },
+    {
+      "name": "compute L5 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 64609.56573486328,
+      "dur": 59.77630615234375
+    },
+    {
+      "name": "weight_load L6 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 64675.84228515625,
+      "dur": 740.9896850585938
+    },
+    {
+      "name": "compute L6 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 65417.442321777344,
+      "dur": 29.47235107421875
+    },
+    {
+      "name": "weight_load L7 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 65447.67761230469,
+      "dur": 379.0130615234375
+    },
+    {
+      "name": "compute L7 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 65827.2933959961,
+      "dur": 59.9365234375
+    },
+    {
+      "name": "weight_load L8 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 65893.02062988281,
+      "dur": 742.5308227539062
+    },
+    {
+      "name": "compute L8 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 66636.16180419922,
+      "dur": 33.050537109375
+    },
+    {
+      "name": "weight_load L9 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 66670.08209228516,
+      "dur": 383.7738037109375
+    },
+    {
+      "name": "compute L9 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 67054.4662475586,
+      "dur": 65.3076171875
+    },
+    {
+      "name": "weight_load L10 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 67126.27410888672,
+      "dur": 743.6752319335938
+    },
+    {
+      "name": "compute L10 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 67870.55969238281,
+      "dur": 31.9061279296875
+    },
+    {
+      "name": "weight_load L11 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 67903.22875976562,
+      "dur": 381.7291259765625
+    },
+    {
+      "name": "compute L11 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 68285.56823730469,
+      "dur": 59.26513671875
+    },
+    {
+      "name": "weight_load L12 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 68350.62408447266,
+      "dur": 737.4725341796875
+    },
+    {
+      "name": "compute L12 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 69088.70697021484,
+      "dur": 27.87017822265625
+    },
+    {
+      "name": "weight_load L13 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 69117.43927001953,
+      "dur": 377.66265869140625
+    },
+    {
+      "name": "compute L13 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 69495.68176269531,
+      "dur": 59.16595458984375
+    },
+    {
+      "name": "weight_load L14 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 69561.34033203125,
+      "dur": 736.6409301757812
+    },
+    {
+      "name": "compute L14 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 70298.5610961914,
+      "dur": 28.7322998046875
+    },
+    {
+      "name": "weight_load L15 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 70328.06396484375,
+      "dur": 377.0904541015625
+    },
+    {
+      "name": "compute L15 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 70705.75714111328,
+      "dur": 59.814453125
+    },
+    {
+      "name": "weight_load L16 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 70771.3623046875,
+      "dur": 737.3428344726562
+    },
+    {
+      "name": "compute L16 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 71509.27734375,
+      "dur": 28.03802490234375
+    },
+    {
+      "name": "weight_load L17 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 71538.14697265625,
+      "dur": 377.69317626953125
+    },
+    {
+      "name": "compute L17 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 71916.45050048828,
+      "dur": 59.13543701171875
+    },
+    {
+      "name": "weight_load L18 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 71982.20825195312,
+      "dur": 735.870361328125
+    },
+    {
+      "name": "compute L18 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 72718.65844726562,
+      "dur": 29.3731689453125
+    },
+    {
+      "name": "weight_load L19 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 72748.8021850586,
+      "dur": 375.29754638671875
+    },
+    {
+      "name": "compute L19 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 73124.70245361328,
+      "dur": 61.5997314453125
+    },
+    {
+      "name": "weight_load L20 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 73192.09289550781,
+      "dur": 736.8011474609375
+    },
+    {
+      "name": "compute L20 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 73929.50439453125,
+      "dur": 28.54156494140625
+    },
+    {
+      "name": "weight_load L21 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 73958.87756347656,
+      "dur": 377.22015380859375
+    },
+    {
+      "name": "compute L21 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 74336.70043945312,
+      "dur": 59.6160888671875
+    },
+    {
+      "name": "weight_load L22 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 74402.81677246094,
+      "dur": 736.8927001953125
+    },
+    {
+      "name": "compute L22 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 75140.31982421875,
+      "dur": 28.45001220703125
+    },
+    {
+      "name": "weight_load L23 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 75169.66247558594,
+      "dur": 377.1209716796875
+    },
+    {
+      "name": "compute L23 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 75547.36328125,
+      "dur": 59.326171875
+    },
+    {
+      "name": "weight_load L24 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 75610.78643798828,
+      "dur": 736.7324829101562
+    },
+    {
+      "name": "compute L24 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 76348.12927246094,
+      "dur": 28.6102294921875
+    },
+    {
+      "name": "weight_load L25 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 76377.18200683594,
+      "dur": 5957.023620605469
+    },
+    {
+      "name": "compute L25 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 82334.8159790039,
+      "dur": 206.39801025390625
+    },
+    {
+      "name": "weight_load L0 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 82585.82305908203,
+      "dur": 6235.008239746094
+    },
+    {
+      "name": "compute L0 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 88834.36584472656,
+      "dur": 55.80902099609375
+    },
+    {
+      "name": "weight_load L1 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 88897.91870117188,
+      "dur": 387.0086669921875
+    },
+    {
+      "name": "compute L1 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 89285.50720214844,
+      "dur": 56.7626953125
+    },
+    {
+      "name": "weight_load L2 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 89342.72003173828,
+      "dur": 739.9978637695312
+    },
+    {
+      "name": "compute L2 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 90083.29772949219,
+      "dur": 28.7017822265625
+    },
+    {
+      "name": "weight_load L3 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 90112.54119873047,
+      "dur": 382.3394775390625
+    },
+    {
+      "name": "compute L3 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 90495.49102783203,
+      "dur": 60.89019775390625
+    },
+    {
+      "name": "weight_load L4 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 90556.8618774414,
+      "dur": 742.4697875976562
+    },
+    {
+      "name": "compute L4 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 91299.93438720703,
+      "dur": 27.19879150390625
+    },
+    {
+      "name": "weight_load L5 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 91328.0029296875,
+      "dur": 382.87353515625
+    },
+    {
+      "name": "compute L5 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 91711.48681640625,
+      "dur": 55.96923828125
+    },
+    {
+      "name": "weight_load L6 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 91768.25714111328,
+      "dur": 748.382568359375
+    },
+    {
+      "name": "compute L6 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 92517.21954345703,
+      "dur": 29.85382080078125
+    },
+    {
+      "name": "weight_load L7 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 92547.55401611328,
+      "dur": 379.29534912109375
+    },
+    {
+      "name": "compute L7 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 92927.45971679688,
+      "dur": 57.88421630859375
+    },
+    {
+      "name": "weight_load L8 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 92985.79406738281,
+      "dur": 746.3302612304688
+    },
+    {
+      "name": "compute L8 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 93732.73468017578,
+      "dur": 28.45001220703125
+    },
+    {
+      "name": "weight_load L9 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 93762.04681396484,
+      "dur": 379.29534912109375
+    },
+    {
+      "name": "compute L9 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 94141.95251464844,
+      "dur": 57.50274658203125
+    },
+    {
+      "name": "weight_load L10 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 94200.35552978516,
+      "dur": 744.8577880859375
+    },
+    {
+      "name": "compute L10 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 94945.79315185547,
+      "dur": 30.20477294921875
+    },
+    {
+      "name": "weight_load L11 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 94976.47857666016,
+      "dur": 384.22393798828125
+    },
+    {
+      "name": "compute L11 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 95361.31286621094,
+      "dur": 63.16375732421875
+    },
+    {
+      "name": "weight_load L12 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 95425.0259399414,
+      "dur": 738.525390625
+    },
+    {
+      "name": "compute L12 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 96164.13116455078,
+      "dur": 28.0303955078125
+    },
+    {
+      "name": "weight_load L13 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 96193.08471679688,
+      "dur": 378.11279296875
+    },
+    {
+      "name": "compute L13 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 96571.77734375,
+      "dur": 56.610107421875
+    },
+    {
+      "name": "weight_load L14 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 96629.2495727539,
+      "dur": 741.6305541992188
+    },
+    {
+      "name": "compute L14 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 97371.49047851562,
+      "dur": 33.43963623046875
+    },
+    {
+      "name": "weight_load L15 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 97405.41076660156,
+      "dur": 380.63812255859375
+    },
+    {
+      "name": "compute L15 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 97786.65924072266,
+      "dur": 56.54144287109375
+    },
+    {
+      "name": "weight_load L16 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 97843.6508178711,
+      "dur": 740.53955078125
+    },
+    {
+      "name": "compute L16 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 98584.80072021484,
+      "dur": 34.24072265625
+    },
+    {
+      "name": "weight_load L17 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 98619.90356445312,
+      "dur": 380.157470703125
+    },
+    {
+      "name": "compute L17 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 99000.67138671875,
+      "dur": 56.640625
+    },
+    {
+      "name": "weight_load L18 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 99058.11309814453,
+      "dur": 740.509033203125
+    },
+    {
+      "name": "compute L18 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 99799.23248291016,
+      "dur": 34.85107421875
+    },
+    {
+      "name": "weight_load L19 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 99834.55657958984,
+      "dur": 379.6539306640625
+    },
+    {
+      "name": "compute L19 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 100214.81323242188,
+      "dur": 57.31201171875
+    },
+    {
+      "name": "weight_load L20 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 100272.57537841797,
+      "dur": 741.14990234375
+    },
+    {
+      "name": "compute L20 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 101014.3051147461,
+      "dur": 33.660888671875
+    },
+    {
+      "name": "weight_load L21 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 101048.76708984375,
+      "dur": 379.90570068359375
+    },
+    {
+      "name": "compute L21 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 101429.24499511719,
+      "dur": 56.9915771484375
+    },
+    {
+      "name": "weight_load L22 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 101487.10632324219,
+      "dur": 741.14990234375
+    },
+    {
+      "name": "compute L22 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 102228.86657714844,
+      "dur": 33.56170654296875
+    },
+    {
+      "name": "weight_load L23 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 102263.29803466797,
+      "dur": 379.7760009765625
+    },
+    {
+      "name": "compute L23 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 102643.6767578125,
+      "dur": 57.02972412109375
+    },
+    {
+      "name": "weight_load L24 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 102701.1489868164,
+      "dur": 740.5166625976562
+    },
+    {
+      "name": "compute L24 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 103442.2378540039,
+      "dur": 34.66033935546875
+    },
+    {
+      "name": "weight_load L25 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 103477.34069824219,
+      "dur": 5957.09228515625
+    },
+    {
+      "name": "compute L25 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 109435.04333496094,
+      "dur": 206.329345703125
+    }
+  ],
+  "note": "CUDA event spans include submission gaps; CPU origin approximate. No additional per-layer synchronization."
+}

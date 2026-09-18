@@ -1,0 +1,13 @@
+{
+  "first_pin_prepare_ms": 1.1712750419974327,
+  "warmed_allocator_allocate_and_copy_ms": [
+    0.8741910569369793,
+    0.8677877485752106,
+    0.8497638627886772,
+    0.8387970738112926,
+    0.8176709525287151,
+    0.7856171578168869,
+    0.7604160346090794
+  ],
+  "note": "Not OS-cold allocation. Includes pageable-to-pinned CPU copy; excluded from steady-state H2D."
+}

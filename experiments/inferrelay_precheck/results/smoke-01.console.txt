@@ -1,0 +1,51 @@
+/home/leocao/miniconda3/envs/llmexp/lib/python3.10/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+E0 gpu_p32_b1_m1
+E0 cpu_serial_p32_b1_m1
+E0 cpu_overlap_p32_b1_m1
+E0 gpu_p32_b1_m2
+E0 cpu_serial_p32_b1_m2
+E0 cpu_overlap_p32_b1_m2
+E0 gpu_p32_b4_m1
+E0 cpu_serial_p32_b4_m1
+E0 cpu_overlap_p32_b4_m1
+E0 gpu_p32_b4_m2
+E0 cpu_serial_p32_b4_m2
+E0 cpu_overlap_p32_b4_m2
+E0 gpu_p128_b1_m1
+E0 cpu_serial_p128_b1_m1
+E0 cpu_overlap_p128_b1_m1
+E0 gpu_p128_b1_m2
+E0 cpu_serial_p128_b1_m2
+E0 cpu_overlap_p128_b1_m2
+E0 gpu_p128_b4_m1
+E0 cpu_serial_p128_b4_m1
+E0 cpu_overlap_p128_b4_m1
+E0 gpu_p128_b4_m2
+E0 cpu_serial_p128_b4_m2
+E0 cpu_overlap_p128_b4_m2
+E0 gpu_p256_b1_m1
+E0 cpu_serial_p256_b1_m1
+E0 cpu_overlap_p256_b1_m1
+E0 gpu_p256_b1_m2
+E0 cpu_serial_p256_b1_m2
+E0 cpu_overlap_p256_b1_m2
+E0 gpu_p256_b4_m1
+E0 cpu_serial_p256_b4_m1
+E0 cpu_overlap_p256_b4_m1
+E0 gpu_p256_b4_m2
+E0 cpu_serial_p256_b4_m2
+E0 cpu_overlap_p256_b4_m2
+e0 complete
+E1 group 1
+E1 group 2
+E1 group 4
+E1 group 8
+e1 complete
+E2 group 1
+E2 group 2
+E2 group 4
+E2 group 8
+e2 complete
+e3 complete
+Results: /home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/smoke-01

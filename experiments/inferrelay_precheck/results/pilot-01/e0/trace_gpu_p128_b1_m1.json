@@ -1,0 +1,2717 @@
+{
+  "traceEvents": [
+    {
+      "name": "weight_load L0 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 219.4560021162033,
+      "dur": 5.152001976966858
+    },
+    {
+      "name": "weight_load L1 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 280.4799973964691,
+      "dur": 5.407989025115967
+    },
+    {
+      "name": "compute L0 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 306.87999725341797,
+      "dur": 74.3040144443512
+    },
+    {
+      "name": "weight_load L2 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 403.4560024738312,
+      "dur": 5.0559937953948975
+    },
+    {
+      "name": "compute L1 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 416.3520038127899,
+      "dur": 153.82400155067444
+    },
+    {
+      "name": "weight_load L3 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 600.4160046577454,
+      "dur": 5.695998668670654
+    },
+    {
+      "name": "compute L2 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 613.6959791183472,
+      "dur": 93.02401542663574
+    },
+    {
+      "name": "weight_load L4 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 722.6880192756653,
+      "dur": 4.831969738006592
+    },
+    {
+      "name": "compute L3 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 734.5920205116272,
+      "dur": 124.38398599624634
+    },
+    {
+      "name": "weight_load L5 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 889.3759846687317,
+      "dur": 5.568027496337891
+    },
+    {
+      "name": "compute L4 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 903.2639861106873,
+      "dur": 85.05600690841675
+    },
+    {
+      "name": "weight_load L6 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 1005.4399967193604,
+      "dur": 5.344033241271973
+    },
+    {
+      "name": "compute L5 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 1018.496036529541,
+      "dur": 121.79195880889893
+    },
+    {
+      "name": "weight_load L7 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 1168.544054031372,
+      "dur": 5.279898643493652
+    },
+    {
+      "name": "compute L6 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 1181.280016899109,
+      "dur": 85.56795120239258
+    },
+    {
+      "name": "weight_load L8 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 1282.7839851379395,
+      "dur": 5.216002464294434
+    },
+    {
+      "name": "compute L7 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 1295.0719594955444,
+      "dur": 137.08806037902832
+    },
+    {
+      "name": "weight_load L9 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 1460.4159593582153,
+      "dur": 5.344033241271973
+    },
+    {
+      "name": "compute L8 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 1473.1520414352417,
+      "dur": 83.48798751831055
+    },
+    {
+      "name": "weight_load L10 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 1572.9600191116333,
+      "dur": 5.0879716873168945
+    },
+    {
+      "name": "compute L9 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 1585.3760242462158,
+      "dur": 135.55192947387695
+    },
+    {
+      "name": "weight_load L11 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 1747.9360103607178,
+      "dur": 5.792021751403809
+    },
+    {
+      "name": "compute L10 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 1760.8319520950317,
+      "dur": 82.5279951095581
+    },
+    {
+      "name": "weight_load L12 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 1866.1760091781616,
+      "dur": 5.280017852783203
+    },
+    {
+      "name": "compute L11 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 1879.3599605560303,
+      "dur": 109.0240478515625
+    },
+    {
+      "name": "weight_load L13 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 2015.7759189605713,
+      "dur": 5.439996719360352
+    },
+    {
+      "name": "compute L12 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 2028.4159183502197,
+      "dur": 83.23216438293457
+    },
+    {
+      "name": "weight_load L14 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 2127.74395942688,
+      "dur": 4.928112030029297
+    },
+    {
+      "name": "compute L13 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 2139.967918395996,
+      "dur": 108.06417465209961
+    },
+    {
+      "name": "weight_load L15 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 2274.8160362243652,
+      "dur": 6.079912185668945
+    },
+    {
+      "name": "compute L14 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 2288.0640029907227,
+      "dur": 84.70392227172852
+    },
+    {
+      "name": "weight_load L16 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 2389.1520500183105,
+      "dur": 4.384040832519531
+    },
+    {
+      "name": "compute L15 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 2400.9599685668945,
+      "dur": 109.50398445129395
+    },
+    {
+      "name": "weight_load L17 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 2537.791967391968,
+      "dur": 5.856037139892578
+    },
+    {
+      "name": "compute L16 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 2550.816059112549,
+      "dur": 84.09595489501953
+    },
+    {
+      "name": "weight_load L18 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 2650.752067565918,
+      "dur": 4.799842834472656
+    },
+    {
+      "name": "compute L17 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 2662.976026535034,
+      "dur": 108.54387283325195
+    },
+    {
+      "name": "weight_load L19 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 2799.5200157165527,
+      "dur": 5.439996719360352
+    },
+    {
+      "name": "compute L18 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 2811.743974685669,
+      "dur": 84.28812026977539
+    },
+    {
+      "name": "weight_load L20 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 2911.679983139038,
+      "dur": 5.183935165405273
+    },
+    {
+      "name": "compute L19 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 2924.0639209747314,
+      "dur": 105.82399368286133
+    },
+    {
+      "name": "weight_load L21 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 3056.6399097442627,
+      "dur": 8.224010467529297
+    },
+    {
+      "name": "compute L20 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 3071.9680786132812,
+      "dur": 93.37592124938965
+    },
+    {
+      "name": "weight_load L22 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 3181.2798976898193,
+      "dur": 5.088090896606445
+    },
+    {
+      "name": "compute L21 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 3193.376064300537,
+      "dur": 109.50398445129395
+    },
+    {
+      "name": "weight_load L23 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 3330.7840824127197,
+      "dur": 5.439996719360352
+    },
+    {
+      "name": "compute L22 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 3343.4879779815674,
+      "dur": 82.97610282897949
+    },
+    {
+      "name": "weight_load L24 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 3443.104028701782,
+      "dur": 4.863977432250977
+    },
+    {
+      "name": "compute L23 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 3455.199956893921,
+      "dur": 107.10406303405762
+    },
+    {
+      "name": "weight_load L25 t0 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 3589.632034301758,
+      "dur": 5.50389289855957
+    },
+    {
+      "name": "compute L24 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 3602.112054824829,
+      "dur": 82.39984512329102
+    },
+    {
+      "name": "weight_load L0 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 3700.831890106201,
+      "dur": 4.864215850830078
+    },
+    {
+      "name": "compute L25 t0 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 3713.2160663604736,
+      "dur": 266.2079334259033
+    },
+    {
+      "name": "weight_load L1 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 4036.5757942199707,
+      "dur": 5.4721832275390625
+    },
+    {
+      "name": "compute L0 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 4076.4479637145996,
+      "dur": 60.31990051269531
+    },
+    {
+      "name": "weight_load L2 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 4165.440082550049,
+      "dur": 5.375862121582031
+    },
+    {
+      "name": "compute L1 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 4184.8320960998535,
+      "dur": 121.98400497436523
+    },
+    {
+      "name": "weight_load L3 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 4335.616111755371,
+      "dur": 5.824089050292969
+    },
+    {
+      "name": "compute L2 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 4356.319904327393,
+      "dur": 58.3043098449707
+    },
+    {
+      "name": "weight_load L4 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 4446.49600982666,
+      "dur": 4.960060119628906
+    },
+    {
+      "name": "compute L3 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 4465.151786804199,
+      "dur": 103.32822799682617
+    },
+    {
+      "name": "weight_load L5 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 4595.104217529297,
+      "dur": 5.823612213134766
+    },
+    {
+      "name": "compute L4 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 4615.744113922119,
+      "dur": 55.90391159057617
+    },
+    {
+      "name": "weight_load L6 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 4694.528102874756,
+      "dur": 5.280017852783203
+    },
+    {
+      "name": "compute L5 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 4713.40799331665,
+      "dur": 99.23219680786133
+    },
+    {
+      "name": "weight_load L7 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 4839.327812194824,
+      "dur": 5.4721832275390625
+    },
+    {
+      "name": "compute L6 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 4859.488010406494,
+      "dur": 56.22386932373047
+    },
+    {
+      "name": "weight_load L8 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 4936.800003051758,
+      "dur": 4.767894744873047
+    },
+    {
+      "name": "compute L7 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 4955.296039581299,
+      "dur": 97.63193130493164
+    },
+    {
+      "name": "weight_load L9 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 5084.479808807373,
+      "dur": 5.504131317138672
+    },
+    {
+      "name": "compute L8 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 5107.840061187744,
+      "dur": 56.38408660888672
+    },
+    {
+      "name": "weight_load L10 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 5184.864044189453,
+      "dur": 5.023956298828125
+    },
+    {
+      "name": "compute L9 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 5202.655792236328,
+      "dur": 95.93629837036133
+    },
+    {
+      "name": "weight_load L11 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 5325.439929962158,
+      "dur": 5.5999755859375
+    },
+    {
+      "name": "compute L10 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 5344.736099243164,
+      "dur": 55.999755859375
+    },
+    {
+      "name": "weight_load L12 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 5419.26383972168,
+      "dur": 4.7359466552734375
+    },
+    {
+      "name": "compute L11 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 5436.863899230957,
+      "dur": 94.11191940307617
+    },
+    {
+      "name": "weight_load L13 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 5557.184219360352,
+      "dur": 5.3119659423828125
+    },
+    {
+      "name": "compute L12 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 5576.896190643311,
+      "dur": 55.26399612426758
+    },
+    {
+      "name": "weight_load L14 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 5652.224063873291,
+      "dur": 4.831790924072266
+    },
+    {
+      "name": "compute L13 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 5670.559883117676,
+      "dur": 94.5281982421875
+    },
+    {
+      "name": "weight_load L15 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 5791.584014892578,
+      "dur": 5.248069763183594
+    },
+    {
+      "name": "compute L14 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 5811.071872711182,
+      "dur": 52.512168884277344
+    },
+    {
+      "name": "weight_load L16 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 5885.6000900268555,
+      "dur": 4.863739013671875
+    },
+    {
+      "name": "compute L15 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 5903.840065002441,
+      "dur": 94.59209442138672
+    },
+    {
+      "name": "weight_load L17 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6025.407791137695,
+      "dur": 5.344390869140625
+    },
+    {
+      "name": "compute L16 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6045.440196990967,
+      "dur": 54.6879768371582
+    },
+    {
+      "name": "weight_load L18 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6139.616012573242,
+      "dur": 5.023956298828125
+    },
+    {
+      "name": "compute L17 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6157.695770263672,
+      "dur": 96.06409072875977
+    },
+    {
+      "name": "weight_load L19 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6280.223846435547,
+      "dur": 5.4721832275390625
+    },
+    {
+      "name": "compute L18 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6300.096035003662,
+      "dur": 52.95991897583008
+    },
+    {
+      "name": "weight_load L20 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6375.040054321289,
+      "dur": 4.8961639404296875
+    },
+    {
+      "name": "compute L19 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6393.631935119629,
+      "dur": 95.8719253540039
+    },
+    {
+      "name": "weight_load L21 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6515.967845916748,
+      "dur": 5.536079406738281
+    },
+    {
+      "name": "compute L20 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6535.679817199707,
+      "dur": 53.28035354614258
+    },
+    {
+      "name": "weight_load L22 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6608.607769012451,
+      "dur": 5.088329315185547
+    },
+    {
+      "name": "compute L21 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6626.495838165283,
+      "dur": 94.8481559753418
+    },
+    {
+      "name": "weight_load L23 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6747.615814208984,
+      "dur": 5.728244781494141
+    },
+    {
+      "name": "compute L22 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6767.615795135498,
+      "dur": 52.384376525878906
+    },
+    {
+      "name": "weight_load L24 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6842.432022094727,
+      "dur": 4.8961639404296875
+    },
+    {
+      "name": "compute L23 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 6861.023902893066,
+      "dur": 95.42417526245117
+    },
+    {
+      "name": "weight_load L25 t1 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 6982.336044311523,
+      "dur": 5.248069763183594
+    },
+    {
+      "name": "compute L24 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7000.800132751465,
+      "dur": 52.67190933227539
+    },
+    {
+      "name": "weight_load L0 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 7079.16784286499,
+      "dur": 5.152225494384766
+    },
+    {
+      "name": "compute L25 t1 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7107.456207275391,
+      "dur": 218.4000015258789
+    },
+    {
+      "name": "weight_load L1 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 7383.552074432373,
+      "dur": 5.216121673583984
+    },
+    {
+      "name": "compute L0 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7419.23189163208,
+      "dur": 57.15227127075195
+    },
+    {
+      "name": "weight_load L2 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 7502.975940704346,
+      "dur": 5.184173583984375
+    },
+    {
+      "name": "compute L1 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7521.791934967041,
+      "dur": 111.16790771484375
+    },
+    {
+      "name": "weight_load L3 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 7661.632061004639,
+      "dur": 5.951881408691406
+    },
+    {
+      "name": "compute L2 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7682.432174682617,
+      "dur": 59.16786193847656
+    },
+    {
+      "name": "weight_load L4 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 7766.43180847168,
+      "dur": 5.376338958740234
+    },
+    {
+      "name": "compute L3 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7785.439968109131,
+      "dur": 99.7762680053711
+    },
+    {
+      "name": "weight_load L5 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 7912.288188934326,
+      "dur": 5.43975830078125
+    },
+    {
+      "name": "compute L4 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 7931.8718910217285,
+      "dur": 53.440093994140625
+    },
+    {
+      "name": "weight_load L6 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8008.607864379883,
+      "dur": 5.0563812255859375
+    },
+    {
+      "name": "compute L5 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8027.199745178223,
+      "dur": 101.72843933105469
+    },
+    {
+      "name": "weight_load L7 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8155.61580657959,
+      "dur": 5.43975830078125
+    },
+    {
+      "name": "compute L6 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8175.295829772949,
+      "dur": 52.703857421875
+    },
+    {
+      "name": "weight_load L8 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8250.207901000977,
+      "dur": 5.375862121582031
+    },
+    {
+      "name": "compute L7 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8268.54419708252,
+      "dur": 97.98336029052734
+    },
+    {
+      "name": "weight_load L9 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8392.448425292969,
+      "dur": 5.471229553222656
+    },
+    {
+      "name": "compute L8 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8412.447929382324,
+      "dur": 54.14390563964844
+    },
+    {
+      "name": "weight_load L10 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8488.06381225586,
+      "dur": 5.344390869140625
+    },
+    {
+      "name": "compute L9 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8506.848335266113,
+      "dur": 96.8313217163086
+    },
+    {
+      "name": "weight_load L11 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8630.816459655762,
+      "dur": 5.3119659423828125
+    },
+    {
+      "name": "compute L10 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8650.400161743164,
+      "dur": 53.75957489013672
+    },
+    {
+      "name": "weight_load L12 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8725.855827331543,
+      "dur": 5.0563812255859375
+    },
+    {
+      "name": "compute L11 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8744.447708129883,
+      "dur": 106.97650909423828
+    },
+    {
+      "name": "weight_load L13 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8880.38444519043,
+      "dur": 5.5675506591796875
+    },
+    {
+      "name": "compute L12 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8900.351524353027,
+      "dur": 53.664207458496094
+    },
+    {
+      "name": "weight_load L14 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 8979.35962677002,
+      "dur": 5.08880615234375
+    },
+    {
+      "name": "compute L13 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 8997.856140136719,
+      "dur": 104.60758209228516
+    },
+    {
+      "name": "weight_load L15 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9130.751609802246,
+      "dur": 5.9528350830078125
+    },
+    {
+      "name": "compute L14 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9151.519775390625,
+      "dur": 53.40862274169922
+    },
+    {
+      "name": "weight_load L16 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9230.879783630371,
+      "dur": 5.087852478027344
+    },
+    {
+      "name": "compute L15 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9249.792098999023,
+      "dur": 99.1678237915039
+    },
+    {
+      "name": "weight_load L17 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9375.743865966797,
+      "dur": 5.791664123535156
+    },
+    {
+      "name": "compute L16 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9395.968437194824,
+      "dur": 52.63996124267578
+    },
+    {
+      "name": "weight_load L18 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9472.607612609863,
+      "dur": 4.864692687988281
+    },
+    {
+      "name": "compute L17 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9490.84758758545,
+      "dur": 96.832275390625
+    },
+    {
+      "name": "weight_load L19 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9614.11190032959,
+      "dur": 5.8879852294921875
+    },
+    {
+      "name": "compute L18 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9634.176254272461,
+      "dur": 53.023338317871094
+    },
+    {
+      "name": "weight_load L20 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9710.047721862793,
+      "dur": 5.248069763183594
+    },
+    {
+      "name": "compute L19 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9729.120254516602,
+      "dur": 96.73595428466797
+    },
+    {
+      "name": "weight_load L21 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9853.407859802246,
+      "dur": 5.568504333496094
+    },
+    {
+      "name": "compute L20 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9873.37589263916,
+      "dur": 51.61571502685547
+    },
+    {
+      "name": "weight_load L22 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 9950.048446655273,
+      "dur": 5.11932373046875
+    },
+    {
+      "name": "compute L21 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 9969.023704528809,
+      "dur": 99.61605072021484
+    },
+    {
+      "name": "weight_load L23 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 10096.896171569824,
+      "dur": 5.5675506591796875
+    },
+    {
+      "name": "compute L22 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 10117.055892944336,
+      "dur": 52.448272705078125
+    },
+    {
+      "name": "weight_load L24 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 10194.208145141602,
+      "dur": 5.375862121582031
+    },
+    {
+      "name": "compute L23 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 10212.703704833984,
+      "dur": 98.40011596679688
+    },
+    {
+      "name": "weight_load L25 t2 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 10343.328475952148,
+      "dur": 5.2471160888671875
+    },
+    {
+      "name": "compute L24 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 10362.079620361328,
+      "dur": 52.16026306152344
+    },
+    {
+      "name": "weight_load L0 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 10440.159797668457,
+      "dur": 5.120277404785156
+    },
+    {
+      "name": "compute L25 t2 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 10459.168434143066,
+      "dur": 217.21553802490234
+    },
+    {
+      "name": "weight_load L1 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 10733.375549316406,
+      "dur": 5.536079406738281
+    },
+    {
+      "name": "compute L0 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 10769.15168762207,
+      "dur": 58.272361755371094
+    },
+    {
+      "name": "weight_load L2 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 10853.6958694458,
+      "dur": 5.280494689941406
+    },
+    {
+      "name": "compute L1 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 10872.639656066895,
+      "dur": 111.26422882080078
+    },
+    {
+      "name": "weight_load L3 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11005.56755065918,
+      "dur": 5.568504333496094
+    },
+    {
+      "name": "compute L2 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11026.464462280273,
+      "dur": 54.39949035644531
+    },
+    {
+      "name": "weight_load L4 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11097.760200500488,
+      "dur": 4.767417907714844
+    },
+    {
+      "name": "compute L3 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11116.703987121582,
+      "dur": 104.0639877319336
+    },
+    {
+      "name": "weight_load L5 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11241.18423461914,
+      "dur": 5.536079406738281
+    },
+    {
+      "name": "compute L4 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11261.37638092041,
+      "dur": 52.959442138671875
+    },
+    {
+      "name": "weight_load L6 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11330.431938171387,
+      "dur": 4.960060119628906
+    },
+    {
+      "name": "compute L5 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11348.799705505371,
+      "dur": 96.86470031738281
+    },
+    {
+      "name": "weight_load L7 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11465.855598449707,
+      "dur": 5.3768157958984375
+    },
+    {
+      "name": "compute L6 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11485.631942749023,
+      "dur": 51.93614959716797
+    },
+    {
+      "name": "weight_load L8 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11553.728103637695,
+      "dur": 4.960060119628906
+    },
+    {
+      "name": "compute L7 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11572.511672973633,
+      "dur": 96.1599349975586
+    },
+    {
+      "name": "weight_load L9 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11689.34440612793,
+      "dur": 5.503654479980469
+    },
+    {
+      "name": "compute L8 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11710.14404296875,
+      "dur": 52.703857421875
+    },
+    {
+      "name": "weight_load L10 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11779.232025146484,
+      "dur": 4.863739013671875
+    },
+    {
+      "name": "compute L9 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11797.568321228027,
+      "dur": 95.77560424804688
+    },
+    {
+      "name": "weight_load L11 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 11913.439750671387,
+      "dur": 5.408287048339844
+    },
+    {
+      "name": "compute L10 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 11933.664321899414,
+      "dur": 51.3916015625
+    },
+    {
+      "name": "weight_load L12 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12000.703811645508,
+      "dur": 4.863739013671875
+    },
+    {
+      "name": "compute L11 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12019.359588623047,
+      "dur": 99.4882583618164
+    },
+    {
+      "name": "weight_load L13 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12139.552116394043,
+      "dur": 5.696296691894531
+    },
+    {
+      "name": "compute L12 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12160.608291625977,
+      "dur": 51.77593231201172
+    },
+    {
+      "name": "weight_load L14 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12228.320121765137,
+      "dur": 4.960060119628906
+    },
+    {
+      "name": "compute L13 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12247.072219848633,
+      "dur": 96.57573699951172
+    },
+    {
+      "name": "weight_load L15 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12384.927749633789,
+      "dur": 5.824089050292969
+    },
+    {
+      "name": "compute L14 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12406.01634979248,
+      "dur": 53.15208435058594
+    },
+    {
+      "name": "weight_load L16 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12475.135803222656,
+      "dur": 4.8961639404296875
+    },
+    {
+      "name": "compute L15 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12493.375778198242,
+      "dur": 101.60064697265625
+    },
+    {
+      "name": "weight_load L17 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12615.424156188965,
+      "dur": 5.696296691894531
+    },
+    {
+      "name": "compute L16 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12636.256217956543,
+      "dur": 53.31134796142578
+    },
+    {
+      "name": "weight_load L18 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12705.183982849121,
+      "dur": 5.215644836425781
+    },
+    {
+      "name": "compute L17 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12723.967552185059,
+      "dur": 95.68023681640625
+    },
+    {
+      "name": "weight_load L19 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12839.712142944336,
+      "dur": 5.5999755859375
+    },
+    {
+      "name": "compute L18 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12860.3515625,
+      "dur": 52.448272705078125
+    },
+    {
+      "name": "weight_load L20 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 12928.640365600586,
+      "dur": 4.703521728515625
+    },
+    {
+      "name": "compute L19 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 12946.49600982666,
+      "dur": 98.1760025024414
+    },
+    {
+      "name": "weight_load L21 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 13067.71183013916,
+      "dur": 5.536079406738281
+    },
+    {
+      "name": "compute L20 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 13088.288307189941,
+      "dur": 51.83982849121094
+    },
+    {
+      "name": "weight_load L22 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 13156.031608581543,
+      "dur": 5.2165985107421875
+    },
+    {
+      "name": "compute L21 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 13174.65591430664,
+      "dur": 96.76837921142578
+    },
+    {
+      "name": "weight_load L23 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 13292.63973236084,
+      "dur": 5.824089050292969
+    },
+    {
+      "name": "compute L22 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 13313.376426696777,
+      "dur": 52.031517028808594
+    },
+    {
+      "name": "weight_load L24 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 13381.216049194336,
+      "dur": 4.799842834472656
+    },
+    {
+      "name": "compute L23 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 13399.264335632324,
+      "dur": 95.58391571044922
+    },
+    {
+      "name": "weight_load L25 t3 b0",
+      "cat": "weight_load",
+      "ph": "X",
+      "pid": 1,
+      "tid": "weight submission stream",
+      "ts": 13515.616416931152,
+      "dur": 5.279541015625
+    },
+    {
+      "name": "compute L24 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 13534.463882446289,
+      "dur": 53.15208435058594
+    },
+    {
+      "name": "compute L25 t3 b0",
+      "cat": "compute",
+      "ph": "X",
+      "pid": 1,
+      "tid": "compute stream",
+      "ts": 13598.143577575684,
+      "dur": 215.7764434814453
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 222.817063331604,
+      "dur": 6.146728992462158
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 379.24014031887054,
+      "dur": 6.625894457101822
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 577.1568976342678,
+      "dur": 6.469897925853729
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 689.708162099123,
+      "dur": 16.820617020130157
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 865.7141588628292,
+      "dur": 6.15464523434639
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 965.2390144765377,
+      "dur": 22.84115180373192
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 1146.1880058050156,
+      "dur": 5.876179784536362
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 1240.7191097736359,
+      "dur": 25.739893317222595
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 1437.684055417776,
+      "dur": 5.844980478286743
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 1530.0088562071323,
+      "dur": 26.296358555555344
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 1726.0201275348663,
+      "dur": 5.43985515832901
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 1821.2911672890186,
+      "dur": 28.172973543405533
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 1993.577927350998,
+      "dur": 5.608890205621719
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 2088.364213705063,
+      "dur": 22.83463254570961
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 2252.78502330184,
+      "dur": 5.386769771575928
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 2345.0260050594807,
+      "dur": 27.30404958128929
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 2515.8561766147614,
+      "dur": 5.273614078760147
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 2606.1120443046093,
+      "dur": 28.286129236221313
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 2777.1499007940292,
+      "dur": 5.59026375412941
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 2868.0521063506603,
+      "dur": 27.460977435112
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 3034.840803593397,
+      "dur": 5.447305738925934
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 3139.014821499586,
+      "dur": 25.82138404250145
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 3308.151848614216,
+      "dur": 5.620997399091721
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 3401.2198448181152,
+      "dur": 24.679116904735565
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 3567.471168935299,
+      "dur": 5.444977432489395
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 3657.921217381954,
+      "dur": 25.94292163848877
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 3987.1148765087128,
+      "dur": 5.209352821111679
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 4141.819197684526,
+      "dur": 6.065703928470612
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 4311.973229050636,
+      "dur": 6.2575563788414
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 4423.644859343767,
+      "dur": 5.958136171102524
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 4573.279991745949,
+      "dur": 5.247071385383606
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 4671.712871640921,
+      "dur": 5.89713454246521
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 4817.271139472723,
+      "dur": 5.564652383327484
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 4913.839045912027,
+      "dur": 5.659181624650955
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 5061.705131083727,
+      "dur": 5.281995981931686
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 5162.61113807559,
+      "dur": 5.532987415790558
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 5302.969831973314,
+      "dur": 5.631241947412491
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 5397.383123636246,
+      "dur": 5.492009222507477
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 5535.86520254612,
+      "dur": 5.052890628576279
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 5629.584193229675,
+      "dur": 5.36767765879631
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 5769.424140453339,
+      "dur": 5.437992513179779
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 5863.761994987726,
+      "dur": 5.261972546577454
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6002.988200634718,
+      "dur": 5.191657692193985
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6114.954128861427,
+      "dur": 5.317851901054382
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6258.112844079733,
+      "dur": 5.2782706916332245
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6352.85209864378,
+      "dur": 5.499925464391708
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6493.974011391401,
+      "dur": 5.345791578292847
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6587.308831512928,
+      "dur": 5.1353126764297485
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6725.541781634092,
+      "dur": 5.185138434171677
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6820.313166826963,
+      "dur": 5.50784170627594
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 6960.486061871052,
+      "dur": 5.131121724843979
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 7052.755914628506,
+      "dur": 8.82614403963089
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 7333.9189402759075,
+      "dur": 5.336944013834
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 7480.863947421312,
+      "dur": 5.5031850934028625
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 7639.002986252308,
+      "dur": 5.604233592748642
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 7744.12602186203,
+      "dur": 5.352776497602463
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 7889.880798757076,
+      "dur": 5.333218723535538
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 7986.126001924276,
+      "dur": 5.839858204126358
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 8133.319206535816,
+      "dur": 5.625654011964798
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 8228.04681956768,
+      "dur": 5.3532421588897705
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 8370.847906917334,
+      "dur": 5.092937499284744
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 8465.772960335016,
+      "dur": 5.377922207117081
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 8608.11397433281,
+      "dur": 5.260109901428223
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 8703.590836375952,
+      "dur": 5.555339157581329
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 8856.995031237602,
+      "dur": 5.999114364385605
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 8956.599980592728,
+      "dur": 5.567912012338638
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 9107.522200793028,
+      "dur": 5.834735929965973
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 9208.076167851686,
+      "dur": 5.71785494685173
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 9353.342931717634,
+      "dur": 5.381181836128235
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 9449.920151382685,
+      "dur": 5.817040801048279
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 9591.904003173113,
+      "dur": 5.2121467888355255
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 9687.808807939291,
+      "dur": 5.3229741752147675
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 9830.194991081953,
+      "dur": 5.620997399091721
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 9927.406907081604,
+      "dur": 5.458947271108627
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 10073.846206068993,
+      "dur": 5.833804607391357
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 10171.14007845521,
+      "dur": 5.413778126239777
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 10315.56585803628,
+      "dur": 5.617272108793259
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 10415.914002805948,
+      "dur": 6.030779331922531
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 10683.01685154438,
+      "dur": 5.780253559350967
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 10831.309016793966,
+      "dur": 5.4300762712955475
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 10980.45613616705,
+      "dur": 6.16908073425293
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11067.904997617006,
+      "dur": 11.715106666088104
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11217.298917472363,
+      "dur": 5.593989044427872
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11296.483222395182,
+      "dur": 16.479752957820892
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11442.041955888271,
+      "dur": 5.741138011217117
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11519.73707601428,
+      "dur": 16.462989151477814
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11665.907222777605,
+      "dur": 5.594920367002487
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11743.845883756876,
+      "dur": 17.713289707899094
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11889.751069247723,
+      "dur": 5.772802978754044
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 11967.815924435854,
+      "dur": 15.954021364450455
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 12115.329038351774,
+      "dur": 5.783978849649429
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 12194.153852760792,
+      "dur": 16.858335584402084
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 12340.075802057981,
+      "dur": 5.413312464952469
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 12441.122904419899,
+      "dur": 16.707926988601685
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 12591.340113431215,
+      "dur": 5.68293035030365
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 12669.385876506567,
+      "dur": 18.74193549156189
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 12815.738096833229,
+      "dur": 5.370937287807465
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 12893.984094262123,
+      "dur": 17.401762306690216
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 13041.031081229448,
+      "dur": 5.488749593496323
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 13122.06918373704,
+      "dur": 16.553793102502823
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 13268.567156046629,
+      "dur": 5.628913640975952
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 13347.326777875423,
+      "dur": 16.588252037763596
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 13491.162098944187,
+      "dur": 5.6140124797821045
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 13567.273039370775,
+      "dur": 18.790829926729202
+    },
+    {
+      "name": "original global sync (CPU wall)",
+      "ph": "X",
+      "pid": 2,
+      "tid": "host",
+      "ts": 13826.890848577023,
+      "dur": 5.6442804634571075
+    }
+  ],
+  "note": "CUDA event spans include submission gaps; CPU origin approximate. No additional per-layer synchronization."
+}

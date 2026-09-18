@@ -1,0 +1,906 @@
+[
+  {
+    "status": "ok",
+    "group": 1,
+    "q": 16,
+    "past": 0,
+    "batch": 1,
+    "semantic": "short_prefill_proxy",
+    "metrics": {
+      "serial": {
+        "cuda_ms": {
+          "n": 25,
+          "p50": 1.221727967262268,
+          "p95": 1.226246428489685,
+          "p99": 1.2282790565490722
+        },
+        "wall_ms": {
+          "n": 25,
+          "p50": 1.2311278842389584,
+          "p95": 1.235563587397337,
+          "p99": 1.2382655031979084
+        },
+        "copy_ms": {
+          "n": 25,
+          "p50": 1.1176320314407349,
+          "p95": 1.1195775747299195,
+          "p99": 1.1208243560791016
+        },
+        "compute_ms": {
+          "n": 25,
+          "p50": 0.0838719978928566,
+          "p95": 0.08741759806871413,
+          "p99": 0.08789759874343872
+        }
+      },
+      "concurrent": {
+        "cuda_ms": {
+          "n": 26,
+          "p50": 1.1403200030326843,
+          "p95": 1.1624719500541687,
+          "p99": 1.242335945367813
+        },
+        "wall_ms": {
+          "n": 26,
+          "p50": 1.1495368089526892,
+          "p95": 1.171841286122799,
+          "p99": 1.2528537772595882
+        },
+        "copy_ms": {
+          "n": 26,
+          "p50": 1.1213120222091675,
+          "p95": 1.138768047094345,
+          "p99": 1.1483679711818695
+        },
+        "compute_ms": {
+          "n": 26,
+          "p50": 0.1332320049405098,
+          "p95": 0.15467200055718422,
+          "p99": 0.2202880010008812
+        }
+      },
+      "alone_copy_ms": 1.1144319772720337,
+      "alone_compute_ms": 0.12508800625801086,
+      "overlap_efficiency": 0.7930415030578304,
+      "concurrent_speedup_over_serial": 1.0713904553222595,
+      "copy_slowdown": 1.0061735889470573,
+      "compute_slowdown": 1.0651061514698765
+    },
+    "memory": {
+      "rss_sampled_peak_bytes": 2002141184,
+      "gpu_allocated_peak_bytes": 47341056,
+      "gpu_reserved_peak_bytes": 67108864,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5052956672,
+        "allocated_bytes.current": 4750648922,
+        "allocated_bytes.freed": 302307750,
+        "allocated_bytes.peak": 4775841333,
+        "allocation.allocated": 1834,
+        "allocation.current": 16,
+        "allocation.freed": 1818,
+        "allocation.peak": 199,
+        "host_alloc_time.avg": 577,
+        "host_alloc_time.count": 199,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114929,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 199,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274880,
+        "reserved_bytes.current": 625274880,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274880,
+        "segment.allocated": 199,
+        "segment.current": 199,
+        "segment.freed": 0,
+        "segment.peak": 199
+      }
+    },
+    "pinned_weight_live_bytes": 14175744,
+    "next_group_buffer_bytes": 14175744,
+    "two_slots_bytes": 28351488,
+    "note": "Memory peak includes resident reference weights and diagnostic destinations; not a deployed two-buffer footprint."
+  },
+  {
+    "status": "ok",
+    "group": 1,
+    "q": 128,
+    "past": 0,
+    "batch": 1,
+    "semantic": "short_prefill_proxy",
+    "metrics": {
+      "serial": {
+        "cuda_ms": {
+          "n": 24,
+          "p50": 1.2801119685173035,
+          "p95": 1.2838512301445006,
+          "p99": 1.2863408052921295
+        },
+        "wall_ms": {
+          "n": 24,
+          "p50": 1.2894917745143175,
+          "p95": 1.2934969970956445,
+          "p99": 1.2966465530917048
+        },
+        "copy_ms": {
+          "n": 24,
+          "p50": 1.117792010307312,
+          "p95": 1.1201167821884155,
+          "p99": 1.1208005940914154
+        },
+        "compute_ms": {
+          "n": 24,
+          "p50": 0.14319999516010284,
+          "p95": 0.14335520267486573,
+          "p99": 0.14486303806304932
+        }
+      },
+      "concurrent": {
+        "cuda_ms": {
+          "n": 26,
+          "p50": 1.1376479864120483,
+          "p95": 1.1392480432987213,
+          "p99": 1.1444079875946045
+        },
+        "wall_ms": {
+          "n": 26,
+          "p50": 1.1471256148070097,
+          "p95": 1.1488556629046798,
+          "p99": 1.1542324209585786
+        },
+        "copy_ms": {
+          "n": 26,
+          "p50": 1.1213120222091675,
+          "p95": 1.123192012310028,
+          "p99": 1.1242079734802246
+        },
+        "compute_ms": {
+          "n": 26,
+          "p50": 0.17415999621152878,
+          "p95": 0.20443200320005417,
+          "p99": 0.2101760059595108
+        }
+      },
+      "alone_copy_ms": 1.1144319772720337,
+      "alone_compute_ms": 0.1679999977350235,
+      "overlap_efficiency": 0.8618094675415895,
+      "concurrent_speedup_over_serial": 1.125226769446112,
+      "copy_slowdown": 1.0061735889470573,
+      "compute_slowdown": 1.0366666580925856,
+      "buffer_pipeline_cuda_ms": {
+        "n": 7,
+        "p50": 4.6645121574401855,
+        "p95": 4.6751296043396,
+        "p99": 4.677541103363037
+      },
+      "buffer_checks": "event ordering and exact output PASS",
+      "buffer_trace": "buffer_g1_q128_p0.csv"
+    },
+    "memory": {
+      "rss_sampled_peak_bytes": 2015973376,
+      "gpu_allocated_peak_bytes": 88391168,
+      "gpu_reserved_peak_bytes": 138412032,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5052956673,
+        "allocated_bytes.current": 4750648922,
+        "allocated_bytes.freed": 302307751,
+        "allocated_bytes.peak": 4775841334,
+        "allocation.allocated": 1835,
+        "allocation.current": 16,
+        "allocation.freed": 1819,
+        "allocation.peak": 200,
+        "host_alloc_time.avg": 574,
+        "host_alloc_time.count": 200,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114937,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 200,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274881,
+        "reserved_bytes.current": 625274881,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274881,
+        "segment.allocated": 200,
+        "segment.current": 200,
+        "segment.freed": 0,
+        "segment.peak": 200
+      }
+    },
+    "pinned_weight_live_bytes": 14175744,
+    "next_group_buffer_bytes": 14175744,
+    "two_slots_bytes": 28351488,
+    "note": "Memory peak includes resident reference weights and diagnostic destinations; not a deployed two-buffer footprint."
+  },
+  {
+    "status": "ok",
+    "group": 1,
+    "q": 1,
+    "past": 32,
+    "batch": 1,
+    "semantic": "decode_real_history",
+    "metrics": {
+      "serial": {
+        "cuda_ms": {
+          "n": 25,
+          "p50": 1.229599952697754,
+          "p95": 1.2350975751876831,
+          "p99": 1.2490611362457276
+        },
+        "wall_ms": {
+          "n": 25,
+          "p50": 1.2393216602504253,
+          "p95": 1.2454163283109665,
+          "p99": 1.258927769958973
+        },
+        "copy_ms": {
+          "n": 25,
+          "p50": 1.1172800064086914,
+          "p95": 1.1193088293075562,
+          "p99": 1.1216627597808837
+        },
+        "compute_ms": {
+          "n": 25,
+          "p50": 0.09251199662685394,
+          "p95": 0.09256959706544876,
+          "p99": 0.09257599711418152
+        }
+      },
+      "concurrent": {
+        "cuda_ms": {
+          "n": 26,
+          "p50": 1.1344320178031921,
+          "p95": 1.1426079869270325,
+          "p99": 1.144536018371582
+        },
+        "wall_ms": {
+          "n": 26,
+          "p50": 1.1436676140874624,
+          "p95": 1.1519017862156034,
+          "p99": 1.1543777072802186
+        },
+        "copy_ms": {
+          "n": 26,
+          "p50": 1.1206560134887695,
+          "p95": 1.122184008359909,
+          "p99": 1.1255919635295868
+        },
+        "compute_ms": {
+          "n": 26,
+          "p50": 0.13990400731563568,
+          "p95": 0.14720000326633453,
+          "p99": 0.16766400635242462
+        }
+      },
+      "alone_copy_ms": 1.1144319772720337,
+      "alone_compute_ms": 0.11884800344705582,
+      "overlap_efficiency": 0.831717488295308,
+      "concurrent_speedup_over_serial": 1.0838903816192114,
+      "copy_slowdown": 1.0055849404393182,
+      "compute_slowdown": 1.1771675018332122
+    },
+    "memory": {
+      "rss_sampled_peak_bytes": 2025463808,
+      "gpu_allocated_peak_bytes": 56059392,
+      "gpu_reserved_peak_bytes": 138412032,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5052956673,
+        "allocated_bytes.current": 4750648922,
+        "allocated_bytes.freed": 302307751,
+        "allocated_bytes.peak": 4775841334,
+        "allocation.allocated": 1835,
+        "allocation.current": 16,
+        "allocation.freed": 1819,
+        "allocation.peak": 200,
+        "host_alloc_time.avg": 574,
+        "host_alloc_time.count": 200,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114937,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 200,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274881,
+        "reserved_bytes.current": 625274881,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274881,
+        "segment.allocated": 200,
+        "segment.current": 200,
+        "segment.freed": 0,
+        "segment.peak": 200
+      }
+    },
+    "pinned_weight_live_bytes": 14175744,
+    "next_group_buffer_bytes": 14175744,
+    "two_slots_bytes": 28351488,
+    "note": "Memory peak includes resident reference weights and diagnostic destinations; not a deployed two-buffer footprint."
+  },
+  {
+    "status": "ok",
+    "group": 1,
+    "q": 1,
+    "past": 256,
+    "batch": 1,
+    "semantic": "decode_real_history",
+    "metrics": {
+      "serial": {
+        "cuda_ms": {
+          "n": 24,
+          "p50": 1.233184039592743,
+          "p95": 1.2372927725315095,
+          "p99": 1.2552745699882508
+        },
+        "wall_ms": {
+          "n": 24,
+          "p50": 1.242675120010972,
+          "p95": 1.2472789967432618,
+          "p99": 1.2647851090878248
+        },
+        "copy_ms": {
+          "n": 24,
+          "p50": 1.1176640391349792,
+          "p95": 1.1207824230194092,
+          "p99": 1.1398122060298919
+        },
+        "compute_ms": {
+          "n": 24,
+          "p50": 0.09663999825716019,
+          "p95": 0.09667199850082397,
+          "p99": 0.09667199850082397
+        }
+      },
+      "concurrent": {
+        "cuda_ms": {
+          "n": 26,
+          "p50": 1.1348000168800354,
+          "p95": 1.1509119868278503,
+          "p99": 1.153160035610199
+        },
+        "wall_ms": {
+          "n": 26,
+          "p50": 1.1442394461482763,
+          "p95": 1.1606786865741014,
+          "p99": 1.1638856958597898
+        },
+        "copy_ms": {
+          "n": 26,
+          "p50": 1.1210879683494568,
+          "p95": 1.1314480304718018,
+          "p99": 1.1379839777946472
+        },
+        "compute_ms": {
+          "n": 26,
+          "p50": 0.1411839947104454,
+          "p95": 0.15768799558281898,
+          "p99": 0.1621840000152588
+        }
+      },
+      "alone_copy_ms": 1.1144319772720337,
+      "alone_compute_ms": 0.11611199751496315,
+      "overlap_efficiency": 0.8245828162126234,
+      "concurrent_speedup_over_serial": 1.086697234093457,
+      "copy_slowdown": 1.0059725413602327,
+      "compute_slowdown": 1.2159294278978472,
+      "buffer_pipeline_cuda_ms": {
+        "n": 7,
+        "p50": 4.604991912841797,
+        "p95": 4.615043067932129,
+        "p99": 4.615296440124512
+      },
+      "buffer_checks": "event ordering and exact output PASS",
+      "buffer_trace": "buffer_g1_q1_p256.csv"
+    },
+    "memory": {
+      "rss_sampled_peak_bytes": 2025463808,
+      "gpu_allocated_peak_bytes": 95130624,
+      "gpu_reserved_peak_bytes": 161480704,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5052956674,
+        "allocated_bytes.current": 4750648922,
+        "allocated_bytes.freed": 302307752,
+        "allocated_bytes.peak": 4775841334,
+        "allocation.allocated": 1836,
+        "allocation.current": 16,
+        "allocation.freed": 1820,
+        "allocation.peak": 200,
+        "host_alloc_time.avg": 574,
+        "host_alloc_time.count": 200,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114937,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 200,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274881,
+        "reserved_bytes.current": 625274881,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274881,
+        "segment.allocated": 200,
+        "segment.current": 200,
+        "segment.freed": 0,
+        "segment.peak": 200
+      }
+    },
+    "pinned_weight_live_bytes": 14175744,
+    "next_group_buffer_bytes": 14175744,
+    "two_slots_bytes": 28351488,
+    "note": "Memory peak includes resident reference weights and diagnostic destinations; not a deployed two-buffer footprint."
+  },
+  {
+    "status": "ok",
+    "group": 2,
+    "q": 16,
+    "past": 0,
+    "batch": 1,
+    "semantic": "short_prefill_proxy",
+    "metrics": {
+      "serial": {
+        "cuda_ms": {
+          "n": 13,
+          "p50": 2.431839942932129,
+          "p95": 2.448934459686279,
+          "p99": 2.4621133613586426
+        },
+        "wall_ms": {
+          "n": 13,
+          "p50": 2.4415883235633373,
+          "p95": 2.4592931382358074,
+          "p99": 2.4724464677274227
+        },
+        "copy_ms": {
+          "n": 13,
+          "p50": 2.2348480224609375,
+          "p95": 2.251807975769043,
+          "p99": 2.2664767837524415
+        },
+        "compute_ms": {
+          "n": 13,
+          "p50": 0.17603200674057007,
+          "p95": 0.17807359993457794,
+          "p99": 0.17810432016849517
+        }
+      },
+      "concurrent": {
+        "cuda_ms": {
+          "n": 14,
+          "p50": 2.2588640451431274,
+          "p95": 2.269823968410492,
+          "p99": 2.2778112292289734
+        },
+        "wall_ms": {
+          "n": 14,
+          "p50": 2.268382115289569,
+          "p95": 2.2819061996415257,
+          "p99": 2.2890676045790315
+        },
+        "copy_ms": {
+          "n": 14,
+          "p50": 2.241919994354248,
+          "p95": 2.2521103501319883,
+          "p99": 2.2588828778266907
+        },
+        "compute_ms": {
+          "n": 14,
+          "p50": 0.25915201008319855,
+          "p95": 0.28404479324817655,
+          "p99": 0.29143296301364896
+        }
+      },
+      "alone_copy_ms": 2.2323520183563232,
+      "alone_compute_ms": 0.23667200654745102,
+      "overlap_efficiency": 0.887979879101212,
+      "concurrent_speedup_over_serial": 1.076576497891019,
+      "copy_slowdown": 1.0042860516259302,
+      "compute_slowdown": 1.094983787325268
+    },
+    "memory": {
+      "rss_sampled_peak_bytes": 2039451648,
+      "gpu_allocated_peak_bytes": 103161856,
+      "gpu_reserved_peak_bytes": 171966464,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5103341570,
+        "allocated_bytes.current": 4801033833,
+        "allocated_bytes.freed": 302307737,
+        "allocated_bytes.peak": 4801033829,
+        "allocation.allocated": 1868,
+        "allocation.current": 33,
+        "allocation.freed": 1835,
+        "allocation.peak": 200,
+        "host_alloc_time.avg": 574,
+        "host_alloc_time.count": 200,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114937,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 200,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274881,
+        "reserved_bytes.current": 625274881,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274881,
+        "segment.allocated": 200,
+        "segment.current": 200,
+        "segment.freed": 0,
+        "segment.peak": 200
+      }
+    },
+    "pinned_weight_live_bytes": 28351488,
+    "next_group_buffer_bytes": 28351488,
+    "two_slots_bytes": 56702976,
+    "note": "Memory peak includes resident reference weights and diagnostic destinations; not a deployed two-buffer footprint."
+  },
+  {
+    "status": "ok",
+    "group": 2,
+    "q": 128,
+    "past": 0,
+    "batch": 1,
+    "semantic": "short_prefill_proxy",
+    "metrics": {
+      "serial": {
+        "cuda_ms": {
+          "n": 12,
+          "p50": 2.545135974884033,
+          "p95": 2.5947903633117675,
+          "p99": 2.6338763999938966
+        },
+        "wall_ms": {
+          "n": 12,
+          "p50": 2.5559947825968266,
+          "p95": 2.606363478116691,
+          "p99": 2.646778426133096
+        },
+        "copy_ms": {
+          "n": 12,
+          "p50": 2.237215995788574,
+          "p95": 2.2844719886779785,
+          "p99": 2.321291255950928
+        },
+        "compute_ms": {
+          "n": 12,
+          "p50": 0.287663996219635,
+          "p95": 0.2906031981110573,
+          "p99": 0.2914902284741402
+        }
+      },
+      "concurrent": {
+        "cuda_ms": {
+          "n": 14,
+          "p50": 2.258015990257263,
+          "p95": 2.267569673061371,
+          "p99": 2.2684515261650087
+        },
+        "wall_ms": {
+          "n": 14,
+          "p50": 2.268031472340226,
+          "p95": 2.27785378228873,
+          "p99": 2.278227894566953
+        },
+        "copy_ms": {
+          "n": 14,
+          "p50": 2.2440959215164185,
+          "p95": 2.2480528354644775,
+          "p99": 2.250698518753052
+        },
+        "compute_ms": {
+          "n": 14,
+          "p50": 0.3401760011911392,
+          "p95": 0.3541599914431572,
+          "p99": 0.35798719733953477
+        }
+      },
+      "alone_copy_ms": 2.2323520183563232,
+      "alone_compute_ms": 0.31196799874305725,
+      "overlap_efficiency": 0.9177352420621921,
+      "concurrent_speedup_over_serial": 1.1271558686322931,
+      "copy_slowdown": 1.0052607756588239,
+      "compute_slowdown": 1.090419538419755,
+      "buffer_pipeline_cuda_ms": {
+        "n": 4,
+        "p50": 9.299423694610596,
+        "p95": 9.321270275115968,
+        "p99": 9.323428401947021
+      },
+      "buffer_checks": "event ordering and exact output PASS",
+      "buffer_trace": "buffer_g2_q128_p0.csv"
+    },
+    "memory": {
+      "rss_sampled_peak_bytes": 2039451648,
+      "gpu_allocated_peak_bytes": 173471232,
+      "gpu_reserved_peak_bytes": 268435456,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5103341571,
+        "allocated_bytes.current": 4801033834,
+        "allocated_bytes.freed": 302307737,
+        "allocated_bytes.peak": 4801033829,
+        "allocation.allocated": 1869,
+        "allocation.current": 32,
+        "allocation.freed": 1837,
+        "allocation.peak": 200,
+        "host_alloc_time.avg": 574,
+        "host_alloc_time.count": 200,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114937,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 200,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274881,
+        "reserved_bytes.current": 625274881,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274881,
+        "segment.allocated": 200,
+        "segment.current": 200,
+        "segment.freed": 0,
+        "segment.peak": 200
+      }
+    },
+    "pinned_weight_live_bytes": 28351488,
+    "next_group_buffer_bytes": 28351488,
+    "two_slots_bytes": 56702976,
+    "note": "Memory peak includes resident reference weights and diagnostic destinations; not a deployed two-buffer footprint."
+  },
+  {
+    "status": "ok",
+    "group": 2,
+    "q": 1,
+    "past": 32,
+    "batch": 1,
+    "semantic": "decode_real_history",
+    "metrics": {
+      "serial": {
+        "cuda_ms": {
+          "n": 13,
+          "p50": 2.4384961128234863,
+          "p95": 2.4438016414642334,
+          "p99": 2.446750783920288
+        },
+        "wall_ms": {
+          "n": 13,
+          "p50": 2.44872085750103,
+          "p95": 2.4534343741834164,
+          "p99": 2.4567252211272717
+        },
+        "copy_ms": {
+          "n": 13,
+          "p50": 2.2316479682922363,
+          "p95": 2.232678461074829,
+          "p99": 2.2331085300445555
+        },
+        "compute_ms": {
+          "n": 13,
+          "p50": 0.18732799589633942,
+          "p95": 0.18899840116500854,
+          "p99": 0.19088767766952514
+        }
+      },
+      "concurrent": {
+        "cuda_ms": {
+          "n": 14,
+          "p50": 2.255136013031006,
+          "p95": 2.259707248210907,
+          "p99": 2.2608886313438417
+        },
+        "wall_ms": {
+          "n": 14,
+          "p50": 2.265125047415495,
+          "p95": 2.2700292291119695,
+          "p99": 2.271026619710028
+        },
+        "copy_ms": {
+          "n": 14,
+          "p50": 2.239359974861145,
+          "p95": 2.241414427757263,
+          "p99": 2.241614031791687
+        },
+        "compute_ms": {
+          "n": 14,
+          "p50": 0.2531839907169342,
+          "p95": 0.2587056025862694,
+          "p99": 0.2605859252810478
+        }
+      },
+      "alone_copy_ms": 2.2323520183563232,
+      "alone_compute_ms": 0.2200320065021515,
+      "overlap_efficiency": 0.896451452509661,
+      "concurrent_speedup_over_serial": 1.0813077786585634,
+      "copy_slowdown": 1.0031392703512692,
+      "compute_slowdown": 1.1506689174079705
+    },
+    "memory": {
+      "rss_sampled_peak_bytes": 2041884672,
+      "gpu_allocated_peak_bytes": 112004608,
+      "gpu_reserved_peak_bytes": 268435456,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5103341571,
+        "allocated_bytes.current": 4801033834,
+        "allocated_bytes.freed": 302307737,
+        "allocated_bytes.peak": 4801033829,
+        "allocation.allocated": 1869,
+        "allocation.current": 32,
+        "allocation.freed": 1837,
+        "allocation.peak": 200,
+        "host_alloc_time.avg": 574,
+        "host_alloc_time.count": 200,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114937,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 200,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274881,
+        "reserved_bytes.current": 625274881,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274881,
+        "segment.allocated": 200,
+        "segment.current": 200,
+        "segment.freed": 0,
+        "segment.peak": 200
+      }
+    },
+    "pinned_weight_live_bytes": 28351488,
+    "next_group_buffer_bytes": 28351488,
+    "two_slots_bytes": 56702976,
+    "note": "Memory peak includes resident reference weights and diagnostic destinations; not a deployed two-buffer footprint."
+  },
+  {
+    "status": "ok",
+    "group": 2,
+    "q": 1,
+    "past": 256,
+    "batch": 1,
+    "semantic": "decode_real_history",
+    "metrics": {
+      "serial": {
+        "cuda_ms": {
+          "n": 13,
+          "p50": 2.4463040828704834,
+          "p95": 2.448518466949463,
+          "p99": 2.449255695343018
+        },
+        "wall_ms": {
+          "n": 13,
+          "p50": 2.456235233694315,
+          "p95": 2.4592578411102295,
+          "p99": 2.459767460823059
+        },
+        "copy_ms": {
+          "n": 13,
+          "p50": 2.232991933822632,
+          "p95": 2.234527921676636,
+          "p99": 2.234604711532593
+        },
+        "compute_ms": {
+          "n": 13,
+          "p50": 0.19340799748897552,
+          "p95": 0.1945279985666275,
+          "p99": 0.19514240324497223
+        }
+      },
+      "concurrent": {
+        "cuda_ms": {
+          "n": 14,
+          "p50": 2.2562880516052246,
+          "p95": 2.2714351654052733,
+          "p99": 2.2761111068725586
+        },
+        "wall_ms": {
+          "n": 14,
+          "p50": 2.2658933885395527,
+          "p95": 2.2806785302236676,
+          "p99": 2.2854901710525155
+        },
+        "copy_ms": {
+          "n": 14,
+          "p50": 2.2406400442123413,
+          "p95": 2.251563274860382,
+          "p99": 2.255906336307526
+        },
+        "compute_ms": {
+          "n": 14,
+          "p50": 0.2568960040807724,
+          "p95": 0.28288478702306746,
+          "p99": 0.2883593460917473
+        }
+      },
+      "alone_copy_ms": 2.2323520183563232,
+      "alone_compute_ms": 0.22446399927139282,
+      "overlap_efficiency": 0.8933635980531515,
+      "concurrent_speedup_over_serial": 1.0842162112812115,
+      "copy_slowdown": 1.0037126876889786,
+      "compute_slowdown": 1.1444864428801653,
+      "buffer_pipeline_cuda_ms": {
+        "n": 4,
+        "p50": 9.203200340270996,
+        "p95": 9.230102109909058,
+        "p99": 9.233412084579468
+      },
+      "buffer_checks": "event ordering and exact output PASS",
+      "buffer_trace": "buffer_g2_q1_p256.csv"
+    },
+    "memory": {
+      "rss_sampled_peak_bytes": 2041884672,
+      "gpu_allocated_peak_bytes": 180023296,
+      "gpu_reserved_peak_bytes": 291504128,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": null,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 5103341572,
+        "allocated_bytes.current": 4801033834,
+        "allocated_bytes.freed": 302307738,
+        "allocated_bytes.peak": 4801033829,
+        "allocation.allocated": 1870,
+        "allocation.current": 32,
+        "allocation.freed": 1838,
+        "allocation.peak": 200,
+        "host_alloc_time.avg": 574,
+        "host_alloc_time.count": 200,
+        "host_alloc_time.max": 24482,
+        "host_alloc_time.min": 1,
+        "host_alloc_time.total": 114937,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 200,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 625274881,
+        "reserved_bytes.current": 625274881,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 625274881,
+        "segment.allocated": 200,
+        "segment.current": 200,
+        "segment.freed": 0,
+        "segment.peak": 200
+      }
+    },
+    "pinned_weight_live_bytes": 28351488,
+    "next_group_buffer_bytes": 28351488,
+    "two_slots_bytes": 56702976,
+    "note": "Memory peak includes resident reference weights and diagnostic destinations; not a deployed two-buffer footprint."
+  }
+]
