@@ -1,0 +1,50 @@
+{
+  "B": {
+    "argv": [
+      "/home/leocao/miniconda3/envs/llmexp/bin/python",
+      "-u",
+      "-m",
+      "experiments.inferrelay_two_node.activation",
+      "--node",
+      "B",
+      "--role",
+      "receive",
+      "--model",
+      "opt-125m",
+      "--host",
+      "192.168.20.105",
+      "--out",
+      "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t1-125m-a-b-01/B",
+      "--run-id",
+      "t1-125m-a-b-01",
+      "--repeats",
+      "20"
+    ],
+    "launcher_pid": 4006699,
+    "role": "receive"
+  },
+  "A": {
+    "argv": [
+      "/home/leocao/miniconda3/envs/llmexp/bin/python",
+      "-u",
+      "-m",
+      "experiments.inferrelay_two_node.activation",
+      "--node",
+      "A",
+      "--role",
+      "send",
+      "--model",
+      "opt-125m",
+      "--host",
+      "192.168.20.105",
+      "--out",
+      "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t1-125m-a-b-01/A",
+      "--run-id",
+      "t1-125m-a-b-01",
+      "--repeats",
+      "20"
+    ],
+    "launcher_pid": 4006726,
+    "role": "send"
+  }
+}

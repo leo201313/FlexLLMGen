@@ -1,0 +1,140 @@
+<!doctype html><meta charset="utf-8"><title>T1 local GPU timelines</title><style>body{font:15px sans-serif;max-width:1100px;margin:30px auto}svg{background:#f3f5f7}rect.stage{fill:#db761d}rect.job{fill:#287ba3}</style><h1>T1 分节点 GPU 时间线</h1><p>每个节点独立 CUDA event 原点，不能跨节点对齐。橙色为 activation 拷贝，蓝色为背景工作；背景区间包含该工作内核/拷贝间的设备间隙。</p>
+<h2>opt-125m A-B b1 q1 gpu_h2d</h2>
+<p>A: 0—1.242 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="15.12" y="5" width="6.36" height="20"><title>0.020864—0.029632 ms</title></rect>
+<rect class="job" x="80.25" y="35" width="819.75" height="20"><title>0.110720—1.241728 ms</title></rect>
+</svg>
+<p>B: 0—1.377 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="474.93" y="5" width="0.92" height="20"><title>0.726400—0.727808 ms</title></rect>
+<rect class="job" x="74.90" y="35" width="399.57" height="20"><title>0.114560—0.725696 ms</title></rect>
+<rect class="job" x="494.49" y="35" width="405.51" height="20"><title>0.756320—1.376544 ms</title></rect>
+</svg>
+<h2>opt-125m A-B b1 q1 gpu_compute</h2>
+<p>A: 0—0.403 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="155.32" y="5" width="78.80" height="20"><title>0.069504—0.104768 ms</title></rect>
+<rect class="job" x="118.13" y="35" width="397.44" height="20"><title>0.052864—0.230720 ms</title></rect>
+<rect class="job" x="570.78" y="35" width="329.22" height="20"><title>0.255424—0.402752 ms</title></rect>
+</svg>
+<p>B: 0—0.323 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="794.83" y="5" width="42.28" height="20"><title>0.285120—0.300288 ms</title></rect>
+<rect class="job" x="265.83" y="35" width="634.17" height="20"><title>0.095360—0.322848 ms</title></rect>
+</svg>
+<h2>opt-125m A-B b4 q256 gpu_h2d</h2>
+<p>A: 0—7.021 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="3.56" y="5" width="18.19" height="20"><title>0.027808—0.169696 ms</title></rect>
+<rect class="job" x="15.90" y="35" width="148.82" height="20"><title>0.124000—1.284928 ms</title></rect>
+<rect class="job" x="168.90" y="35" width="144.29" height="20"><title>1.317632—2.443232 ms</title></rect>
+<rect class="job" x="315.79" y="35" width="143.97" height="20"><title>2.463488—3.586592 ms</title></rect>
+<rect class="job" x="462.07" y="35" width="143.93" height="20"><title>3.604672—4.727520 ms</title></rect>
+<rect class="job" x="608.37" y="35" width="145.30" height="20"><title>4.745952—5.879456 ms</title></rect>
+<rect class="job" x="756.14" y="35" width="143.86" height="20"><title>5.898752—7.021024 ms</title></rect>
+</svg>
+<p>B: 0—6.899 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="813.48" y="5" width="8.09" height="20"><title>6.235904—6.297888 ms</title></rect>
+<rect class="job" x="3.45" y="35" width="78.57" height="20"><title>0.026464—0.628736 ms</title></rect>
+<rect class="job" x="84.64" y="35" width="78.66" height="20"><title>0.648800—1.251776 ms</title></rect>
+<rect class="job" x="165.93" y="35" width="79.00" height="20"><title>1.271936—1.877504 ms</title></rect>
+<rect class="job" x="247.46" y="35" width="78.60" height="20"><title>1.896928—2.499424 ms</title></rect>
+<rect class="job" x="328.62" y="35" width="78.98" height="20"><title>2.519136—3.124608 ms</title></rect>
+<rect class="job" x="410.12" y="35" width="78.45" height="20"><title>3.143840—3.745216 ms</title></rect>
+<rect class="job" x="491.10" y="35" width="78.97" height="20"><title>3.764608—4.369952 ms</title></rect>
+<rect class="job" x="572.64" y="35" width="78.59" height="20"><title>4.389696—4.992128 ms</title></rect>
+<rect class="job" x="653.84" y="35" width="78.56" height="20"><title>5.012128—5.614336 ms</title></rect>
+<rect class="job" x="734.87" y="35" width="78.52" height="20"><title>5.633280—6.235200 ms</title></rect>
+<rect class="job" x="821.65" y="35" width="78.35" height="20"><title>6.298560—6.899136 ms</title></rect>
+</svg>
+<h2>opt-125m A-B b4 q256 gpu_compute</h2>
+<p>A: 0—5.760 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="4.34" y="5" width="18.89" height="20"><title>0.027776—0.148640 ms</title></rect>
+<rect class="job" x="17.94" y="35" width="97.24" height="20"><title>0.114784—0.737120 ms</title></rect>
+<rect class="job" x="119.61" y="35" width="95.57" height="20"><title>0.765504—1.377120 ms</title></rect>
+<rect class="job" x="218.91" y="35" width="93.71" height="20"><title>1.400992—2.000736 ms</title></rect>
+<rect class="job" x="316.17" y="35" width="94.53" height="20"><title>2.023456—2.628448 ms</title></rect>
+<rect class="job" x="414.08" y="35" width="93.91" height="20"><title>2.650016—3.251040 ms</title></rect>
+<rect class="job" x="512.30" y="35" width="95.85" height="20"><title>3.278656—3.892064 ms</title></rect>
+<rect class="job" x="611.75" y="35" width="93.68" height="20"><title>3.915104—4.514656 ms</title></rect>
+<rect class="job" x="708.78" y="35" width="94.09" height="20"><title>4.536096—5.138272 ms</title></rect>
+<rect class="job" x="806.21" y="35" width="93.79" height="20"><title>5.159584—5.759840 ms</title></rect>
+</svg>
+<p>B: 0—6.257 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="823.21" y="5" width="9.83" height="20"><title>5.723488—5.791840 ms</title></rect>
+<rect class="job" x="4.09" y="35" width="86.29" height="20"><title>0.028448—0.628416 ms</title></rect>
+<rect class="job" x="94.04" y="35" width="86.34" height="20"><title>0.653792—1.254080 ms</title></rect>
+<rect class="job" x="183.89" y="35" width="86.18" height="20"><title>1.278496—1.877696 ms</title></rect>
+<rect class="job" x="273.53" y="35" width="87.27" height="20"><title>1.901728—2.508480 ms</title></rect>
+<rect class="job" x="364.63" y="35" width="86.46" height="20"><title>2.535104—3.136192 ms</title></rect>
+<rect class="job" x="454.63" y="35" width="86.73" height="20"><title>3.160896—3.763904 ms</title></rect>
+<rect class="job" x="544.82" y="35" width="85.95" height="20"><title>3.787904—4.385472 ms</title></rect>
+<rect class="job" x="634.20" y="35" width="86.11" height="20"><title>4.409376—5.008064 ms</title></rect>
+<rect class="job" x="723.77" y="35" width="86.24" height="20"><title>5.032096—5.631680 ms</title></rect>
+<rect class="job" x="813.45" y="35" width="86.55" height="20"><title>5.655616—6.257344 ms</title></rect>
+</svg>
+<h2>opt-125m B-A b1 q1 gpu_h2d</h2>
+<p>B: 0—1.356 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="33.75" y="5" width="74.12" height="20"><title>0.050848—0.162528 ms</title></rect>
+<rect class="job" x="72.40" y="35" width="406.45" height="20"><title>0.109088—0.721472 ms</title></rect>
+<rect class="job" x="500.07" y="35" width="399.93" height="20"><title>0.753440—1.356000 ms</title></rect>
+</svg>
+<p>A: 0—2.453 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="464.35" y="5" width="0.59" height="20"><title>1.265728—1.267328 ms</title></rect>
+<rect class="job" x="47.18" y="35" width="416.91" height="20"><title>0.128608—1.265024 ms</title></rect>
+<rect class="job" x="486.19" y="35" width="413.81" height="20"><title>1.325280—2.453248 ms</title></rect>
+</svg>
+<h2>opt-125m B-A b1 q1 gpu_compute</h2>
+<p>B: 0—0.305 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="49.24" y="5" width="20.04" height="20"><title>0.016672—0.023456 ms</title></rect>
+<rect class="job" x="270.60" y="35" width="629.40" height="20"><title>0.091616—0.304704 ms</title></rect>
+</svg>
+<p>A: 0—0.266 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="551.24" y="5" width="86.73" height="20"><title>0.162912—0.188544 ms</title></rect>
+<rect class="job" x="137.30" y="35" width="762.70" height="20"><title>0.040576—0.265984 ms</title></rect>
+</svg>
+<h2>opt-125m B-A b4 q256 gpu_h2d</h2>
+<p>B: 0—6.248 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="19.21" y="5" width="10.09" height="20"><title>0.133376—0.203392 ms</title></rect>
+<rect class="job" x="6.12" y="35" width="90.62" height="20"><title>0.042464—0.671616 ms</title></rect>
+<rect class="job" x="99.71" y="35" width="86.58" height="20"><title>0.692256—1.293312 ms</title></rect>
+<rect class="job" x="188.99" y="35" width="86.51" height="20"><title>1.312064—1.912640 ms</title></rect>
+<rect class="job" x="278.14" y="35" width="86.58" height="20"><title>1.930976—2.532032 ms</title></rect>
+<rect class="job" x="367.40" y="35" width="86.57" height="20"><title>2.550720—3.151712 ms</title></rect>
+<rect class="job" x="456.59" y="35" width="86.55" height="20"><title>3.169920—3.770784 ms</title></rect>
+<rect class="job" x="545.77" y="35" width="86.59" height="20"><title>3.789056—4.390240 ms</title></rect>
+<rect class="job" x="635.00" y="35" width="86.54" height="20"><title>4.408544—5.009376 ms</title></rect>
+<rect class="job" x="724.20" y="35" width="86.62" height="20"><title>5.027840—5.629184 ms</title></rect>
+<rect class="job" x="813.45" y="35" width="86.55" height="20"><title>5.647424—6.248320 ms</title></rect>
+</svg>
+<p>A: 0—7.085 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="742.66" y="5" width="15.31" height="20"><title>5.845952—5.966464 ms</title></rect>
+<rect class="job" x="12.40" y="35" width="144.05" height="20"><title>0.097632—1.231584 ms</title></rect>
+<rect class="job" x="160.78" y="35" width="144.62" height="20"><title>1.265600—2.404000 ms</title></rect>
+<rect class="job" x="308.09" y="35" width="142.94" height="20"><title>2.425184—3.550368 ms</title></rect>
+<rect class="job" x="453.58" y="35" width="143.47" height="20"><title>3.570464—4.699776 ms</title></rect>
+<rect class="job" x="599.58" y="35" width="142.99" height="20"><title>4.719680—5.845248 ms</title></rect>
+<rect class="job" x="758.06" y="35" width="141.94" height="20"><title>5.967168—7.084512 ms</title></rect>
+</svg>
+<h2>opt-125m B-A b4 q256 gpu_compute</h2>
+<p>B: 0—6.372 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="3.74" y="5" width="9.18" height="20"><title>0.026496—0.091488 ms</title></rect>
+<rect class="job" x="14.43" y="35" width="94.90" height="20"><title>0.102144—0.774048 ms</title></rect>
+<rect class="job" x="113.45" y="35" width="84.53" height="20"><title>0.803264—1.401760 ms</title></rect>
+<rect class="job" x="201.34" y="35" width="84.72" height="20"><title>1.425536—2.025376 ms</title></rect>
+<rect class="job" x="289.27" y="35" width="84.87" height="20"><title>2.048096—2.648992 ms</title></rect>
+<rect class="job" x="377.31" y="35" width="84.32" height="20"><title>2.671488—3.268512 ms</title></rect>
+<rect class="job" x="464.77" y="35" width="84.80" height="20"><title>3.290688—3.891104 ms</title></rect>
+<rect class="job" x="552.77" y="35" width="84.58" height="20"><title>3.913760—4.512640 ms</title></rect>
+<rect class="job" x="640.37" y="35" width="84.49" height="20"><title>4.533984—5.132192 ms</title></rect>
+<rect class="job" x="728.00" y="35" width="84.49" height="20"><title>5.154464—5.752704 ms</title></rect>
+<rect class="job" x="815.56" y="35" width="84.44" height="20"><title>5.774400—6.372256 ms</title></rect>
+</svg>
+<p>A: 0—5.994 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="861.07" y="5" width="19.08" height="20"><title>5.734624—5.861664 ms</title></rect>
+<rect class="job" x="11.01" y="35" width="118.67" height="20"><title>0.073344—0.863648 ms</title></rect>
+<rect class="job" x="140.33" y="35" width="96.98" height="20"><title>0.934560—1.580448 ms</title></rect>
+<rect class="job" x="241.95" y="35" width="91.15" height="20"><title>1.611328—2.218400 ms</title></rect>
+<rect class="job" x="337.08" y="35" width="91.50" height="20"><title>2.244896—2.854304 ms</title></rect>
+<rect class="job" x="432.42" y="35" width="90.73" height="20"><title>2.879840—3.484064 ms</title></rect>
+<rect class="job" x="526.85" y="35" width="90.08" height="20"><title>3.508768—4.108704 ms</title></rect>
+<rect class="job" x="620.63" y="35" width="90.56" height="20"><title>4.133312—4.736416 ms</title></rect>
+<rect class="job" x="714.87" y="35" width="90.72" height="20"><title>4.760960—5.365152 ms</title></rect>
+<rect class="job" x="809.31" y="35" width="90.69" height="20"><title>5.389888—5.993888 ms</title></rect>
+</svg>

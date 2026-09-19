@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/run.py",
+    "--suite",
+    "e1",
+    "e2",
+    "--out",
+    "experiments/inferrelay_precheck/results/node-b-smoke-01"
+  ],
+  "cwd": "/home/leocao/InferRelay/FlexLLMGen",
+  "python": "/home/leocao/miniconda3/envs/llmexp/bin/python"
+}

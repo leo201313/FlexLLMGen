@@ -1,0 +1,108 @@
+[
+  {
+    "run": "experiments/inferrelay_two_node/results/t1-pilot-03",
+    "direction": "B-A",
+    "case": 2,
+    "model": "opt-125m",
+    "batch": 1,
+    "q": 1,
+    "hidden": 768,
+    "mode": "gpu_h2d",
+    "bytes": 1536,
+    "sample": 4,
+    "nodes": {
+      "B": {
+        "stage": "D2H",
+        "interval": [
+          0.03033600002527237,
+          0.05587200075387955
+        ],
+        "jobs": [
+          {
+            "cuda_ms": 0.6241919994354248,
+            "host_start_ms": 0.09887099266052246,
+            "host_end_ms": 0.769611120223999,
+            "gpu_start_ms": 0.11686400324106216,
+            "gpu_end_ms": 0.7410560250282288
+          },
+          {
+            "cuda_ms": 0.6255360245704651,
+            "host_start_ms": 0.7752978801727295,
+            "host_end_ms": 1.4221341609954834,
+            "gpu_start_ms": 0.7692800164222717,
+            "gpu_end_ms": 1.3948160409927368
+          }
+        ]
+      },
+      "A": {
+        "stage": "H2D",
+        "interval": [
+          1.1993279457092285,
+          1.200767993927002
+        ],
+        "jobs": [
+          {
+            "cuda_ms": 1.1315200328826904,
+            "host_start_ms": 0.04796791076660156,
+            "host_end_ms": 1.2313947677612305,
+            "gpu_start_ms": 0.06710399687290192,
+            "gpu_end_ms": 1.1986240148544312
+          },
+          {
+            "cuda_ms": 1.1356799602508545,
+            "host_start_ms": 1.2421526908874512,
+            "host_end_ms": 2.4521431922912598,
+            "gpu_start_ms": 1.280128002166748,
+            "gpu_end_ms": 2.4158079624176025
+          }
+        ]
+      }
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t1-pilot-03",
+    "direction": "B-A",
+    "case": 3,
+    "model": "opt-125m",
+    "batch": 1,
+    "q": 1,
+    "hidden": 768,
+    "mode": "gpu_compute",
+    "bytes": 1536,
+    "sample": 4,
+    "nodes": {
+      "B": {
+        "stage": "D2H",
+        "interval": [
+          0.01756799966096878,
+          0.02502400055527687
+        ],
+        "jobs": [
+          {
+            "cuda_ms": 0.21558399498462677,
+            "host_start_ms": 0.05934596061706543,
+            "host_end_ms": 0.3231689929962158,
+            "gpu_start_ms": 0.0915519967675209,
+            "gpu_end_ms": 0.30713599920272827
+          }
+        ]
+      },
+      "A": {
+        "stage": "H2D",
+        "interval": [
+          0.1398719996213913,
+          0.15171200037002563
+        ],
+        "jobs": [
+          {
+            "cuda_ms": 0.1831360012292862,
+            "host_start_ms": 0.018429279327392578,
+            "host_end_ms": 0.22848081588745117,
+            "gpu_start_ms": 0.030112000182271004,
+            "gpu_end_ms": 0.21324799954891205
+          }
+        ]
+      }
+    }
+  }
+]

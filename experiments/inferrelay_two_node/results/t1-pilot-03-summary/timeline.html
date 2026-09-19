@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8"><title>T1 local GPU timelines</title><style>body{font:15px sans-serif;max-width:1100px;margin:30px auto}svg{background:#f3f5f7}rect.stage{fill:#db761d}rect.job{fill:#287ba3}</style><h1>T1 分节点 GPU 时间线</h1><p>每个节点独立 CUDA event 原点，不能跨节点对齐。橙色为 activation 拷贝，蓝色为背景工作；背景区间包含该工作内核/拷贝间的设备间隙。</p>
+<h2>opt-125m B-A b1 q1 gpu_h2d</h2>
+<p>B: 0—1.395 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="19.57" y="5" width="16.48" height="20"><title>0.030336—0.055872 ms</title></rect>
+<rect class="job" x="75.41" y="35" width="402.76" height="20"><title>0.116864—0.741056 ms</title></rect>
+<rect class="job" x="496.38" y="35" width="403.62" height="20"><title>0.769280—1.394816 ms</title></rect>
+</svg>
+<p>A: 0—2.416 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="446.81" y="5" width="0.54" height="20"><title>1.199328—1.200768 ms</title></rect>
+<rect class="job" x="25.00" y="35" width="421.54" height="20"><title>0.067104—1.198624 ms</title></rect>
+<rect class="job" x="476.91" y="35" width="423.09" height="20"><title>1.280128—2.415808 ms</title></rect>
+</svg>
+<h2>opt-125m B-A b1 q1 gpu_compute</h2>
+<p>B: 0—0.307 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="51.48" y="5" width="21.85" height="20"><title>0.017568—0.025024 ms</title></rect>
+<rect class="job" x="268.27" y="35" width="631.73" height="20"><title>0.091552—0.307136 ms</title></rect>
+</svg>
+<p>A: 0—0.213 ms（本地GPU）</p><svg width="1000" height="70">
+<rect class="stage" x="590.32" y="5" width="49.97" height="20"><title>0.139872—0.151712 ms</title></rect>
+<rect class="job" x="127.09" y="35" width="772.91" height="20"><title>0.030112—0.213248 ms</title></rect>
+</svg>

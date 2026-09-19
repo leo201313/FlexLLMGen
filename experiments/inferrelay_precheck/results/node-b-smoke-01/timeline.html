@@ -1,0 +1,36 @@
+<!doctype html><meta charset="utf-8"><title>InferRelay precheck timeline</title>
+<style>body{font:16px system-ui;margin:32px;max-width:1400px;background:#fafafa;color:#162030}
+select,input{font:inherit;margin:8px;padding:4px} .row{display:flex;align-items:center;margin:12px 0}
+.label{width:160px;flex-shrink:0}.lane{height:30px;background:#e7ebef;position:relative;flex:1}
+.bar{position:absolute;height:24px;top:3px;background:#167d9a;border-radius:2px;min-width:1px}
+.weight_load,.h2d0,.h2d1{background:#cd7925}.network{background:#7d4eb2}
+.d2h0,.d2h1{background:#b95e68}small{color:#556}#details{white-space:pre-wrap}</style>
+<h1>InferRelay event timeline</h1>
+<p>E0: measured CUDA event spans, including possible host submission gaps. E3: predicted resource reservations, not two-machine measurements. Weight load in the all-GPU arm is not H2D.</p>
+<label>Dataset <select id="dataset"></select></label>
+<label>E0 token (−1 = all) <input id="token" type="number" min="-1" value="1" max="15"></label>
+<p id="range"></p><div id="chart"></div><p id="details">Hover over a bar for exact interval and layer/group.</p>
+<small>E0 token 0 is prefill; subsequent tokens are decode. No causal wait is inferred solely from an empty interval. Raw events and sampling definitions remain in the adjacent CSV/JSON files.</small>
+<script>
+const data=[];
+const select=document.querySelector('#dataset'), token=document.querySelector('#token');
+data.forEach((d,i)=>{let o=document.createElement('option');o.value=i;o.textContent=d.name;select.appendChild(o)});
+function draw(){
+ let d=data[Number(select.value)];if(!d)return;
+ let es=d.events.filter(e=>d.name.startsWith('Predicted')||Number(token.value)<0||e.token===Number(token.value));
+ let chart=document.querySelector('#chart');chart.replaceChildren();if(!es.length)return;
+ let lo=Math.min(...es.map(e=>e.start)),hi=Math.max(...es.map(e=>e.end)),span=hi-lo||1;
+ document.querySelector('#range').textContent=`${d.name} | ${lo.toFixed(3)}–${hi.toFixed(3)} ms | span ${span.toFixed(3)} ms`;
+ [...new Set(es.map(e=>e.track))].sort().forEach(track=>{
+  let row=document.createElement('div');row.className='row';
+  let label=document.createElement('div');label.className='label';label.textContent=track;
+  let lane=document.createElement('div');lane.className='lane';
+  es.filter(e=>e.track===track).forEach(e=>{let bar=document.createElement('div');bar.className='bar '+track;
+   bar.style.left=100*(e.start-lo)/span+'%';bar.style.width=100*(e.end-e.start)/span+'%';
+   bar.title=`${e.name}: ${e.start.toFixed(4)}–${e.end.toFixed(4)} ms (${(e.end-e.start).toFixed(4)} ms)`;
+   bar.onmouseenter=()=>document.querySelector('#details').textContent=bar.title;lane.appendChild(bar)});
+  row.append(label,lane);chart.appendChild(row);
+ });
+}
+select.onchange=draw;token.oninput=draw;draw();
+</script>

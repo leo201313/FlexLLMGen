@@ -1,0 +1,12 @@
+{
+  "role": "receive",
+  "node": "B",
+  "model": "opt-125m",
+  "host": "192.168.20.105",
+  "port": 5211,
+  "out": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t1-stop-check-01/B",
+  "run_id": "t1-stop-check-01",
+  "repeats": 1000,
+  "warmup": 3,
+  "quick": true
+}

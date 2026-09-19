@@ -1,0 +1,46 @@
+{
+  "A": {
+    "config.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/smoke-02/config.json",
+      "sha256": "4eb6a81d92460065234bc45ff07ffaee023a91a0619defc2c26f1e295189732a"
+    },
+    "environment.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/smoke-02/environment.json",
+      "sha256": "2f59cb9f618ab27adc49314dc9cd08808b614150288d519da224855a9bd4d7e0"
+    },
+    "source_sha256.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/smoke-02/source_sha256.json",
+      "sha256": "1c7461041d1fdd5df618bd21cbf84fc5c0c92dabcaa7ec7df30cf5e1dd3c9523"
+    },
+    "e1/summary.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/smoke-02/e1/summary.json",
+      "sha256": "1558957176026c77aea43f9aba1c7c16f80d912b46af3631d8646b5e7f00659d"
+    },
+    "e2/summary.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/smoke-02/e2/summary.json",
+      "sha256": "e09150e3de1710ed7d11a12b734b572bcd8153bb0e09961ef28977edb58d21c9"
+    }
+  },
+  "B": {
+    "config.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/node-b-smoke-01/config.json",
+      "sha256": "4eb6a81d92460065234bc45ff07ffaee023a91a0619defc2c26f1e295189732a"
+    },
+    "environment.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/node-b-smoke-01/environment.json",
+      "sha256": "384f6fa575db5b0cc2060c45deeb5b88c638ace4076a5fc169bbbd3fb8b48afe"
+    },
+    "source_sha256.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/node-b-smoke-01/source_sha256.json",
+      "sha256": "1c7461041d1fdd5df618bd21cbf84fc5c0c92dabcaa7ec7df30cf5e1dd3c9523"
+    },
+    "e1/summary.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/node-b-smoke-01/e1/summary.json",
+      "sha256": "6e2c42533d9c87e47dac5d8601542cf192307086e128b227e4ec2d9171b43cac"
+    },
+    "e2/summary.json": {
+      "path": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_precheck/results/node-b-smoke-01/e2/summary.json",
+      "sha256": "abda7f4cc90d2f7f4e610e582f1f48174c36dca884f3fe378ea5b20b5b59f8b6"
+    }
+  }
+}

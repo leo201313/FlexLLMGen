@@ -1,0 +1,12 @@
+{
+  "role": "send",
+  "node": "A",
+  "model": "opt-125m",
+  "host": "192.168.20.105",
+  "port": 5211,
+  "out": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t1-125m-a-b-01/A",
+  "run_id": "t1-125m-a-b-01",
+  "repeats": 20,
+  "warmup": 3,
+  "quick": false
+}
