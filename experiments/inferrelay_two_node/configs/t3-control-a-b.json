@@ -1,0 +1,50 @@
+{
+  "stage": "t3",
+  "warmup": 1,
+  "repeats": 3,
+  "workloads": [
+    {
+      "batch": 1,
+      "q": 128,
+      "steps": 4
+    }
+  ],
+  "cases": [
+    {
+      "layout": "continuous",
+      "mode": "prefetch",
+      "cut": 1,
+      "policy": "bulk"
+    },
+    {
+      "layout": "continuous",
+      "mode": "prefetch",
+      "cut": 1,
+      "policy": "window2"
+    },
+    {
+      "layout": "continuous",
+      "mode": "prefetch",
+      "cut": 1,
+      "policy": "priority"
+    },
+    {
+      "layout": "relay",
+      "mode": "prefetch",
+      "cut": 2,
+      "policy": "bulk"
+    },
+    {
+      "layout": "relay",
+      "mode": "prefetch",
+      "cut": 2,
+      "policy": "window2"
+    },
+    {
+      "layout": "relay",
+      "mode": "prefetch",
+      "cut": 2,
+      "policy": "priority"
+    }
+  ]
+}

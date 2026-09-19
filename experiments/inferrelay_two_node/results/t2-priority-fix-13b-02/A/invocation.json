@@ -1,0 +1,12 @@
+{
+  "role": "receive",
+  "node": "A",
+  "model": "opt-1.3b",
+  "host": "192.168.20.103",
+  "run_id": "t2-priority-fix-13b-02",
+  "out": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t2-priority-fix-13b-02/A",
+  "repeats": 20,
+  "port": 5211,
+  "quick": false,
+  "config": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/configs/t2-priority-fix.json"
+}

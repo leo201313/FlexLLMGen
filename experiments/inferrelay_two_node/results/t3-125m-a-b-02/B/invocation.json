@@ -1,0 +1,12 @@
+{
+  "role": "receive",
+  "node": "B",
+  "model": "opt-125m",
+  "host": "192.168.20.105",
+  "run_id": "t3-125m-a-b-02",
+  "out": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t3-125m-a-b-02/B",
+  "repeats": 20,
+  "port": 5211,
+  "quick": false,
+  "config": "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/configs/t3.json"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "model": "opt-1.3b",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "policy": "priority",
+    "best_continuous_cut": 1,
+    "best_C1_ms": 638.8213806152344,
+    "balanced_C1_ms": 774.4413890838623,
+    "R1_ms": 773.7034149169922,
+    "best_C1_over_R1": 0.8256670040467265,
+    "balanced_C1_over_R1": 1.000953820485527
+  },
+  {
+    "model": "opt-1.3b",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "policy": "window2",
+    "best_continuous_cut": 1,
+    "best_C1_ms": 620.0777721405029,
+    "balanced_C1_ms": 760.5044631958008,
+    "R1_ms": 755.7301750183105,
+    "best_C1_over_R1": 0.8205015396209091,
+    "balanced_C1_over_R1": 1.006317450771864
+  },
+  {
+    "model": "opt-1.3b",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "policy": "priority",
+    "best_continuous_cut": 1,
+    "best_C1_ms": 325.0096459388733,
+    "balanced_C1_ms": 393.90767669677734,
+    "R1_ms": 394.1359362602234,
+    "best_C1_over_R1": 0.8246130739123714,
+    "balanced_C1_over_R1": 0.9994208608187015
+  },
+  {
+    "model": "opt-1.3b",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "policy": "window2",
+    "best_continuous_cut": 1,
+    "best_C1_ms": 316.1441316604614,
+    "balanced_C1_ms": 388.2914628982544,
+    "R1_ms": 382.90499353408813,
+    "best_C1_over_R1": 0.8256464057638796,
+    "balanced_C1_over_R1": 1.0140673782142429
+  },
+  {
+    "model": "opt-1.3b",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "policy": "priority",
+    "best_continuous_cut": 1,
+    "best_C1_ms": 387.76758575439453,
+    "balanced_C1_ms": 410.3640570640564,
+    "R1_ms": 425.92398166656494,
+    "best_C1_over_R1": 0.9104150093571365,
+    "balanced_C1_over_R1": 0.9634678363457598
+  },
+  {
+    "model": "opt-1.3b",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "policy": "window2",
+    "best_continuous_cut": 1,
+    "best_C1_ms": 378.093017578125,
+    "balanced_C1_ms": 388.4585690498352,
+    "R1_ms": 403.9830689430237,
+    "best_C1_over_R1": 0.9359130286508366,
+    "balanced_C1_over_R1": 0.961571409579598
+  }
+]

@@ -1,0 +1,5618 @@
+[
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 23.177141666412354,
+    "prefill_ms": 3.625382423400879,
+    "decode_mean_ms": 2.791774204799107,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 25.03339910507202,
+    "prefill_ms": 4.085982799530029,
+    "decode_mean_ms": 2.990715708051409,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 27.497591018676758,
+    "prefill_ms": 4.363673686981201,
+    "decode_mean_ms": 3.3028171403067454,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 34.591224193573,
+    "prefill_ms": 5.061034202575684,
+    "decode_mean_ms": 4.216991560799735,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 33.800432205200195,
+    "prefill_ms": 6.007970809936523,
+    "decode_mean_ms": 3.9683835165841237,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 32.9256157875061,
+    "prefill_ms": 6.007574558258057,
+    "decode_mean_ms": 3.843378475734166,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 130.9103183746338,
+    "prefill_ms": 15.203372478485107,
+    "decode_mean_ms": 16.505571910313197,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 139.4562644958496,
+    "prefill_ms": 17.073489665985107,
+    "decode_mean_ms": 17.44665895189558,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 139.71489810943604,
+    "prefill_ms": 16.96579599380493,
+    "decode_mean_ms": 17.494197504861013,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 135.45096731185913,
+    "prefill_ms": 17.014644145965576,
+    "decode_mean_ms": 16.895318167550222,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 131.4555468559265,
+    "prefill_ms": 16.395265102386475,
+    "decode_mean_ms": 16.414157390594482,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 131.81533098220825,
+    "prefill_ms": 16.527514934539795,
+    "decode_mean_ms": 16.445459978921072,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 63.35228204727173,
+    "prefill_ms": 13.6233229637146,
+    "decode_mean_ms": 7.010855947222028,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 57.51762914657593,
+    "prefill_ms": 11.553443908691406,
+    "decode_mean_ms": 6.472477912902832,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 73.96075677871704,
+    "prefill_ms": 15.187274932861328,
+    "decode_mean_ms": 8.270786830357142,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 60.35237693786621,
+    "prefill_ms": 12.159895420074463,
+    "decode_mean_ms": 6.8378079278128485,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 58.5761513710022,
+    "prefill_ms": 10.65096378326416,
+    "decode_mean_ms": 6.80108778817313,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 59.97001123428345,
+    "prefill_ms": 11.708187103271484,
+    "decode_mean_ms": 6.8620211737496515,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 89.9493522644043,
+    "prefill_ms": 15.69057035446167,
+    "decode_mean_ms": 10.536545889718193,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 89.4950041770935,
+    "prefill_ms": 17.6163911819458,
+    "decode_mean_ms": 10.211582865033831,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 88.08979034423828,
+    "prefill_ms": 14.49163293838501,
+    "decode_mean_ms": 10.462039470672607,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 60.703163623809814,
+    "prefill_ms": 11.878365993499756,
+    "decode_mean_ms": 6.922263894762311,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 60.12252140045166,
+    "prefill_ms": 11.104267597198486,
+    "decode_mean_ms": 6.975677762712751,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 59.74916696548462,
+    "prefill_ms": 10.211503982543945,
+    "decode_mean_ms": 7.052196502685547,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 57.281653881073,
+    "prefill_ms": 10.702336311340332,
+    "decode_mean_ms": 6.545202732086182,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 66.6513786315918,
+    "prefill_ms": 14.095635890960693,
+    "decode_mean_ms": 7.391647406986782,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 70.55449628829956,
+    "prefill_ms": 14.013113975524902,
+    "decode_mean_ms": 7.943675654275077,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 60.093392848968506,
+    "prefill_ms": 11.899721622467041,
+    "decode_mean_ms": 6.855565275464739,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 59.77440118789673,
+    "prefill_ms": 14.43342399597168,
+    "decode_mean_ms": 6.378016131264823,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 58.514060974121094,
+    "prefill_ms": 10.793842315673828,
+    "decode_mean_ms": 6.78294917515346,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 87.67630815505981,
+    "prefill_ms": 15.022181034088135,
+    "decode_mean_ms": 10.310407842908587,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 87.26829671859741,
+    "prefill_ms": 15.096176147460938,
+    "decode_mean_ms": 10.24461283002581,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 88.94219493865967,
+    "prefill_ms": 18.12108087539673,
+    "decode_mean_ms": 10.046220575060163,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 76.95769929885864,
+    "prefill_ms": 11.874774932861328,
+    "decode_mean_ms": 9.257106236049108,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 71.49876737594604,
+    "prefill_ms": 15.940876960754395,
+    "decode_mean_ms": 7.879779951913016,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 76.90014696121216,
+    "prefill_ms": 16.80495023727417,
+    "decode_mean_ms": 8.551223959241595,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 11.606901168823242,
+    "prefill_ms": 3.82603120803833,
+    "decode_mean_ms": 2.5914182662963867,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 12.09036111831665,
+    "prefill_ms": 3.94679594039917,
+    "decode_mean_ms": 2.7123754819234214,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 13.553228378295898,
+    "prefill_ms": 4.321298122406006,
+    "decode_mean_ms": 3.074510097503662,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 15.658313751220703,
+    "prefill_ms": 5.899068832397461,
+    "decode_mean_ms": 3.250972112019857,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 16.966571807861328,
+    "prefill_ms": 6.377552509307861,
+    "decode_mean_ms": 3.5271546045939126,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 17.828745365142822,
+    "prefill_ms": 6.5458455085754395,
+    "decode_mean_ms": 3.7582764625549316,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 60.98475742340088,
+    "prefill_ms": 15.484986305236816,
+    "decode_mean_ms": 15.14656146367391,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 62.37190866470337,
+    "prefill_ms": 15.980125904083252,
+    "decode_mean_ms": 15.441097736358643,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 62.46134567260742,
+    "prefill_ms": 15.963343143463135,
+    "decode_mean_ms": 15.474601904551188,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 63.29020404815674,
+    "prefill_ms": 16.926112174987793,
+    "decode_mean_ms": 15.436966101328531,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 63.7198920249939,
+    "prefill_ms": 17.28630304336548,
+    "decode_mean_ms": 15.45906670888265,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 65.81156349182129,
+    "prefill_ms": 17.71485996246338,
+    "decode_mean_ms": 16.011162439982098,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 37.94199085235596,
+    "prefill_ms": 14.28191089630127,
+    "decode_mean_ms": 7.677298863728841,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 49.47324323654175,
+    "prefill_ms": 15.148930072784424,
+    "decode_mean_ms": 11.263495763142904,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 46.949241161346436,
+    "prefill_ms": 17.70295286178589,
+    "decode_mean_ms": 9.469111760457357,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 32.061434745788574,
+    "prefill_ms": 12.189094066619873,
+    "decode_mean_ms": 6.549350420633952,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 31.688241958618164,
+    "prefill_ms": 11.120333194732666,
+    "decode_mean_ms": 6.79898468653361,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 31.81553316116333,
+    "prefill_ms": 12.946406841278076,
+    "decode_mean_ms": 6.227536201477051,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 49.40631914138794,
+    "prefill_ms": 18.48745822906494,
+    "decode_mean_ms": 10.161460081736246,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 50.513378620147705,
+    "prefill_ms": 20.042367935180664,
+    "decode_mean_ms": 9.957075595855713,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 50.45701885223389,
+    "prefill_ms": 19.9881010055542,
+    "decode_mean_ms": 9.998204708099365,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 33.04503107070923,
+    "prefill_ms": 15.096746921539307,
+    "decode_mean_ms": 5.887007554372151,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 30.967039108276367,
+    "prefill_ms": 11.159831047058105,
+    "decode_mean_ms": 6.526347001393636,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 31.29303789138794,
+    "prefill_ms": 12.342031955718994,
+    "decode_mean_ms": 6.259255727132161,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 33.21772527694702,
+    "prefill_ms": 13.131235599517822,
+    "decode_mean_ms": 6.494473457336426,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 50.75415325164795,
+    "prefill_ms": 14.96817922592163,
+    "decode_mean_ms": 11.675695419311523,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 43.91703939437866,
+    "prefill_ms": 15.91683053970337,
+    "decode_mean_ms": 9.137131055196127,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 33.37608051300049,
+    "prefill_ms": 12.32196044921875,
+    "decode_mean_ms": 6.948037147521973,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 31.728163719177246,
+    "prefill_ms": 13.750916481018066,
+    "decode_mean_ms": 5.903633276621501,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 32.73995304107666,
+    "prefill_ms": 11.932671070098877,
+    "decode_mean_ms": 6.8931121826171875,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 46.28543663024902,
+    "prefill_ms": 16.986933708190918,
+    "decode_mean_ms": 9.679848988850912,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 51.431849002838135,
+    "prefill_ms": 18.485984802246094,
+    "decode_mean_ms": 10.82584555943807,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 48.17392921447754,
+    "prefill_ms": 18.61338758468628,
+    "decode_mean_ms": 9.612694581349691,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 38.28498888015747,
+    "prefill_ms": 16.481523990631104,
+    "decode_mean_ms": 7.197923024495442,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 34.88208627700806,
+    "prefill_ms": 13.300108432769775,
+    "decode_mean_ms": 7.14126443862915,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 40.49193334579468,
+    "prefill_ms": 17.573832988739014,
+    "decode_mean_ms": 7.562806447347005,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 32.71009302139282,
+    "prefill_ms": 15.960885047912598,
+    "decode_mean_ms": 5.576045831044515,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 39.33955001831055,
+    "prefill_ms": 17.84676742553711,
+    "decode_mean_ms": 7.15109395980835,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 40.26356077194214,
+    "prefill_ms": 18.173019886016846,
+    "decode_mean_ms": 7.350123882293701,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 64.63421773910522,
+    "prefill_ms": 34.307488441467285,
+    "decode_mean_ms": 10.098844687143961,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 73.74382400512695,
+    "prefill_ms": 31.833831310272217,
+    "decode_mean_ms": 13.948819001515707,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 63.843846797943115,
+    "prefill_ms": 32.03754377365112,
+    "decode_mean_ms": 10.590393702189127,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 74.86442708969116,
+    "prefill_ms": 25.547985076904297,
+    "decode_mean_ms": 16.387345631917317,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 79.22962999343872,
+    "prefill_ms": 26.512789726257324,
+    "decode_mean_ms": 17.504111131032307,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 79.930335521698,
+    "prefill_ms": 27.185739994049072,
+    "decode_mean_ms": 17.505652109781902,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 94.29428577423096,
+    "prefill_ms": 39.15685415267944,
+    "decode_mean_ms": 18.325311024983723,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 125.190420627594,
+    "prefill_ms": 42.2454137802124,
+    "decode_mean_ms": 27.570463180541992,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 109.76552438735962,
+    "prefill_ms": 42.58948612213135,
+    "decode_mean_ms": 22.311413129170734,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 47.13132190704346,
+    "prefill_ms": 22.488300323486328,
+    "decode_mean_ms": 7.850117365519206,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 52.3522367477417,
+    "prefill_ms": 24.367966175079346,
+    "decode_mean_ms": 9.03941551844279,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 48.75107002258301,
+    "prefill_ms": 23.79913902282715,
+    "decode_mean_ms": 8.061258792877197,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 40.108909130096436,
+    "prefill_ms": 21.832571029663086,
+    "decode_mean_ms": 5.964444478352864,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 41.617218017578125,
+    "prefill_ms": 21.364314079284668,
+    "decode_mean_ms": 6.606692632039388,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 49.58978223800659,
+    "prefill_ms": 24.546273708343506,
+    "decode_mean_ms": 8.153499921162924,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 67.22718620300293,
+    "prefill_ms": 27.84700298309326,
+    "decode_mean_ms": 12.861732323964437,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 62.59770393371582,
+    "prefill_ms": 28.445224285125732,
+    "decode_mean_ms": 11.066888332366943,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 63.65939426422119,
+    "prefill_ms": 28.10889434814453,
+    "decode_mean_ms": 11.508710543314615,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 81.02732706069946,
+    "prefill_ms": 36.40372562408447,
+    "decode_mean_ms": 14.710721651713053,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 72.96408128738403,
+    "prefill_ms": 35.49409008026123,
+    "decode_mean_ms": 12.19634215037028,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 82.2862958908081,
+    "prefill_ms": 37.6251745223999,
+    "decode_mean_ms": 14.596506118774414,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 47.5012149810791,
+    "prefill_ms": 23.35963201522827,
+    "decode_mean_ms": 7.783814271291097,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 48.00572395324707,
+    "prefill_ms": 23.11108112335205,
+    "decode_mean_ms": 8.043749968210856,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 47.55373811721802,
+    "prefill_ms": 23.027149200439453,
+    "decode_mean_ms": 7.919285774230957,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 40.79659986495972,
+    "prefill_ms": 21.906872272491455,
+    "decode_mean_ms": 6.111287752787272,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 41.361658573150635,
+    "prefill_ms": 21.92719841003418,
+    "decode_mean_ms": 6.284635702768962,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 39.961031436920166,
+    "prefill_ms": 21.310548782348633,
+    "decode_mean_ms": 6.0051811536153155,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 55.77370548248291,
+    "prefill_ms": 24.275325775146484,
+    "decode_mean_ms": 10.167839686075846,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 55.14654350280762,
+    "prefill_ms": 23.8333740234375,
+    "decode_mean_ms": 10.069754282633463,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 64.44557189941406,
+    "prefill_ms": 28.02143955230713,
+    "decode_mean_ms": 11.819537003835043,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 70.84382343292236,
+    "prefill_ms": 34.252938747406006,
+    "decode_mean_ms": 11.931938012441,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 79.6030740737915,
+    "prefill_ms": 37.54433250427246,
+    "decode_mean_ms": 13.722420374552408,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-a-b-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "A-B",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 84.3234190940857,
+    "prefill_ms": 40.65450668334961,
+    "decode_mean_ms": 14.267887751261393,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 23.21793007850647,
+    "prefill_ms": 3.5319039821624756,
+    "decode_mean_ms": 2.8109857695443288,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 26.23127508163452,
+    "prefill_ms": 4.410550832748413,
+    "decode_mean_ms": 3.1154422419411794,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 26.773788928985596,
+    "prefill_ms": 4.521849155426025,
+    "decode_mean_ms": 3.1769382613045827,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 31.40554189682007,
+    "prefill_ms": 5.014352798461914,
+    "decode_mean_ms": 3.7686145646231517,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 33.99144411087036,
+    "prefill_ms": 5.7930028438568115,
+    "decode_mean_ms": 4.026388815471104,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 35.1617271900177,
+    "prefill_ms": 6.209572076797485,
+    "decode_mean_ms": 4.133776051657541,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 138.46127104759216,
+    "prefill_ms": 16.554136991500854,
+    "decode_mean_ms": 17.363781213760376,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 141.60670495033264,
+    "prefill_ms": 16.99565601348877,
+    "decode_mean_ms": 17.749591588974,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 190.64217281341553,
+    "prefill_ms": 20.417746782302856,
+    "decode_mean_ms": 24.26720871244158,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 143.178729057312,
+    "prefill_ms": 18.270837783813477,
+    "decode_mean_ms": 17.80707825933184,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 144.48637080192566,
+    "prefill_ms": 18.749864101409912,
+    "decode_mean_ms": 17.916562693459646,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 142.49767804145813,
+    "prefill_ms": 18.488624095916748,
+    "decode_mean_ms": 17.677434750965663,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 91.47058391571045,
+    "prefill_ms": 14.382980108261108,
+    "decode_mean_ms": 10.889982393809728,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 88.40744590759277,
+    "prefill_ms": 13.806981801986694,
+    "decode_mean_ms": 10.532465832574028,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 87.94891595840454,
+    "prefill_ms": 13.439134120941162,
+    "decode_mean_ms": 10.522075993674141,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 64.64880895614624,
+    "prefill_ms": 13.423357009887695,
+    "decode_mean_ms": 7.23779000554766,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 63.19291400909424,
+    "prefill_ms": 12.755131006240845,
+    "decode_mean_ms": 7.094289268766131,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 61.73511791229248,
+    "prefill_ms": 11.871384859085083,
+    "decode_mean_ms": 7.017889431544712,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 60.335957050323486,
+    "prefill_ms": 15.766018152236938,
+    "decode_mean_ms": 6.192875521523612,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 53.95177698135376,
+    "prefill_ms": 10.687758207321167,
+    "decode_mean_ms": 6.119005237306867,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 49.85812187194824,
+    "prefill_ms": 8.293916940689087,
+    "decode_mean_ms": 5.896808249609811,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 60.06702899932861,
+    "prefill_ms": 11.289654970169067,
+    "decode_mean_ms": 6.879877192633493,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 74.31012725830078,
+    "prefill_ms": 13.21574091911316,
+    "decode_mean_ms": 8.635893412998744,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 66.85495209693909,
+    "prefill_ms": 15.89182996749878,
+    "decode_mean_ms": 7.124997275216239,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 90.36981201171875,
+    "prefill_ms": 14.83929991722107,
+    "decode_mean_ms": 10.660716601780482,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 89.97383999824524,
+    "prefill_ms": 14.623547792434692,
+    "decode_mean_ms": 10.64327529498509,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 90.35561800003052,
+    "prefill_ms": 14.85430097579956,
+    "decode_mean_ms": 10.635751417704991,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 62.05550408363342,
+    "prefill_ms": 10.491448163986206,
+    "decode_mean_ms": 7.256866659436907,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 66.0234968662262,
+    "prefill_ms": 11.641075849533081,
+    "decode_mean_ms": 7.657609598977225,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 62.262266874313354,
+    "prefill_ms": 10.788715839385986,
+    "decode_mean_ms": 7.2475239889962335,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 75.17600512504578,
+    "prefill_ms": 14.335489988327026,
+    "decode_mean_ms": 8.587799140385219,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 84.51480102539062,
+    "prefill_ms": 16.792770862579346,
+    "decode_mean_ms": 9.4998220375606,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 64.63075923919678,
+    "prefill_ms": 16.642820119857788,
+    "decode_mean_ms": 6.679812022617885,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 84.33726382255554,
+    "prefill_ms": 16.690995931625366,
+    "decode_mean_ms": 9.551584141595024,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 90.6888518333435,
+    "prefill_ms": 15.299576044082642,
+    "decode_mean_ms": 10.658848013196673,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 32,
+    "steps": 8,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 87.91630506515503,
+    "prefill_ms": 16.440930128097534,
+    "decode_mean_ms": 10.102417434964861,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 11.515789985656738,
+    "prefill_ms": 3.7990739345550537,
+    "decode_mean_ms": 2.5701183478037515,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 12.631911039352417,
+    "prefill_ms": 4.14012885093689,
+    "decode_mean_ms": 2.828167676925659,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 14.005293846130371,
+    "prefill_ms": 4.471750020980835,
+    "decode_mean_ms": 3.1749821503957114,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 16.015106201171875,
+    "prefill_ms": 5.905081033706665,
+    "decode_mean_ms": 3.3679646650950112,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 18.656116724014282,
+    "prefill_ms": 6.674761056900024,
+    "decode_mean_ms": 3.990929047266642,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 19.149404048919678,
+    "prefill_ms": 7.067882061004639,
+    "decode_mean_ms": 4.0241076946258545,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 63.034162759780884,
+    "prefill_ms": 15.957825183868408,
+    "decode_mean_ms": 15.65622591972351,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 66.41843318939209,
+    "prefill_ms": 16.599988222122192,
+    "decode_mean_ms": 16.555026690165203,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 66.49372220039368,
+    "prefill_ms": 16.73764729499817,
+    "decode_mean_ms": 16.52979524930318,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 68.46726417541504,
+    "prefill_ms": 18.172210216522217,
+    "decode_mean_ms": 16.735342502593994,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 70.82540106773376,
+    "prefill_ms": 19.089417219161987,
+    "decode_mean_ms": 17.205151478449505,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 74.10305309295654,
+    "prefill_ms": 19.678840160369873,
+    "decode_mean_ms": 18.072453260421753,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 46.872090101242065,
+    "prefill_ms": 14.573100090026855,
+    "decode_mean_ms": 10.522472937901815,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 48.58526396751404,
+    "prefill_ms": 16.689908027648926,
+    "decode_mean_ms": 10.342307885487875,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 46.44012904167175,
+    "prefill_ms": 14.009334802627563,
+    "decode_mean_ms": 10.581158320109049,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 29.96537184715271,
+    "prefill_ms": 8.511931896209717,
+    "decode_mean_ms": 7.068773110707601,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 32.307045221328735,
+    "prefill_ms": 10.267130136489868,
+    "decode_mean_ms": 7.211865981419881,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 32.780595779418945,
+    "prefill_ms": 11.65348505973816,
+    "decode_mean_ms": 6.90076208114624,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 26.647706985473633,
+    "prefill_ms": 9.122228860855103,
+    "decode_mean_ms": 5.76140832901001,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 26.051335096359253,
+    "prefill_ms": 9.989176034927368,
+    "decode_mean_ms": 5.300628264745076,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 26.522344827651978,
+    "prefill_ms": 9.47184705734253,
+    "decode_mean_ms": 5.636812925338745,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 32.973714113235474,
+    "prefill_ms": 10.94024109840393,
+    "decode_mean_ms": 7.2368749777476,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 32.34863209724426,
+    "prefill_ms": 13.274331092834473,
+    "decode_mean_ms": 6.209407011667888,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 30.45313811302185,
+    "prefill_ms": 11.629355192184448,
+    "decode_mean_ms": 6.196093400319417,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 48.982372999191284,
+    "prefill_ms": 15.361263036727905,
+    "decode_mean_ms": 10.955376307169596,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 46.56846022605896,
+    "prefill_ms": 13.898833751678467,
+    "decode_mean_ms": 10.59824824333191,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 47.26923680305481,
+    "prefill_ms": 14.683665037155151,
+    "decode_mean_ms": 10.601478974024454,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 30.873707056045532,
+    "prefill_ms": 8.89749002456665,
+    "decode_mean_ms": 7.2413186232248945,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 32.397907972335815,
+    "prefill_ms": 10.286834955215454,
+    "decode_mean_ms": 7.218785921732585,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 32.34340691566467,
+    "prefill_ms": 10.334112882614136,
+    "decode_mean_ms": 7.212005774180095,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 26.52416491508484,
+    "prefill_ms": 10.001036167144775,
+    "decode_mean_ms": 5.431885719299316,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 28.097005128860474,
+    "prefill_ms": 9.460182666778564,
+    "decode_mean_ms": 6.152646064758301,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 30.634762048721313,
+    "prefill_ms": 11.392842054367065,
+    "decode_mean_ms": 6.328612407048543,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 47.1363639831543,
+    "prefill_ms": 17.478455066680908,
+    "decode_mean_ms": 9.795506000518799,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 48.25754189491272,
+    "prefill_ms": 17.743660926818848,
+    "decode_mean_ms": 10.031136671702066,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 1,
+    "q": 128,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 50.08336806297302,
+    "prefill_ms": 17.90754795074463,
+    "decode_mean_ms": 10.553934256235758,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 32.50907516479492,
+    "prefill_ms": 16.053623914718628,
+    "decode_mean_ms": 5.47832465171814,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 39.609453201293945,
+    "prefill_ms": 18.246279001235962,
+    "decode_mean_ms": 7.1087108453114825,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Cresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 40.79811215400696,
+    "prefill_ms": 18.17777681350708,
+    "decode_mean_ms": 7.527853329976399,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 53.129611015319824,
+    "prefill_ms": 29.061916828155518,
+    "decode_mean_ms": 8.014205376307169,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 59.94624996185303,
+    "prefill_ms": 31.696775197982788,
+    "decode_mean_ms": 9.405197381973267,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "Rresident",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 60.06684684753418,
+    "prefill_ms": 31.53881287574768,
+    "decode_mean_ms": 9.499411424001059,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 83.80885291099548,
+    "prefill_ms": 26.984446048736572,
+    "decode_mean_ms": 18.865058581034344,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 85.65241408348083,
+    "prefill_ms": 28.475139141082764,
+    "decode_mean_ms": 18.980096260706585,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 85.1334547996521,
+    "prefill_ms": 27.58302617073059,
+    "decode_mean_ms": 19.1056813398997,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 103.69230508804321,
+    "prefill_ms": 42.06383204460144,
+    "decode_mean_ms": 20.46499228477478,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 105.58210730552673,
+    "prefill_ms": 42.22628593444824,
+    "decode_mean_ms": 21.037357091903687,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R0",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 104.5281388759613,
+    "prefill_ms": 41.645050048828125,
+    "decode_mean_ms": 20.887096802393597,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 55.46542310714722,
+    "prefill_ms": 23.593635082244873,
+    "decode_mean_ms": 10.372300386428833,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 56.12829399108887,
+    "prefill_ms": 23.749643087387085,
+    "decode_mean_ms": 10.516963322957357,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 57.39076590538025,
+    "prefill_ms": 23.959537982940674,
+    "decode_mean_ms": 10.870734930038452,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 64.76060700416565,
+    "prefill_ms": 22.589592933654785,
+    "decode_mean_ms": 13.769843022028605,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 52.97455883026123,
+    "prefill_ms": 24.401581048965454,
+    "decode_mean_ms": 9.24103307723999,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 48.73618507385254,
+    "prefill_ms": 23.096585750579834,
+    "decode_mean_ms": 8.33862559000651,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 55.47858905792236,
+    "prefill_ms": 25.436617136001587,
+    "decode_mean_ms": 9.652576526006063,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 63.193700075149536,
+    "prefill_ms": 27.189731121063232,
+    "decode_mean_ms": 11.692718346913656,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 59.68207836151123,
+    "prefill_ms": 25.547569274902344,
+    "decode_mean_ms": 11.064000209172567,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 1,
+    "e2e_ms": 68.17186427116394,
+    "prefill_ms": 34.55365610122681,
+    "decode_mean_ms": 10.90360697110494,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 2,
+    "e2e_ms": 65.09375596046448,
+    "prefill_ms": 35.930031061172485,
+    "decode_mean_ms": 9.480799992879232,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "priority",
+    "sample": 3,
+    "e2e_ms": 86.7132818698883,
+    "prefill_ms": 35.75042986869812,
+    "decode_mean_ms": 16.697433789571125,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 56.22143507003784,
+    "prefill_ms": 23.84743905067444,
+    "decode_mean_ms": 10.49624220530192,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 54.94617414474487,
+    "prefill_ms": 23.49456787109375,
+    "decode_mean_ms": 10.289076089859009,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 1,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 60.546765089035034,
+    "prefill_ms": 25.56426191329956,
+    "decode_mean_ms": 11.403434991836548,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 48.13087296485901,
+    "prefill_ms": 22.665470838546753,
+    "decode_mean_ms": 8.205776929855347,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 50.939091205596924,
+    "prefill_ms": 22.614916801452637,
+    "decode_mean_ms": 9.164276917775473,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 70.73121500015259,
+    "prefill_ms": 22.677892208099365,
+    "decode_mean_ms": 15.721248308817545,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 47.442848205566406,
+    "prefill_ms": 22.375035047531128,
+    "decode_mean_ms": 8.078634023666382,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 72.65970301628113,
+    "prefill_ms": 24.860450983047485,
+    "decode_mean_ms": 15.690927982330322,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "C1",
+    "cut": 3,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 59.60252380371094,
+    "prefill_ms": 25.26457405090332,
+    "decode_mean_ms": 11.185457468032837,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 1,
+    "e2e_ms": 69.07483386993408,
+    "prefill_ms": 36.59223914146423,
+    "decode_mean_ms": 10.592596689860025,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 2,
+    "e2e_ms": 73.99994015693665,
+    "prefill_ms": 37.11206793785095,
+    "decode_mean_ms": 12.075501680374146,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  },
+  {
+    "run": "experiments/inferrelay_two_node/results/t3-125m-b-a-02",
+    "stage": "t3",
+    "model": "opt-125m",
+    "direction": "B-A",
+    "batch": 4,
+    "q": 256,
+    "steps": 4,
+    "arm": "R1",
+    "cut": 2,
+    "policy": "window2",
+    "sample": 3,
+    "e2e_ms": 65.81819200515747,
+    "prefill_ms": 37.40843200683594,
+    "decode_mean_ms": 9.182354211807251,
+    "first_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    },
+    "last_errors": {
+      "tokens_exact": true,
+      "logits_max_abs": 0.0,
+      "kv_max_abs": 0.0
+    }
+  }
+]

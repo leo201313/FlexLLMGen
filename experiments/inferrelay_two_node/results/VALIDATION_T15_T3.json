@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "t15": {
+      "runs": 2,
+      "cases": 148,
+      "steady_requests_or_transfers": 1480
+    },
+    "t2": {
+      "runs": 9,
+      "cases": 133,
+      "steady_requests_or_transfers": 133
+    },
+    "t3": {
+      "runs": 7,
+      "cases": 168,
+      "steady_requests_or_transfers": 504
+    }
+  },
+  "source_files_verified": 408,
+  "all_numerical_errors_zero": true,
+  "global_layer_partition_and_activation_bytes_verified": true,
+  "unequal_partitions_modes_passed": 3,
+  "allocator_cap_bytes": 4294967296,
+  "excluded_diagnostic_prefixes": [
+    "t3-*-01 except control and confirm",
+    "t2-priority-fix-13b-01"
+  ],
+  "notes": "T3 counts include 144 main +12 confirmation +12 control cases. KV is per-layer sampled, not full-element verification."
+}

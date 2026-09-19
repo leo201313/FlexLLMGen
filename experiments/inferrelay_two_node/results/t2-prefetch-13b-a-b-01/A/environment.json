@@ -1,0 +1,215 @@
+{
+  "kind": "measured_environment",
+  "time_utc": "2026-09-19T05:19:16Z",
+  "python": "3.10.21",
+  "torch": "2.7.1+cu128",
+  "transformers": "4.30.2",
+  "numpy": "1.26.4",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "cuda_arch_list": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120",
+    "compute_120"
+  ],
+  "pcie_idle": {
+    "max_link_width": "16",
+    "current_link_width": "4",
+    "max_link_speed": "32.0 GT/s PCIe",
+    "current_link_speed": "32.0 GT/s PCIe"
+  },
+  "ram": {
+    "total": 33486909440,
+    "available": 30108798976,
+    "percent": 10.1,
+    "used": 3378110464,
+    "free": 8857759744,
+    "active": 15289008128,
+    "inactive": 7501832192,
+    "buffers": 311631872,
+    "cached": 21429534720,
+    "shared": 10174464,
+    "slab": 1161728000
+  },
+  "disk": {
+    "total": 1006450962432,
+    "used": 890694553600,
+    "free": 64556068864,
+    "percent": 93.2
+  },
+  "config": {
+    "model": "opt-1.3b",
+    "node_id": "A",
+    "settings": {
+      "stage": "t2",
+      "warmup": 0,
+      "repeats": 1,
+      "workloads": [
+        {
+          "batch": 1,
+          "q": 32,
+          "steps": 8
+        },
+        {
+          "batch": 1,
+          "q": 128,
+          "steps": 4
+        },
+        {
+          "batch": 4,
+          "q": 256,
+          "steps": 4
+        }
+      ],
+      "cases": [
+        {
+          "layout": "continuous",
+          "mode": "prefetch",
+          "cut": 1,
+          "policy": "priority"
+        },
+        {
+          "layout": "continuous",
+          "mode": "prefetch",
+          "cut": 2,
+          "policy": "priority"
+        },
+        {
+          "layout": "continuous",
+          "mode": "prefetch",
+          "cut": 3,
+          "policy": "priority"
+        },
+        {
+          "layout": "relay",
+          "mode": "prefetch",
+          "policy": "priority"
+        },
+        {
+          "layout": "continuous",
+          "mode": "prefetch",
+          "cut": 1,
+          "policy": "window2"
+        },
+        {
+          "layout": "continuous",
+          "mode": "prefetch",
+          "cut": 2,
+          "policy": "window2"
+        },
+        {
+          "layout": "continuous",
+          "mode": "prefetch",
+          "cut": 3,
+          "policy": "window2"
+        },
+        {
+          "layout": "relay",
+          "mode": "prefetch",
+          "policy": "window2"
+        }
+      ]
+    }
+  },
+  "packages": {
+    "flexllmgen": "0.1.7",
+    "nvidia-cuda-runtime-cu12": "12.8.57",
+    "urllib3": "2.8.0",
+    "setuptools": "84.0.0",
+    "idna": "3.20",
+    "nvidia-cusolver-cu12": "11.7.2.55",
+    "attrs": "26.1.0",
+    "nvidia-cuda-cupti-cu12": "12.8.57",
+    "mpmath": "1.3.0",
+    "nvidia-cusparse-cu12": "12.5.7.53",
+    "certifi": "2026.7.22",
+    "packaging": "26.3",
+    "Jinja2": "3.1.6",
+    "nvidia-cusparselt-cu12": "0.6.3",
+    "tqdm": "4.70.1",
+    "regex": "2026.9.10",
+    "nvidia-cudnn-cu12": "9.7.1.26",
+    "wheel": "0.48.0",
+    "nvidia-nccl-cu12": "2.26.2",
+    "nvidia-curand-cu12": "10.3.9.55",
+    "charset-normalizer": "3.5.1",
+    "torch": "2.7.1+cu128",
+    "nvidia-cufft-cu12": "11.3.3.41",
+    "PyYAML": "6.0.3",
+    "tokenizers": "0.13.3",
+    "requests": "2.34.2",
+    "pip": "26.2.1",
+    "nvidia-nvjitlink-cu12": "12.8.61",
+    "psutil": "7.2.2",
+    "PuLP": "2.7.0",
+    "nvidia-cuda-nvrtc-cu12": "12.8.61",
+    "numpy": "1.26.4",
+    "fsspec": "2026.7.0",
+    "networkx": "3.4.2",
+    "nvidia-cublas-cu12": "12.8.3.14",
+    "typing_extensions": "4.16.0",
+    "huggingface_hub": "0.36.2",
+    "MarkupSafe": "3.0.3",
+    "nvidia-nvtx-cu12": "12.8.55",
+    "safetensors": "0.8.0",
+    "hf-xet": "1.6.0",
+    "nvidia-cufile-cu12": "1.13.0.11",
+    "transformers": "4.30.2",
+    "filelock": "3.32.3",
+    "triton": "3.3.1",
+    "sympy": "1.14.0"
+  },
+  "commit": {
+    "returncode": 0,
+    "stdout": "05a6473a51ca73ea6f8bd8d5efc23b9f3586ba86\n",
+    "stderr": ""
+  },
+  "status": {
+    "returncode": 0,
+    "stdout": " M experiments/inferrelay_two_node/launch.py\n?? experiments/inferrelay_two_node/PLAN_T15_T3.md\n?? experiments/inferrelay_two_node/configs/\n?? experiments/inferrelay_two_node/executor.py\n?? experiments/inferrelay_two_node/interference.py\n?? experiments/inferrelay_two_node/model_worker.py\n?? experiments/inferrelay_two_node/report_interference.py\n?? experiments/inferrelay_two_node/results/t15-a-b-01/\n?? experiments/inferrelay_two_node/results/t15-b-a-01/\n?? experiments/inferrelay_two_node/results/t15-pilot-01/\n?? experiments/inferrelay_two_node/results/t15-summary-01/\n?? experiments/inferrelay_two_node/results/t2-125m-a-b-01/\n?? experiments/inferrelay_two_node/results/t2-13b-a-b-01/\n?? experiments/inferrelay_two_node/results/t2-prefetch-125m-a-b-01/\n?? experiments/inferrelay_two_node/results/t2-prefetch-13b-a-b-01/\n",
+    "stderr": ""
+  },
+  "diff": {
+    "returncode": 0,
+    "stdout": " experiments/inferrelay_two_node/launch.py | 5 ++++-\n 1 file changed, 4 insertions(+), 1 deletion(-)\n",
+    "stderr": ""
+  },
+  "cpu": {
+    "returncode": 0,
+    "stdout": "Architecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nByte Order:                           Little Endian\nAddress sizes:                        39 bits physical, 48 bits virtual\nCPU(s):                               28\nOn-line CPU(s) list:                  0-27\nThread(s) per core:                   1\nCore(s) per socket:                   20\nSocket(s):                            1\nNUMA node(s):                         1\nVendor ID:                            GenuineIntel\nCPU family:                           6\nModel:                                183\nModel name:                           Intel(R) Core(TM) i7-14700KF\nStepping:                             1\nCPU MHz:                              3400.000\nCPU max MHz:                          5600.0000\nCPU min MHz:                          800.0000\nBogoMIPS:                             6835.20\nVirtualization:                       VT-x\nL1d cache:                            480 KiB\nL1i cache:                            320 KiB\nL2 cache:                             20 MiB\nNUMA node0 CPU(s):                    0-27\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Mitigation; Clear Register File\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Not affected\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr flush_l1d arch_capabilities\n",
+    "stderr": ""
+  },
+  "gpu_status": {
+    "returncode": 0,
+    "stdout": "Sat Sep 19 13:19:16 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5060 Ti     Off |   00000000:01:00.0 Off |                  N/A |\n|  0%   41C    P1              9W /  180W |     168MiB /  16311MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            1382      G   /usr/lib/xorg/Xorg                       10MiB |\n|    0   N/A  N/A            1520      G   /usr/bin/gnome-shell                      2MiB |\n|    0   N/A  N/A         4011649      C   ...conda3/envs/llmexp/bin/python        128MiB |\n+-----------------------------------------------------------------------------------------+\n",
+    "stderr": ""
+  },
+  "gpu_topology": {
+    "returncode": 0,
+    "stdout": "\t\u001b[4mGPU0\tCPU Affinity\tNUMA Affinity\tGPU NUMA ID\u001b[0m\nGPU0\t X \t0-27\t0\t\tN/A\n\nLegend:\n\n  X    = Self\n  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)\n  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node\n  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)\n  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)\n  PIX  = Connection traversing at most a single PCIe bridge\n  NV#  = Connection traversing a bonded set of # NVLinks\n",
+    "stderr": ""
+  },
+  "pci": {
+    "returncode": 0,
+    "stdout": "01:00.0 VGA compatible controller: NVIDIA Corporation Device 2d04 (rev a1) (prog-if 00 [VGA controller])\n\tSubsystem: Micro-Star International Co., Ltd. [MSI] Device 5351\n\tControl: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+\n\tStatus: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-\n\tLatency: 0\n\tInterrupt: pin A routed to IRQ 16\n\tRegion 0: Memory at 80000000 (32-bit, non-prefetchable) [size=64M]\n\tRegion 1: Memory at 4800000000 (64-bit, prefetchable) [size=16G]\n\tRegion 3: Memory at 4610000000 (64-bit, prefetchable) [size=32M]\n\tRegion 5: I/O ports at 5000 [size=128]\n\tExpansion ROM at 84000000 [virtual] [disabled] [size=512K]\n\tCapabilities: <access denied>\n\tKernel driver in use: nvidia\n\tKernel modules: nvidiafb, nouveau, nvidia_drm, nvidia\n\n",
+    "stderr": ""
+  },
+  "interfaces": {
+    "returncode": 0,
+    "stdout": "lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP> \nenp4s0           UP             34:5a:60:7b:c7:3a <BROADCAST,MULTICAST,UP,LOWER_UP> \nwlo1             UP             e4:1f:d5:ee:0d:54 <BROADCAST,MULTICAST,UP,LOWER_UP> \ntailscale0       UNKNOWN        <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> \ndocker0          DOWN           b2:2a:01:1c:0d:97 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nranllm-ue        DOWN           be:ca:43:d6:a9:ed <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-34c07b93b4fb  DOWN           ee:b5:91:df:1c:32 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nranllm-cp        DOWN           c2:c9:7c:45:47:87 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nranllm-n6-l      DOWN           ee:d8:c8:be:72:34 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nranllm-n3        DOWN           ae:c6:91:e8:0b:6d <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-17536408187e  DOWN           f6:38:29:28:38:6f <NO-CARRIER,BROADCAST,MULTICAST,UP> \nranllm-n6-c      DOWN           7a:e0:91:0b:97:73 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nranllm-n9-c      DOWN           b2:0c:fc:21:45:5d <NO-CARRIER,BROADCAST,MULTICAST,UP> \nranllm-n9-l      DOWN           26:4d:11:36:37:78 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-da8c2a052506  DOWN           7e:52:9f:31:d4:87 <NO-CARRIER,BROADCAST,MULTICAST,UP> \n",
+    "stderr": ""
+  },
+  "ethernet": {
+    "returncode": 0,
+    "stdout": "Settings for enp4s0:\n\tSupported ports: [ TP MII ]\n\tSupported link modes:   10baseT/Half 10baseT/Full \n\t                        100baseT/Half 100baseT/Full \n\t                        1000baseT/Full \n\t                        2500baseT/Full \n\tSupported pause frame use: Symmetric Receive-only\n\tSupports auto-negotiation: Yes\n\tSupported FEC modes: Not reported\n\tAdvertised link modes:  10baseT/Half 10baseT/Full \n\t                        100baseT/Half 100baseT/Full \n\t                        1000baseT/Full \n\t                        2500baseT/Full \n\tAdvertised pause frame use: Symmetric Receive-only\n\tAdvertised auto-negotiation: Yes\n\tAdvertised FEC modes: Not reported\n\tLink partner advertised link modes:  10baseT/Half 10baseT/Full \n\t                                     100baseT/Half 100baseT/Full \n\t                                     1000baseT/Full \n\t                                     2500baseT/Full \n\tLink partner advertised pause frame use: Symmetric\n\tLink partner advertised auto-negotiation: Yes\n\tLink partner advertised FEC modes: Not reported\n\tSpeed: 2500Mb/s\n\tDuplex: Full\n\tPort: Twisted Pair\n\tPHYAD: 0\n\tTransceiver: internal\n\tAuto-negotiation: on\n\tMDI-X: Unknown\n\tLink detected: yes\n",
+    "stderr": "Cannot get wake-on-lan settings: Operation not permitted\n"
+  }
+}

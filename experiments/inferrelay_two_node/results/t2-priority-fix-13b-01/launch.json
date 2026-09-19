@@ -1,0 +1,28 @@
+{
+  "A": {
+    "argv": [
+      "/home/leocao/miniconda3/envs/llmexp/bin/python",
+      "-u",
+      "-m",
+      "experiments.inferrelay_two_node.model_worker",
+      "--node",
+      "A",
+      "--role",
+      "receive",
+      "--model",
+      "opt-1.3b",
+      "--host",
+      "192.168.20.103",
+      "--out",
+      "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t2-priority-fix-13b-01/A",
+      "--run-id",
+      "t2-priority-fix-13b-01",
+      "--repeats",
+      "20",
+      "--config",
+      "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/configs/t2-priority-fix.json"
+    ],
+    "launcher_pid": 4015375,
+    "role": "receive"
+  }
+}

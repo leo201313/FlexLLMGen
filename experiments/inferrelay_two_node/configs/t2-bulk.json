@@ -1,0 +1,31 @@
+{
+  "stage": "t2",
+  "warmup": 0,
+  "repeats": 1,
+  "workloads": [
+    {
+      "batch": 1,
+      "q": 128,
+      "steps": 4
+    }
+  ],
+  "cases": [
+    {
+      "layout": "continuous",
+      "mode": "prefetch",
+      "cut": 1,
+      "policy": "bulk"
+    },
+    {
+      "layout": "continuous",
+      "mode": "prefetch",
+      "cut": 3,
+      "policy": "bulk"
+    },
+    {
+      "layout": "relay",
+      "mode": "prefetch",
+      "policy": "bulk"
+    }
+  ]
+}

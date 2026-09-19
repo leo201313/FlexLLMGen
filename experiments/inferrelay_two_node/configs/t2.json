@@ -1,0 +1,1 @@
+{"stage":"t2","warmup":0,"repeats":1,"workloads":[{"batch":1,"q":32,"steps":4},{"batch":1,"q":128,"steps":4}],"cases":[{"layout":"continuous","mode":"resident","cut":2},{"layout":"relay","mode":"resident"},{"layout":"continuous","mode":"demand","cut":2},{"layout":"relay","mode":"demand"}]}

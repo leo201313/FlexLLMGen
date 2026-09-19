@@ -1,0 +1,5 @@
+# 开发诊断，不作最终性能结论
+
+旧priority实现从阻塞接收开始暂停预取，过早阻断activation到达前的权重加载。数值正确，但策略与T1.5的优先提交定义不一致。修正为收到payload后、即将提交activation GPU拷贝时才短暂停止新权重片段。新02轮次完整重测；不得混用旧priority结果作公平C1/R1结论。
+
+旧demand的weight_host_wait_ms仅计ready条件等待，未计同步load调用；copy.host_submit_ms保留了实际加载阻塞时间。新02轮次将整个acquire调用的阻塞纳入该指标。

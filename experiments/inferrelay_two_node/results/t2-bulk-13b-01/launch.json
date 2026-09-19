@@ -1,0 +1,54 @@
+{
+  "B": {
+    "argv": [
+      "/home/leocao/miniconda3/envs/llmexp/bin/python",
+      "-u",
+      "-m",
+      "experiments.inferrelay_two_node.model_worker",
+      "--node",
+      "B",
+      "--role",
+      "receive",
+      "--model",
+      "opt-1.3b",
+      "--host",
+      "192.168.20.105",
+      "--out",
+      "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t2-bulk-13b-01/B",
+      "--run-id",
+      "t2-bulk-13b-01",
+      "--repeats",
+      "20",
+      "--config",
+      "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/configs/t2-bulk.json"
+    ],
+    "launcher_pid": 4022194,
+    "role": "receive"
+  },
+  "A": {
+    "argv": [
+      "/home/leocao/miniconda3/envs/llmexp/bin/python",
+      "-u",
+      "-m",
+      "experiments.inferrelay_two_node.model_worker",
+      "--node",
+      "A",
+      "--role",
+      "send",
+      "--model",
+      "opt-1.3b",
+      "--host",
+      "192.168.20.105",
+      "--out",
+      "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/results/t2-bulk-13b-01/A",
+      "--run-id",
+      "t2-bulk-13b-01",
+      "--repeats",
+      "20",
+      "--config",
+      "/home/leocao/InferRelay/FlexLLMGen/experiments/inferrelay_two_node/configs/t2-bulk.json"
+    ],
+    "launcher_pid": 4022225,
+    "role": "send"
+  }
+}

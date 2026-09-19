@@ -1,0 +1,186 @@
+{
+  "kind": "measured_environment",
+  "time_utc": "2026-09-19T05:28:12Z",
+  "python": "3.10.21",
+  "torch": "2.7.1+cu128",
+  "transformers": "4.30.2",
+  "numpy": "1.26.4",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "cuda_arch_list": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120",
+    "compute_120"
+  ],
+  "pcie_idle": {
+    "max_link_width": "16",
+    "current_link_width": "8",
+    "max_link_speed": "32.0 GT/s PCIe",
+    "current_link_speed": "32.0 GT/s PCIe"
+  },
+  "ram": {
+    "total": 33480400896,
+    "available": 26042982400,
+    "percent": 22.2,
+    "used": 7437418496,
+    "free": 11138277376,
+    "active": 13631307776,
+    "inactive": 7074820096,
+    "buffers": 386125824,
+    "cached": 19320868864,
+    "shared": 4318076928,
+    "slab": 991432704
+  },
+  "disk": {
+    "total": 1006450962432,
+    "used": 772269068288,
+    "free": 182981554176,
+    "percent": 80.8
+  },
+  "config": {
+    "model": "opt-125m",
+    "node_id": "B",
+    "settings": {
+      "stage": "t2",
+      "warmup": 0,
+      "repeats": 1,
+      "workloads": [
+        {
+          "batch": 1,
+          "q": 32,
+          "steps": 8
+        },
+        {
+          "batch": 1,
+          "q": 128,
+          "steps": 4
+        },
+        {
+          "batch": 4,
+          "q": 256,
+          "steps": 4
+        }
+      ],
+      "cases": [
+        {
+          "layout": "continuous",
+          "mode": "prefetch",
+          "cut": 1,
+          "policy": "priority"
+        },
+        {
+          "layout": "continuous",
+          "mode": "prefetch",
+          "cut": 3,
+          "policy": "priority"
+        },
+        {
+          "layout": "relay",
+          "mode": "prefetch",
+          "policy": "priority"
+        }
+      ]
+    }
+  },
+  "packages": {
+    "nvidia-cufile-cu12": "1.13.0.11",
+    "idna": "3.20",
+    "nvidia-nvtx-cu12": "12.8.55",
+    "flexllmgen": "0.1.7",
+    "numpy": "1.26.4",
+    "wheel": "0.48.0",
+    "regex": "2026.9.10",
+    "attrs": "26.1.0",
+    "Jinja2": "3.1.6",
+    "nvidia-cuda-cupti-cu12": "12.8.57",
+    "psutil": "7.2.2",
+    "urllib3": "2.8.0",
+    "torch": "2.7.1+cu128",
+    "nvidia-cusparse-cu12": "12.5.7.53",
+    "charset-normalizer": "3.5.1",
+    "fsspec": "2026.7.0",
+    "PuLP": "2.7.0",
+    "nvidia-cudnn-cu12": "9.7.1.26",
+    "nvidia-cuda-nvrtc-cu12": "12.8.61",
+    "nvidia-cufft-cu12": "11.3.3.41",
+    "nvidia-cuda-runtime-cu12": "12.8.57",
+    "certifi": "2026.7.22",
+    "nvidia-cusolver-cu12": "11.7.2.55",
+    "nvidia-cublas-cu12": "12.8.3.14",
+    "triton": "3.3.1",
+    "sympy": "1.14.0",
+    "setuptools": "84.0.0",
+    "transformers": "4.30.2",
+    "networkx": "3.4.2",
+    "tqdm": "4.70.1",
+    "MarkupSafe": "3.0.3",
+    "nvidia-nccl-cu12": "2.26.2",
+    "tokenizers": "0.13.3",
+    "nvidia-nvjitlink-cu12": "12.8.61",
+    "PyYAML": "6.0.3",
+    "filelock": "3.32.3",
+    "safetensors": "0.8.0",
+    "hf-xet": "1.6.0",
+    "nvidia-curand-cu12": "10.3.9.55",
+    "requests": "2.34.2",
+    "huggingface_hub": "0.36.2",
+    "typing_extensions": "4.16.0",
+    "pip": "26.2.1",
+    "nvidia-cusparselt-cu12": "0.6.3",
+    "packaging": "26.3",
+    "mpmath": "1.3.0"
+  },
+  "commit": {
+    "returncode": 0,
+    "stdout": "42c7919b4f058d77eab20b76929ccaaf95c6239d\n",
+    "stderr": ""
+  },
+  "status": {
+    "returncode": 0,
+    "stdout": "?? experiments/inferrelay_precheck/SECOND_NODE_PLAN.md\n?? experiments/inferrelay_precheck/results/node-b-setup-01/\n?? experiments/inferrelay_precheck/results/node-b-smoke-01/\n?? experiments/inferrelay_two_node/\n",
+    "stderr": ""
+  },
+  "diff": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "cpu": {
+    "returncode": 0,
+    "stdout": "Architecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nByte Order:                           Little Endian\nAddress sizes:                        39 bits physical, 48 bits virtual\nCPU(s):                               28\nOn-line CPU(s) list:                  0-27\nThread(s) per core:                   1\nCore(s) per socket:                   20\nSocket(s):                            1\nNUMA node(s):                         1\nVendor ID:                            GenuineIntel\nCPU family:                           6\nModel:                                183\nModel name:                           Intel(R) Core(TM) i7-14700KF\nStepping:                             1\nCPU MHz:                              3400.000\nCPU max MHz:                          5600.0000\nCPU min MHz:                          800.0000\nBogoMIPS:                             6835.20\nVirtualization:                       VT-x\nL1d cache:                            480 KiB\nL1i cache:                            320 KiB\nL2 cache:                             20 MiB\nNUMA node0 CPU(s):                    0-27\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Mitigation; Clear Register File\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Not affected\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr flush_l1d arch_capabilities\n",
+    "stderr": ""
+  },
+  "gpu_status": {
+    "returncode": 0,
+    "stdout": "Sat Sep 19 13:28:13 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5060 Ti     Off |   00000000:01:00.0 Off |                  N/A |\n|  0%   59C    P1             46W /  180W |    1793MiB /  16311MiB |    100%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            1154      G   /usr/lib/xorg/Xorg                       10MiB |\n|    0   N/A  N/A            1430      G   /usr/bin/gnome-shell                      2MiB |\n|    0   N/A  N/A         1145003      C   ...conda3/envs/llmexp/bin/python       1612MiB |\n|    0   N/A  N/A         1145256      C   ...conda3/envs/llmexp/bin/python        128MiB |\n+-----------------------------------------------------------------------------------------+\n",
+    "stderr": ""
+  },
+  "gpu_topology": {
+    "returncode": 0,
+    "stdout": "\t\u001b[4mGPU0\tCPU Affinity\tNUMA Affinity\tGPU NUMA ID\u001b[0m\nGPU0\t X \t0-27\t0\t\tN/A\n\nLegend:\n\n  X    = Self\n  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)\n  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node\n  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)\n  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)\n  PIX  = Connection traversing at most a single PCIe bridge\n  NV#  = Connection traversing a bonded set of # NVLinks\n",
+    "stderr": ""
+  },
+  "pci": {
+    "returncode": 0,
+    "stdout": "01:00.0 VGA compatible controller: NVIDIA Corporation Device 2d04 (rev a1) (prog-if 00 [VGA controller])\n\tSubsystem: Micro-Star International Co., Ltd. [MSI] Device 5351\n\tControl: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+\n\tStatus: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-\n\tLatency: 0\n\tInterrupt: pin A routed to IRQ 16\n\tRegion 0: Memory at 80000000 (32-bit, non-prefetchable) [size=64M]\n\tRegion 1: Memory at 4800000000 (64-bit, prefetchable) [size=16G]\n\tRegion 3: Memory at 4610000000 (64-bit, prefetchable) [size=32M]\n\tRegion 5: I/O ports at 5000 [size=128]\n\tExpansion ROM at 84000000 [virtual] [disabled] [size=512K]\n\tCapabilities: <access denied>\n\tKernel driver in use: nvidia\n\tKernel modules: nvidiafb, nouveau, nvidia_drm, nvidia\n\n",
+    "stderr": ""
+  },
+  "interfaces": {
+    "returncode": 0,
+    "stdout": "lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP> \nenp4s0           UP             34:5a:60:7b:c5:0e <BROADCAST,MULTICAST,UP,LOWER_UP> \nwlo1             UP             d0:57:7e:57:19:3f <BROADCAST,MULTICAST,UP,LOWER_UP> \ntailscale0       UNKNOWN        <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> \nbr-754f67b9db78  DOWN           ce:e5:45:7e:6a:23 <NO-CARRIER,BROADCAST,MULTICAST,UP> \ndocker0          DOWN           7a:eb:55:d5:c4:31 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-ef7891021113  DOWN           1e:77:ce:78:4f:03 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-55b996ddd1c4  DOWN           52:42:28:26:59:e2 <NO-CARRIER,BROADCAST,MULTICAST,UP> \ndemo-oai         DOWN           52:9b:af:96:fe:14 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-716795f0814f  DOWN           36:80:3f:88:05:6b <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-c85fa04b8940  DOWN           3a:52:c2:10:9a:7c <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-e87f32f45442  DOWN           be:21:d9:4f:9f:5f <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-55b539b9ab24  DOWN           1e:fc:74:bb:5d:aa <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-64e921581376  DOWN           12:b8:c5:42:80:1b <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-7ade4f73122a  DOWN           aa:04:f0:32:bb:01 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-84f42cc6a7cc  DOWN           32:f2:f4:66:c0:c0 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-a8063e798bfc  DOWN           9e:8f:e6:7c:21:19 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-2df497dbf6a5  DOWN           46:49:fb:39:cd:4d <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-724e38944a76  DOWN           22:3b:90:7d:65:85 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-cb9e5b14a4b5  DOWN           da:01:53:1c:88:11 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-fd12c5c6e9c4  DOWN           9a:93:ba:9d:af:40 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-2118bd34224e  DOWN           92:38:51:91:f3:98 <NO-CARRIER,BROADCAST,MULTICAST,UP> \nbr-774ab61f06b1  DOWN           52:d6:31:33:63:27 <NO-CARRIER,BROADCAST,MULTICAST,UP> \n",
+    "stderr": ""
+  },
+  "ethernet": {
+    "returncode": 0,
+    "stdout": "Settings for enp4s0:\n\tSupported ports: [ TP MII ]\n\tSupported link modes:   10baseT/Half 10baseT/Full \n\t                        100baseT/Half 100baseT/Full \n\t                        1000baseT/Full \n\t                        2500baseT/Full \n\tSupported pause frame use: Symmetric Receive-only\n\tSupports auto-negotiation: Yes\n\tSupported FEC modes: Not reported\n\tAdvertised link modes:  10baseT/Half 10baseT/Full \n\t                        100baseT/Half 100baseT/Full \n\t                        1000baseT/Full \n\t                        2500baseT/Full \n\tAdvertised pause frame use: Symmetric Receive-only\n\tAdvertised auto-negotiation: Yes\n\tAdvertised FEC modes: Not reported\n\tLink partner advertised link modes:  10baseT/Half 10baseT/Full \n\t                                     100baseT/Half 100baseT/Full \n\t                                     1000baseT/Full \n\t                                     2500baseT/Full \n\tLink partner advertised pause frame use: Symmetric\n\tLink partner advertised auto-negotiation: Yes\n\tLink partner advertised FEC modes: Not reported\n\tSpeed: 2500Mb/s\n\tDuplex: Full\n\tPort: Twisted Pair\n\tPHYAD: 0\n\tTransceiver: internal\n\tAuto-negotiation: on\n\tMDI-X: Unknown\n\tLink detected: yes\n",
+    "stderr": "Cannot get wake-on-lan settings: Operation not permitted\n"
+  }
+}

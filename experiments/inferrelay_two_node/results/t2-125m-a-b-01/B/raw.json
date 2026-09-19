@@ -1,0 +1,2786 @@
+[
+  {
+    "workload": {
+      "batch": 1,
+      "q": 32,
+      "steps": 4
+    },
+    "case": {
+      "layout": "continuous",
+      "mode": "resident",
+      "cut": 2
+    },
+    "owners": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "e2e_ms": 29.895420789718628,
+        "step_ms": [
+          12.051043033599854,
+          6.572299957275391,
+          4.4218809604644775,
+          4.166706800460815
+        ],
+        "capture_overhead_included": true,
+        "errors": {
+          "tokens_exact": true,
+          "logits_max_abs": 0.0,
+          "kv_max_abs": 0.0
+        },
+        "correct": true,
+        "copies": [],
+        "compute": [
+          {
+            "group": 2,
+            "past": 0,
+            "compute_cuda_ms": 4.108831882476807,
+            "gpu_start_ms": 4.435711860656738,
+            "gpu_end_ms": 8.544544219970703,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 0,
+            "compute_cuda_ms": 2.373120069503784,
+            "gpu_start_ms": 9.09779167175293,
+            "gpu_end_ms": 11.470911979675293,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 2,
+            "past": 32,
+            "compute_cuda_ms": 1.8303680419921875,
+            "gpu_start_ms": 15.586912155151367,
+            "gpu_end_ms": 17.417280197143555,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 32,
+            "compute_cuda_ms": 1.5932799577713013,
+            "gpu_start_ms": 17.76211166381836,
+            "gpu_end_ms": 19.355392456054688,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 2,
+            "past": 33,
+            "compute_cuda_ms": 1.1398719549179077,
+            "gpu_start_ms": 22.339839935302734,
+            "gpu_end_ms": 23.479711532592773,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 33,
+            "compute_cuda_ms": 0.7858560085296631,
+            "gpu_start_ms": 23.704832077026367,
+            "gpu_end_ms": 24.49068832397461,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 2,
+            "past": 34,
+            "compute_cuda_ms": 0.7961599826812744,
+            "gpu_start_ms": 27.291711807250977,
+            "gpu_end_ms": 28.087871551513672,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 34,
+            "compute_cuda_ms": 0.748960018157959,
+            "gpu_start_ms": 28.432544708251953,
+            "gpu_end_ms": 29.181503295898438,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          }
+        ],
+        "communication": [
+          {
+            "step": 0,
+            "group": 2,
+            "sender": false,
+            "bytes": 49152,
+            "wall_ms": 3.422893762588501,
+            "staging_host_ms": 0.4476146697998047,
+            "staging_cuda_ms": 0.14956800639629364
+          },
+          {
+            "step": 1,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 1.8523662090301514,
+            "staging_host_ms": 0.36987876892089844,
+            "staging_cuda_ms": 0.12092799693346024
+          },
+          {
+            "step": 2,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 1.628514051437378,
+            "staging_host_ms": 0.18909597396850586,
+            "staging_cuda_ms": 0.059808000922203064
+          },
+          {
+            "step": 3,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 1.7529840469360352,
+            "staging_host_ms": 0.1329209804534912,
+            "staging_cuda_ms": 0.043776001781225204
+          }
+        ],
+        "endpoint": [
+          {
+            "step": 0,
+            "embed_host_submit_ms": 0.0006880760192871094,
+            "head_and_token_host_ms": 0.49204182624816895
+          },
+          {
+            "step": 1,
+            "embed_host_submit_ms": 0.002711772918701172,
+            "head_and_token_host_ms": 0.36594581604003906
+          },
+          {
+            "step": 2,
+            "embed_host_submit_ms": 0.0014019012451171875,
+            "head_and_token_host_ms": 0.3245120048522949
+          },
+          {
+            "step": 3,
+            "embed_host_submit_ms": 0.0013189315795898438,
+            "head_and_token_host_ms": 0.28928279876708984
+          }
+        ],
+        "sent_wire_bytes": 538,
+        "activation_payload_bytes": 0,
+        "endpoint_weight_bytes": 77220864,
+        "kv_bytes": 645120,
+        "weight_slot_bytes": 0,
+        "resident_block_bytes": 85054464,
+        "pinned_weight_bytes": 85054464,
+        "tokens": [
+          [
+            [
+              227
+            ]
+          ],
+          [
+            [
+              5
+            ]
+          ],
+          [
+            [
+              80
+            ]
+          ],
+          [
+            [
+              7796
+            ]
+          ]
+        ],
+        "sample": 0,
+        "warmup": false
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1741369344,
+      "gpu_allocated_peak_bytes": 176249856,
+      "gpu_reserved_peak_bytes": 190840832,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": 268500993,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 402718721,
+        "allocated_bytes.current": 65536,
+        "allocated_bytes.freed": 402653185,
+        "allocated_bytes.peak": 268500993,
+        "allocation.allocated": 8,
+        "allocation.current": 1,
+        "allocation.freed": 7,
+        "allocation.peak": 6,
+        "host_alloc_time.avg": 8349,
+        "host_alloc_time.count": 6,
+        "host_alloc_time.max": 13046,
+        "host_alloc_time.min": 20,
+        "host_alloc_time.total": 50098,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 6,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 268500993,
+        "reserved_bytes.current": 268500993,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 268500993,
+        "segment.allocated": 6,
+        "segment.current": 6,
+        "segment.freed": 0,
+        "segment.peak": 6
+      },
+      "pinned_reserved_peak_bytes_process_lifetime": 268500993,
+      "host_allocator_negative_counter_observed": false,
+      "pinned_allocator_peak_scope": "process_lifetime_not_reset_per_case"
+    }
+  },
+  {
+    "workload": {
+      "batch": 1,
+      "q": 32,
+      "steps": 4
+    },
+    "case": {
+      "layout": "relay",
+      "mode": "resident"
+    },
+    "owners": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "e2e_ms": 19.90761709213257,
+        "step_ms": [
+          7.220451831817627,
+          4.364431858062744,
+          3.71737003326416,
+          3.3191568851470947
+        ],
+        "capture_overhead_included": true,
+        "errors": {
+          "tokens_exact": true,
+          "logits_max_abs": 0.0,
+          "kv_max_abs": 0.0
+        },
+        "correct": true,
+        "copies": [],
+        "compute": [
+          {
+            "group": 1,
+            "past": 0,
+            "compute_cuda_ms": 1.2131839990615845,
+            "gpu_start_ms": 2.415872097015381,
+            "gpu_end_ms": 3.629055976867676,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 0,
+            "compute_cuda_ms": 0.7368320226669312,
+            "gpu_start_ms": 6.172224044799805,
+            "gpu_end_ms": 6.909056186676025,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 1,
+            "past": 32,
+            "compute_cuda_ms": 0.5937280058860779,
+            "gpu_start_ms": 8.990880012512207,
+            "gpu_end_ms": 9.58460807800293,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 32,
+            "compute_cuda_ms": 0.5329599976539612,
+            "gpu_start_ms": 11.161087989807129,
+            "gpu_end_ms": 11.694047927856445,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 1,
+            "past": 33,
+            "compute_cuda_ms": 0.5319679975509644,
+            "gpu_start_ms": 13.516256332397461,
+            "gpu_end_ms": 14.048224449157715,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 33,
+            "compute_cuda_ms": 0.47391998767852783,
+            "gpu_start_ms": 15.28335952758789,
+            "gpu_end_ms": 15.757280349731445,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 1,
+            "past": 34,
+            "compute_cuda_ms": 0.435232013463974,
+            "gpu_start_ms": 17.31372833251953,
+            "gpu_end_ms": 17.748960494995117,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 34,
+            "compute_cuda_ms": 0.4299519956111908,
+            "gpu_start_ms": 18.948192596435547,
+            "gpu_end_ms": 19.378143310546875,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          }
+        ],
+        "communication": [
+          {
+            "step": 0,
+            "group": 1,
+            "sender": false,
+            "bytes": 49152,
+            "wall_ms": 2.0396878719329834,
+            "staging_host_ms": 0.14971685409545898,
+            "staging_cuda_ms": 0.05020799860358238
+          },
+          {
+            "step": 0,
+            "group": 2,
+            "sender": true,
+            "bytes": 49152,
+            "wall_ms": 1.153458833694458,
+            "staging_host_ms": 0.09937286376953125,
+            "staging_cuda_ms": 0.022816000506281853
+          },
+          {
+            "step": 0,
+            "group": 3,
+            "sender": false,
+            "bytes": 49152,
+            "wall_ms": 1.132932186126709,
+            "staging_host_ms": 0.10164809226989746,
+            "staging_cuda_ms": 0.033504001796245575
+          },
+          {
+            "step": 1,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 1.20290207862854,
+            "staging_host_ms": 0.09862709045410156,
+            "staging_cuda_ms": 0.03161599859595299
+          },
+          {
+            "step": 1,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.44350290298461914,
+            "staging_host_ms": 0.08216309547424316,
+            "staging_cuda_ms": 0.01974399946630001
+          },
+          {
+            "step": 1,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.9335408210754395,
+            "staging_host_ms": 0.09155106544494629,
+            "staging_cuda_ms": 0.030368000268936157
+          },
+          {
+            "step": 2,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 1.0897090435028076,
+            "staging_host_ms": 0.08467793464660645,
+            "staging_cuda_ms": 0.026016000658273697
+          },
+          {
+            "step": 2,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.33414292335510254,
+            "staging_host_ms": 0.04851889610290527,
+            "staging_cuda_ms": 0.01235199999064207
+          },
+          {
+            "step": 2,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.7501718997955322,
+            "staging_host_ms": 0.042973995208740234,
+            "staging_cuda_ms": 0.01408000010997057
+          },
+          {
+            "step": 3,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.8864388465881348,
+            "staging_host_ms": 0.05096292495727539,
+            "staging_cuda_ms": 0.013248000293970108
+          },
+          {
+            "step": 3,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.3196449279785156,
+            "staging_host_ms": 0.04217791557312012,
+            "staging_cuda_ms": 0.010495999827980995
+          },
+          {
+            "step": 3,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.7497689723968506,
+            "staging_host_ms": 0.04031515121459961,
+            "staging_cuda_ms": 0.012768000364303589
+          }
+        ],
+        "endpoint": [
+          {
+            "step": 0,
+            "embed_host_submit_ms": 0.00024819374084472656,
+            "head_and_token_host_ms": 0.29195713996887207
+          },
+          {
+            "step": 1,
+            "embed_host_submit_ms": 0.0005979537963867188,
+            "head_and_token_host_ms": 0.2708282470703125
+          },
+          {
+            "step": 2,
+            "embed_host_submit_ms": 0.0006809234619140625,
+            "head_and_token_host_ms": 0.2517669200897217
+          },
+          {
+            "step": 3,
+            "embed_host_submit_ms": 0.0007479190826416016,
+            "head_and_token_host_ms": 0.24958086013793945
+          }
+        ],
+        "sent_wire_bytes": 55068,
+        "activation_payload_bytes": 53760,
+        "endpoint_weight_bytes": 77220864,
+        "kv_bytes": 645120,
+        "weight_slot_bytes": 0,
+        "resident_block_bytes": 85054464,
+        "pinned_weight_bytes": 85054464,
+        "tokens": [
+          [
+            [
+              227
+            ]
+          ],
+          [
+            [
+              5
+            ]
+          ],
+          [
+            [
+              80
+            ]
+          ],
+          [
+            [
+              7796
+            ]
+          ]
+        ],
+        "sample": 0,
+        "warmup": false
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1729114112,
+      "gpu_allocated_peak_bytes": 176248320,
+      "gpu_reserved_peak_bytes": 190840832,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": 268566530,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 537001985,
+        "allocated_bytes.current": 131073,
+        "allocated_bytes.freed": 536870912,
+        "allocated_bytes.peak": 268566530,
+        "allocation.allocated": 11,
+        "allocation.current": 1,
+        "allocation.freed": 10,
+        "allocation.peak": 6,
+        "host_alloc_time.avg": 8349,
+        "host_alloc_time.count": 6,
+        "host_alloc_time.max": 13046,
+        "host_alloc_time.min": 20,
+        "host_alloc_time.total": 50098,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 6,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 268500993,
+        "reserved_bytes.current": 268500993,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 268500993,
+        "segment.allocated": 6,
+        "segment.current": 6,
+        "segment.freed": 0,
+        "segment.peak": 6
+      },
+      "pinned_reserved_peak_bytes_process_lifetime": 268500993,
+      "host_allocator_negative_counter_observed": false,
+      "pinned_allocator_peak_scope": "process_lifetime_not_reset_per_case"
+    }
+  },
+  {
+    "workload": {
+      "batch": 1,
+      "q": 32,
+      "steps": 4
+    },
+    "case": {
+      "layout": "continuous",
+      "mode": "demand",
+      "cut": 2
+    },
+    "owners": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "e2e_ms": 64.91039991378784,
+        "step_ms": [
+          15.03469204902649,
+          16.659877061843872,
+          16.065370082855225,
+          15.785636901855469
+        ],
+        "capture_overhead_included": true,
+        "errors": {
+          "tokens_exact": true,
+          "logits_max_abs": 0.0,
+          "kv_max_abs": 0.0
+        },
+        "correct": true,
+        "copies": [
+          {
+            "index": 0,
+            "group": 2,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8587520122528076,
+            "copy_call_ms": 0.027219533920288086,
+            "buffer_host_wait_ms": 0.00038695335388183594,
+            "cuda_ms": 1.8133759498596191,
+            "gpu_start_ms": 9.38268756866455,
+            "gpu_end_ms": 11.196063995361328,
+            "buffer_gpu_wait_ms": 0.0038399999029934406
+          },
+          {
+            "index": 1,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8637442588806152,
+            "copy_call_ms": 0.02883315086364746,
+            "buffer_host_wait_ms": 0.0007660388946533203,
+            "cuda_ms": 1.8160320520401,
+            "gpu_start_ms": 12.35433578491211,
+            "gpu_end_ms": 14.170368194580078,
+            "buffer_gpu_wait_ms": 0.003776000114157796
+          },
+          {
+            "index": 2,
+            "group": 2,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8799598217010498,
+            "copy_call_ms": 0.03732895851135254,
+            "buffer_host_wait_ms": 0.003844022750854492,
+            "cuda_ms": 1.8253439664840698,
+            "gpu_start_ms": 26.763391494750977,
+            "gpu_end_ms": 28.588735580444336,
+            "buffer_gpu_wait_ms": 0.006752000190317631
+          },
+          {
+            "index": 3,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8643269538879395,
+            "copy_call_ms": 0.031820058822631836,
+            "buffer_host_wait_ms": 0.0023069381713867188,
+            "cuda_ms": 1.8190079927444458,
+            "gpu_start_ms": 29.42508888244629,
+            "gpu_end_ms": 31.244096755981445,
+            "buffer_gpu_wait_ms": 0.007455999962985516
+          },
+          {
+            "index": 4,
+            "group": 2,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8998970985412598,
+            "copy_call_ms": 0.049900054931640625,
+            "buffer_host_wait_ms": 0.004320859909057617,
+            "cuda_ms": 1.8387839794158936,
+            "gpu_start_ms": 42.614593505859375,
+            "gpu_end_ms": 44.45337677001953,
+            "buffer_gpu_wait_ms": 0.00940799992531538
+          },
+          {
+            "index": 5,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8907546997070312,
+            "copy_call_ms": 0.041069746017456055,
+            "buffer_host_wait_ms": 0.0030350685119628906,
+            "cuda_ms": 1.8321599960327148,
+            "gpu_start_ms": 45.575904846191406,
+            "gpu_end_ms": 47.40806579589844,
+            "buffer_gpu_wait_ms": 0.009631999768316746
+          },
+          {
+            "index": 6,
+            "group": 2,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.9336540699005127,
+            "copy_call_ms": 0.06042909622192383,
+            "buffer_host_wait_ms": 0.005285024642944336,
+            "cuda_ms": 1.852895975112915,
+            "gpu_start_ms": 58.106048583984375,
+            "gpu_end_ms": 59.95894241333008,
+            "buffer_gpu_wait_ms": 0.012480000033974648
+          },
+          {
+            "index": 7,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.922178030014038,
+            "copy_call_ms": 0.05408120155334473,
+            "buffer_host_wait_ms": 0.004572153091430664,
+            "cuda_ms": 1.845952033996582,
+            "gpu_start_ms": 61.52470397949219,
+            "gpu_end_ms": 63.37065505981445,
+            "buffer_gpu_wait_ms": 0.011776000261306763
+          }
+        ],
+        "compute": [
+          {
+            "group": 2,
+            "past": 0,
+            "compute_cuda_ms": 0.9000639915466309,
+            "gpu_start_ms": 11.383328437805176,
+            "gpu_end_ms": 12.283391952514648,
+            "weight_host_wait_ms": 0.0021910667419433594,
+            "weight_gpu_wait_ms": 0.008287999778985977
+          },
+          {
+            "group": 3,
+            "past": 0,
+            "compute_cuda_ms": 0.45081600546836853,
+            "gpu_start_ms": 14.279328346252441,
+            "gpu_end_ms": 14.730143547058105,
+            "weight_host_wait_ms": 0.0015020370483398438,
+            "weight_gpu_wait_ms": 0.00886400043964386
+          },
+          {
+            "group": 2,
+            "past": 32,
+            "compute_cuda_ms": 0.6135039925575256,
+            "gpu_start_ms": 28.74652862548828,
+            "gpu_end_ms": 29.360031127929688,
+            "weight_host_wait_ms": 0.0015938282012939453,
+            "weight_gpu_wait_ms": 0.01158399973064661
+          },
+          {
+            "group": 3,
+            "past": 32,
+            "compute_cuda_ms": 0.41817599534988403,
+            "gpu_start_ms": 31.366687774658203,
+            "gpu_end_ms": 31.78486442565918,
+            "weight_host_wait_ms": 0.0011949539184570312,
+            "weight_gpu_wait_ms": 0.00979200005531311
+          },
+          {
+            "group": 2,
+            "past": 33,
+            "compute_cuda_ms": 0.8271999955177307,
+            "gpu_start_ms": 44.65980911254883,
+            "gpu_end_ms": 45.48700714111328,
+            "weight_host_wait_ms": 0.0021491050720214844,
+            "weight_gpu_wait_ms": 0.015744000673294067
+          },
+          {
+            "group": 3,
+            "past": 33,
+            "compute_cuda_ms": 0.5525760054588318,
+            "gpu_start_ms": 47.56099319458008,
+            "gpu_end_ms": 48.11356735229492,
+            "weight_host_wait_ms": 0.0016627311706542969,
+            "weight_gpu_wait_ms": 0.012736000120639801
+          },
+          {
+            "group": 2,
+            "past": 34,
+            "compute_cuda_ms": 1.1975040435791016,
+            "gpu_start_ms": 60.2064323425293,
+            "gpu_end_ms": 61.403934478759766,
+            "weight_host_wait_ms": 0.0023469924926757812,
+            "weight_gpu_wait_ms": 0.019007999449968338
+          },
+          {
+            "group": 3,
+            "past": 34,
+            "compute_cuda_ms": 0.6785600185394287,
+            "gpu_start_ms": 63.55187225341797,
+            "gpu_end_ms": 64.23043060302734,
+            "weight_host_wait_ms": 0.0020360946655273438,
+            "weight_gpu_wait_ms": 0.01414399966597557
+          }
+        ],
+        "communication": [
+          {
+            "step": 0,
+            "group": 2,
+            "sender": false,
+            "bytes": 49152,
+            "wall_ms": 9.24775505065918,
+            "staging_host_ms": 0.12656092643737793,
+            "staging_cuda_ms": 0.03497600182890892
+          },
+          {
+            "step": 1,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 11.26999020576477,
+            "staging_host_ms": 0.1664562225341797,
+            "staging_cuda_ms": 0.06332799792289734
+          },
+          {
+            "step": 2,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 10.15889596939087,
+            "staging_host_ms": 0.15058612823486328,
+            "staging_cuda_ms": 0.0488319993019104
+          },
+          {
+            "step": 3,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 9.213268041610718,
+            "staging_host_ms": 0.18813204765319824,
+            "staging_cuda_ms": 0.059487998485565186
+          }
+        ],
+        "endpoint": [
+          {
+            "step": 0,
+            "embed_host_submit_ms": 0.0003070831298828125,
+            "head_and_token_host_ms": 0.29046082496643066
+          },
+          {
+            "step": 1,
+            "embed_host_submit_ms": 0.0004949569702148438,
+            "head_and_token_host_ms": 0.2559499740600586
+          },
+          {
+            "step": 2,
+            "embed_host_submit_ms": 0.0006279945373535156,
+            "head_and_token_host_ms": 0.27845215797424316
+          },
+          {
+            "step": 3,
+            "embed_host_submit_ms": 0.000885009765625,
+            "head_and_token_host_ms": 0.2768087387084961
+          }
+        ],
+        "sent_wire_bytes": 546,
+        "activation_payload_bytes": 0,
+        "endpoint_weight_bytes": 77220864,
+        "kv_bytes": 645120,
+        "weight_slot_bytes": 85054464,
+        "resident_block_bytes": 0,
+        "pinned_weight_bytes": 85054464,
+        "tokens": [
+          [
+            [
+              227
+            ]
+          ],
+          [
+            [
+              5
+            ]
+          ],
+          [
+            [
+              80
+            ]
+          ],
+          [
+            [
+              7796
+            ]
+          ]
+        ],
+        "sample": 0,
+        "warmup": false
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1737003008,
+      "gpu_allocated_peak_bytes": 176249856,
+      "gpu_reserved_peak_bytes": 190840832,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": 268632067,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 671285249,
+        "allocated_bytes.current": 134414338,
+        "allocated_bytes.freed": 536870911,
+        "allocated_bytes.peak": 268632067,
+        "allocation.allocated": 14,
+        "allocation.current": 3,
+        "allocation.freed": 11,
+        "allocation.peak": 6,
+        "host_alloc_time.avg": 8349,
+        "host_alloc_time.count": 6,
+        "host_alloc_time.max": 13046,
+        "host_alloc_time.min": 20,
+        "host_alloc_time.total": 50098,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 6,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 268500993,
+        "reserved_bytes.current": 268500993,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 268500993,
+        "segment.allocated": 6,
+        "segment.current": 6,
+        "segment.freed": 0,
+        "segment.peak": 6
+      },
+      "pinned_reserved_peak_bytes_process_lifetime": 268500993,
+      "host_allocator_negative_counter_observed": false,
+      "pinned_allocator_peak_scope": "process_lifetime_not_reset_per_case"
+    }
+  },
+  {
+    "workload": {
+      "batch": 1,
+      "q": 32,
+      "steps": 4
+    },
+    "case": {
+      "layout": "relay",
+      "mode": "demand"
+    },
+    "owners": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "e2e_ms": 68.61410999298096,
+        "step_ms": [
+          16.876476049423218,
+          15.421050071716309,
+          17.843450784683228,
+          17.031938076019287
+        ],
+        "capture_overhead_included": true,
+        "errors": {
+          "tokens_exact": true,
+          "logits_max_abs": 0.0,
+          "kv_max_abs": 0.0
+        },
+        "correct": true,
+        "copies": [
+          {
+            "index": 0,
+            "group": 1,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8540089130401611,
+            "copy_call_ms": 0.02525925636291504,
+            "buffer_host_wait_ms": 0.0003838539123535156,
+            "cuda_ms": 1.8135679960250854,
+            "gpu_start_ms": 5.3961920738220215,
+            "gpu_end_ms": 7.2097601890563965,
+            "buffer_gpu_wait_ms": 0.003488000016659498
+          },
+          {
+            "index": 1,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8565399646759033,
+            "copy_call_ms": 0.025229215621948242,
+            "buffer_host_wait_ms": 0.00043702125549316406,
+            "cuda_ms": 1.811295986175537,
+            "gpu_start_ms": 14.124032020568848,
+            "gpu_end_ms": 15.935327529907227,
+            "buffer_gpu_wait_ms": 0.003488000016659498
+          },
+          {
+            "index": 2,
+            "group": 1,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8576669692993164,
+            "copy_call_ms": 0.028761863708496094,
+            "buffer_host_wait_ms": 0.0027229785919189453,
+            "cuda_ms": 1.8154560327529907,
+            "gpu_start_ms": 22.09974479675293,
+            "gpu_end_ms": 23.915199279785156,
+            "buffer_gpu_wait_ms": 0.005183999892324209
+          },
+          {
+            "index": 3,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8610317707061768,
+            "copy_call_ms": 0.0337526798248291,
+            "buffer_host_wait_ms": 0.0026481151580810547,
+            "cuda_ms": 1.819648027420044,
+            "gpu_start_ms": 29.814144134521484,
+            "gpu_end_ms": 31.633792877197266,
+            "buffer_gpu_wait_ms": 0.0058559998869895935
+          },
+          {
+            "index": 4,
+            "group": 1,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8831379413604736,
+            "copy_call_ms": 0.04760885238647461,
+            "buffer_host_wait_ms": 0.005324125289916992,
+            "cuda_ms": 1.838047981262207,
+            "gpu_start_ms": 38.39052963256836,
+            "gpu_end_ms": 40.22857666015625,
+            "buffer_gpu_wait_ms": 0.00687999976798892
+          },
+          {
+            "index": 5,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 2.0217771530151367,
+            "copy_call_ms": 0.04596567153930664,
+            "buffer_host_wait_ms": 0.00403594970703125,
+            "cuda_ms": 1.9538559913635254,
+            "gpu_start_ms": 47.49168014526367,
+            "gpu_end_ms": 49.44553756713867,
+            "buffer_gpu_wait_ms": 0.009151999838650227
+          },
+          {
+            "index": 6,
+            "group": 1,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.9029710292816162,
+            "copy_call_ms": 0.049604177474975586,
+            "buffer_host_wait_ms": 0.0042078495025634766,
+            "cuda_ms": 1.840000033378601,
+            "gpu_start_ms": 56.5682258605957,
+            "gpu_end_ms": 58.40822219848633,
+            "buffer_gpu_wait_ms": 0.009631999768316746
+          },
+          {
+            "index": 7,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.9152038097381592,
+            "copy_call_ms": 0.054558753967285156,
+            "buffer_host_wait_ms": 0.004750728607177734,
+            "cuda_ms": 1.8449599742889404,
+            "gpu_start_ms": 64.9408950805664,
+            "gpu_end_ms": 66.78585815429688,
+            "buffer_gpu_wait_ms": 0.011839999817311764
+          }
+        ],
+        "compute": [
+          {
+            "group": 1,
+            "past": 0,
+            "compute_cuda_ms": 0.8449280261993408,
+            "gpu_start_ms": 7.397215843200684,
+            "gpu_end_ms": 8.242143630981445,
+            "weight_host_wait_ms": 0.0017371177673339844,
+            "weight_gpu_wait_ms": 0.008128000423312187
+          },
+          {
+            "group": 3,
+            "past": 0,
+            "compute_cuda_ms": 0.5285760164260864,
+            "gpu_start_ms": 16.052352905273438,
+            "gpu_end_ms": 16.580928802490234,
+            "weight_host_wait_ms": 0.0015108585357666016,
+            "weight_gpu_wait_ms": 0.008799999952316284
+          },
+          {
+            "group": 1,
+            "past": 32,
+            "compute_cuda_ms": 0.48553600907325745,
+            "gpu_start_ms": 24.035263061523438,
+            "gpu_end_ms": 24.52079963684082,
+            "weight_host_wait_ms": 0.0010731220245361328,
+            "weight_gpu_wait_ms": 0.00940799992531538
+          },
+          {
+            "group": 3,
+            "past": 32,
+            "compute_cuda_ms": 0.5584959983825684,
+            "gpu_start_ms": 31.76825523376465,
+            "gpu_end_ms": 32.326751708984375,
+            "weight_host_wait_ms": 0.0012578964233398438,
+            "weight_gpu_wait_ms": 0.010239999741315842
+          },
+          {
+            "group": 1,
+            "past": 33,
+            "compute_cuda_ms": 0.5980160236358643,
+            "gpu_start_ms": 40.38051223754883,
+            "gpu_end_ms": 40.9785270690918,
+            "weight_host_wait_ms": 0.00150299072265625,
+            "weight_gpu_wait_ms": 0.011552000418305397
+          },
+          {
+            "group": 3,
+            "past": 33,
+            "compute_cuda_ms": 0.7417600154876709,
+            "gpu_start_ms": 49.68569564819336,
+            "gpu_end_ms": 50.42745590209961,
+            "weight_host_wait_ms": 0.0029020309448242188,
+            "weight_gpu_wait_ms": 0.018783999606966972
+          },
+          {
+            "group": 1,
+            "past": 34,
+            "compute_cuda_ms": 0.7896639704704285,
+            "gpu_start_ms": 58.61542510986328,
+            "gpu_end_ms": 59.405086517333984,
+            "weight_host_wait_ms": 0.0018949508666992188,
+            "weight_gpu_wait_ms": 0.016767999157309532
+          },
+          {
+            "group": 3,
+            "past": 34,
+            "compute_cuda_ms": 0.8338559865951538,
+            "gpu_start_ms": 66.9975357055664,
+            "gpu_end_ms": 67.83139038085938,
+            "weight_host_wait_ms": 0.0022139549255371094,
+            "weight_gpu_wait_ms": 0.015519999898970127
+          }
+        ],
+        "communication": [
+          {
+            "step": 0,
+            "group": 1,
+            "sender": false,
+            "bytes": 49152,
+            "wall_ms": 5.270214080810547,
+            "staging_host_ms": 0.09519195556640625,
+            "staging_cuda_ms": 0.03311999887228012
+          },
+          {
+            "step": 0,
+            "group": 2,
+            "sender": true,
+            "bytes": 49152,
+            "wall_ms": 1.065000057220459,
+            "staging_host_ms": 0.10497403144836426,
+            "staging_cuda_ms": 0.034015998244285583
+          },
+          {
+            "step": 0,
+            "group": 3,
+            "sender": false,
+            "bytes": 49152,
+            "wall_ms": 4.658845901489258,
+            "staging_host_ms": 0.08225202560424805,
+            "staging_cuda_ms": 0.02796800062060356
+          },
+          {
+            "step": 1,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.836712837219238,
+            "staging_host_ms": 0.12455296516418457,
+            "staging_cuda_ms": 0.04825599864125252
+          },
+          {
+            "step": 1,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.5653278827667236,
+            "staging_host_ms": 0.06442594528198242,
+            "staging_cuda_ms": 0.01568000018596649
+          },
+          {
+            "step": 1,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.60739278793335,
+            "staging_host_ms": 0.08968210220336914,
+            "staging_cuda_ms": 0.029983999207615852
+          },
+          {
+            "step": 2,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 5.3975019454956055,
+            "staging_host_ms": 0.11313605308532715,
+            "staging_cuda_ms": 0.03328000009059906
+          },
+          {
+            "step": 2,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.8058788776397705,
+            "staging_host_ms": 0.08162307739257812,
+            "staging_cuda_ms": 0.020096000283956528
+          },
+          {
+            "step": 2,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 5.533036947250366,
+            "staging_host_ms": 0.13394999504089355,
+            "staging_cuda_ms": 0.044096000492572784
+          },
+          {
+            "step": 3,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 5.30926775932312,
+            "staging_host_ms": 0.15450334548950195,
+            "staging_cuda_ms": 0.05337600037455559
+          },
+          {
+            "step": 3,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.7669682502746582,
+            "staging_host_ms": 0.1352519989013672,
+            "staging_cuda_ms": 0.041439998894929886
+          },
+          {
+            "step": 3,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.537576198577881,
+            "staging_host_ms": 0.1548447608947754,
+            "staging_cuda_ms": 0.05190400034189224
+          }
+        ],
+        "endpoint": [
+          {
+            "step": 0,
+            "embed_host_submit_ms": 0.00020313262939453125,
+            "head_and_token_host_ms": 0.28212690353393555
+          },
+          {
+            "step": 1,
+            "embed_host_submit_ms": 0.0005002021789550781,
+            "head_and_token_host_ms": 0.26230311393737793
+          },
+          {
+            "step": 2,
+            "embed_host_submit_ms": 0.0005319118499755859,
+            "head_and_token_host_ms": 0.29350996017456055
+          },
+          {
+            "step": 3,
+            "embed_host_submit_ms": 0.0010440349578857422,
+            "head_and_token_host_ms": 0.30446386337280273
+          }
+        ],
+        "sent_wire_bytes": 55068,
+        "activation_payload_bytes": 53760,
+        "endpoint_weight_bytes": 77220864,
+        "kv_bytes": 645120,
+        "weight_slot_bytes": 85054464,
+        "resident_block_bytes": 0,
+        "pinned_weight_bytes": 85054464,
+        "tokens": [
+          [
+            [
+              227
+            ]
+          ],
+          [
+            [
+              5
+            ]
+          ],
+          [
+            [
+              80
+            ]
+          ],
+          [
+            [
+              7796
+            ]
+          ]
+        ],
+        "sample": 0,
+        "warmup": false
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1750638592,
+      "gpu_allocated_peak_bytes": 176248320,
+      "gpu_reserved_peak_bytes": 190840832,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": 268697606,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 805568513,
+        "allocated_bytes.current": 268697605,
+        "allocated_bytes.freed": 536870908,
+        "allocated_bytes.peak": 268697606,
+        "allocation.allocated": 17,
+        "allocation.current": 3,
+        "allocation.freed": 14,
+        "allocation.peak": 6,
+        "host_alloc_time.avg": 8349,
+        "host_alloc_time.count": 6,
+        "host_alloc_time.max": 13046,
+        "host_alloc_time.min": 20,
+        "host_alloc_time.total": 50098,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 6,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 268500993,
+        "reserved_bytes.current": 268500993,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 268500993,
+        "segment.allocated": 6,
+        "segment.current": 6,
+        "segment.freed": 0,
+        "segment.peak": 6
+      },
+      "pinned_reserved_peak_bytes_process_lifetime": 268500993,
+      "host_allocator_negative_counter_observed": false,
+      "pinned_allocator_peak_scope": "process_lifetime_not_reset_per_case"
+    }
+  },
+  {
+    "workload": {
+      "batch": 1,
+      "q": 128,
+      "steps": 4
+    },
+    "case": {
+      "layout": "continuous",
+      "mode": "resident",
+      "cut": 2
+    },
+    "owners": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "e2e_ms": 15.343803882598877,
+        "step_ms": [
+          5.616889953613281,
+          3.019038200378418,
+          2.788217782974243,
+          2.764025926589966
+        ],
+        "capture_overhead_included": true,
+        "errors": {
+          "tokens_exact": true,
+          "logits_max_abs": 0.0,
+          "kv_max_abs": 0.0
+        },
+        "correct": true,
+        "copies": [],
+        "compute": [
+          {
+            "group": 2,
+            "past": 0,
+            "compute_cuda_ms": 0.8774719834327698,
+            "gpu_start_ms": 3.808448076248169,
+            "gpu_end_ms": 4.685919761657715,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 0,
+            "compute_cuda_ms": 0.5128960013389587,
+            "gpu_start_ms": 4.76796817779541,
+            "gpu_end_ms": 5.2808637619018555,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 2,
+            "past": 128,
+            "compute_cuda_ms": 0.5530880093574524,
+            "gpu_start_ms": 7.7045440673828125,
+            "gpu_end_ms": 8.2576322555542,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 128,
+            "compute_cuda_ms": 0.37324801087379456,
+            "gpu_start_ms": 8.33903980255127,
+            "gpu_end_ms": 8.712287902832031,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 2,
+            "past": 129,
+            "compute_cuda_ms": 0.41894400119781494,
+            "gpu_start_ms": 10.923999786376953,
+            "gpu_end_ms": 11.342944145202637,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 129,
+            "compute_cuda_ms": 0.3649280071258545,
+            "gpu_start_ms": 11.418335914611816,
+            "gpu_end_ms": 11.78326416015625,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 2,
+            "past": 130,
+            "compute_cuda_ms": 0.41359999775886536,
+            "gpu_start_ms": 13.963456153869629,
+            "gpu_end_ms": 14.377056121826172,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 130,
+            "compute_cuda_ms": 0.36768001317977905,
+            "gpu_start_ms": 14.456864356994629,
+            "gpu_end_ms": 14.824543952941895,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          }
+        ],
+        "communication": [
+          {
+            "step": 0,
+            "group": 2,
+            "sender": false,
+            "bytes": 196608,
+            "wall_ms": 3.4735119342803955,
+            "staging_host_ms": 0.10193991661071777,
+            "staging_cuda_ms": 0.038015998899936676
+          },
+          {
+            "step": 1,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 1.620680809020996,
+            "staging_host_ms": 0.07355713844299316,
+            "staging_cuda_ms": 0.01635199971497059
+          },
+          {
+            "step": 2,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 1.569666862487793,
+            "staging_host_ms": 0.05864214897155762,
+            "staging_cuda_ms": 0.014911999925971031
+          },
+          {
+            "step": 3,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 1.5452861785888672,
+            "staging_host_ms": 0.051380157470703125,
+            "staging_cuda_ms": 0.014336000196635723
+          }
+        ],
+        "endpoint": [
+          {
+            "step": 0,
+            "embed_host_submit_ms": 0.0003161430358886719,
+            "head_and_token_host_ms": 0.3832848072052002
+          },
+          {
+            "step": 1,
+            "embed_host_submit_ms": 0.0009512901306152344,
+            "head_and_token_host_ms": 0.25306200981140137
+          },
+          {
+            "step": 2,
+            "embed_host_submit_ms": 0.0006411075592041016,
+            "head_and_token_host_ms": 0.24657201766967773
+          },
+          {
+            "step": 3,
+            "embed_host_submit_ms": 0.0005910396575927734,
+            "head_and_token_host_ms": 0.24738073348999023
+          }
+        ],
+        "sent_wire_bytes": 558,
+        "activation_payload_bytes": 0,
+        "endpoint_weight_bytes": 77220864,
+        "kv_bytes": 2414592,
+        "weight_slot_bytes": 0,
+        "resident_block_bytes": 85054464,
+        "pinned_weight_bytes": 85054464,
+        "tokens": [
+          [
+            [
+              1617
+            ]
+          ],
+          [
+            [
+              4
+            ]
+          ],
+          [
+            [
+              4028
+            ]
+          ],
+          [
+            [
+              10490
+            ]
+          ]
+        ],
+        "sample": 0,
+        "warmup": false
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1720246272,
+      "gpu_allocated_peak_bytes": 187819520,
+      "gpu_reserved_peak_bytes": 209715200,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": 537395208,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 1208483842,
+        "allocated_bytes.current": 268959752,
+        "allocated_bytes.freed": 939524090,
+        "allocated_bytes.peak": 537395208,
+        "allocation.allocated": 25,
+        "allocation.current": 1,
+        "allocation.freed": 24,
+        "allocation.peak": 7,
+        "host_alloc_time.avg": 7159,
+        "host_alloc_time.count": 7,
+        "host_alloc_time.max": 13046,
+        "host_alloc_time.min": 18,
+        "host_alloc_time.total": 50116,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 7,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 268763137,
+        "reserved_bytes.current": 268763137,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 268763137,
+        "segment.allocated": 7,
+        "segment.current": 7,
+        "segment.freed": 0,
+        "segment.peak": 7
+      },
+      "pinned_reserved_peak_bytes_process_lifetime": 268763137,
+      "host_allocator_negative_counter_observed": false,
+      "pinned_allocator_peak_scope": "process_lifetime_not_reset_per_case"
+    }
+  },
+  {
+    "workload": {
+      "batch": 1,
+      "q": 128,
+      "steps": 4
+    },
+    "case": {
+      "layout": "relay",
+      "mode": "resident"
+    },
+    "owners": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "e2e_ms": 18.388111114501953,
+        "step_ms": [
+          7.341975927352905,
+          3.359222888946533,
+          3.2972240447998047,
+          3.2562530040740967
+        ],
+        "capture_overhead_included": true,
+        "errors": {
+          "tokens_exact": true,
+          "logits_max_abs": 0.0,
+          "kv_max_abs": 0.0
+        },
+        "correct": true,
+        "copies": [],
+        "compute": [
+          {
+            "group": 1,
+            "past": 0,
+            "compute_cuda_ms": 0.8820800185203552,
+            "gpu_start_ms": 2.600224018096924,
+            "gpu_end_ms": 3.482304096221924,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 0,
+            "compute_cuda_ms": 0.5442240238189697,
+            "gpu_start_ms": 6.45795202255249,
+            "gpu_end_ms": 7.002175807952881,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 1,
+            "past": 128,
+            "compute_cuda_ms": 0.4394879937171936,
+            "gpu_start_ms": 8.730112075805664,
+            "gpu_end_ms": 9.169599533081055,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 128,
+            "compute_cuda_ms": 0.40796801447868347,
+            "gpu_start_ms": 10.34166431427002,
+            "gpu_end_ms": 10.749631881713867,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 1,
+            "past": 129,
+            "compute_cuda_ms": 0.4276160001754761,
+            "gpu_start_ms": 12.315744400024414,
+            "gpu_end_ms": 12.743359565734863,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 129,
+            "compute_cuda_ms": 0.4179520010948181,
+            "gpu_start_ms": 13.899295806884766,
+            "gpu_end_ms": 14.317248344421387,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 1,
+            "past": 130,
+            "compute_cuda_ms": 0.41171199083328247,
+            "gpu_start_ms": 15.880096435546875,
+            "gpu_end_ms": 16.291807174682617,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          },
+          {
+            "group": 3,
+            "past": 130,
+            "compute_cuda_ms": 0.4205760061740875,
+            "gpu_start_ms": 17.432544708251953,
+            "gpu_end_ms": 17.853120803833008,
+            "weight_host_wait_ms": 0.0,
+            "weight_gpu_wait_ms": 0
+          }
+        ],
+        "communication": [
+          {
+            "step": 0,
+            "group": 1,
+            "sender": false,
+            "bytes": 196608,
+            "wall_ms": 2.3577938079833984,
+            "staging_host_ms": 0.08951807022094727,
+            "staging_cuda_ms": 0.03593600168824196
+          },
+          {
+            "step": 0,
+            "group": 2,
+            "sender": true,
+            "bytes": 196608,
+            "wall_ms": 1.1926631927490234,
+            "staging_host_ms": 0.0612330436706543,
+            "staging_cuda_ms": 0.018464000895619392
+          },
+          {
+            "step": 0,
+            "group": 3,
+            "sender": false,
+            "bytes": 196608,
+            "wall_ms": 1.6200430393218994,
+            "staging_host_ms": 0.04942584037780762,
+            "staging_cuda_ms": 0.01897599920630455
+          },
+          {
+            "step": 1,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.9747350215911865,
+            "staging_host_ms": 0.05361604690551758,
+            "staging_cuda_ms": 0.014047999866306782
+          },
+          {
+            "step": 1,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.3216128349304199,
+            "staging_host_ms": 0.04360318183898926,
+            "staging_cuda_ms": 0.011103999800980091
+          },
+          {
+            "step": 1,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.7206552028656006,
+            "staging_host_ms": 0.03716611862182617,
+            "staging_cuda_ms": 0.011807999573647976
+          },
+          {
+            "step": 2,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.9264299869537354,
+            "staging_host_ms": 0.054440975189208984,
+            "staging_cuda_ms": 0.016992000862956047
+          },
+          {
+            "step": 2,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.31505513191223145,
+            "staging_host_ms": 0.04064321517944336,
+            "staging_cuda_ms": 0.01056000031530857
+          },
+          {
+            "step": 2,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.7168498039245605,
+            "staging_host_ms": 0.03675389289855957,
+            "staging_cuda_ms": 0.01206399966031313
+          },
+          {
+            "step": 3,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.9179141521453857,
+            "staging_host_ms": 0.04894614219665527,
+            "staging_cuda_ms": 0.013376000337302685
+          },
+          {
+            "step": 3,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.31937098503112793,
+            "staging_host_ms": 0.04218006134033203,
+            "staging_cuda_ms": 0.010847999714314938
+          },
+          {
+            "step": 3,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 0.6940150260925293,
+            "staging_host_ms": 0.03761625289916992,
+            "staging_cuda_ms": 0.012032000347971916
+          }
+        ],
+        "endpoint": [
+          {
+            "step": 0,
+            "embed_host_submit_ms": 0.0001938343048095703,
+            "head_and_token_host_ms": 0.36748671531677246
+          },
+          {
+            "step": 1,
+            "embed_host_submit_ms": 0.0006139278411865234,
+            "head_and_token_host_ms": 0.2512781620025635
+          },
+          {
+            "step": 2,
+            "embed_host_submit_ms": 0.0005390644073486328,
+            "head_and_token_host_ms": 0.25507307052612305
+          },
+          {
+            "step": 3,
+            "embed_host_submit_ms": 0.0006182193756103516,
+            "head_and_token_host_ms": 0.24741888046264648
+          }
+        ],
+        "sent_wire_bytes": 202546,
+        "activation_payload_bytes": 201216,
+        "endpoint_weight_bytes": 77220864,
+        "kv_bytes": 2414592,
+        "weight_slot_bytes": 0,
+        "resident_block_bytes": 85054464,
+        "pinned_weight_bytes": 85054464,
+        "tokens": [
+          [
+            [
+              1617
+            ]
+          ],
+          [
+            [
+              4
+            ]
+          ],
+          [
+            [
+              4028
+            ]
+          ],
+          [
+            [
+              10490
+            ]
+          ]
+        ],
+        "sample": 0,
+        "warmup": false
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1765384192,
+      "gpu_allocated_peak_bytes": 187817984,
+      "gpu_reserved_peak_bytes": 209715200,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": 537657353,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 1342963714,
+        "allocated_bytes.current": 269221897,
+        "allocated_bytes.freed": 1073741817,
+        "allocated_bytes.peak": 537657353,
+        "allocation.allocated": 28,
+        "allocation.current": 1,
+        "allocation.freed": 27,
+        "allocation.peak": 7,
+        "host_alloc_time.avg": 7159,
+        "host_alloc_time.count": 7,
+        "host_alloc_time.max": 13046,
+        "host_alloc_time.min": 18,
+        "host_alloc_time.total": 50116,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 7,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 268763137,
+        "reserved_bytes.current": 268763137,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 268763137,
+        "segment.allocated": 7,
+        "segment.current": 7,
+        "segment.freed": 0,
+        "segment.peak": 7
+      },
+      "pinned_reserved_peak_bytes_process_lifetime": 268763137,
+      "host_allocator_negative_counter_observed": false,
+      "pinned_allocator_peak_scope": "process_lifetime_not_reset_per_case"
+    }
+  },
+  {
+    "workload": {
+      "batch": 1,
+      "q": 128,
+      "steps": 4
+    },
+    "case": {
+      "layout": "continuous",
+      "mode": "demand",
+      "cut": 2
+    },
+    "owners": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "e2e_ms": 58.811912298202515,
+        "step_ms": [
+          15.718803882598877,
+          13.704125881195068,
+          13.787283658981323,
+          14.317884922027588
+        ],
+        "capture_overhead_included": true,
+        "errors": {
+          "tokens_exact": true,
+          "logits_max_abs": 0.0,
+          "kv_max_abs": 0.0
+        },
+        "correct": true,
+        "copies": [
+          {
+            "index": 0,
+            "group": 2,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.862907886505127,
+            "copy_call_ms": 0.026767253875732422,
+            "buffer_host_wait_ms": 0.0005900859832763672,
+            "cuda_ms": 1.817471981048584,
+            "gpu_start_ms": 9.982912063598633,
+            "gpu_end_ms": 11.800383567810059,
+            "buffer_gpu_wait_ms": 0.0038399999029934406
+          },
+          {
+            "index": 1,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.875917911529541,
+            "copy_call_ms": 0.0316472053527832,
+            "buffer_host_wait_ms": 0.0006480216979980469,
+            "cuda_ms": 1.820863962173462,
+            "gpu_start_ms": 12.92739200592041,
+            "gpu_end_ms": 14.748255729675293,
+            "buffer_gpu_wait_ms": 0.003776000114157796
+          },
+          {
+            "index": 2,
+            "group": 2,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8468661308288574,
+            "copy_call_ms": 0.025926828384399414,
+            "buffer_host_wait_ms": 0.0022530555725097656,
+            "cuda_ms": 1.814911961555481,
+            "gpu_start_ms": 24.77769660949707,
+            "gpu_end_ms": 26.592607498168945,
+            "buffer_gpu_wait_ms": 0.004511999897658825
+          },
+          {
+            "index": 3,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8470799922943115,
+            "copy_call_ms": 0.0252532958984375,
+            "buffer_host_wait_ms": 0.0018358230590820312,
+            "cuda_ms": 1.814303994178772,
+            "gpu_start_ms": 27.189695358276367,
+            "gpu_end_ms": 29.003999710083008,
+            "buffer_gpu_wait_ms": 0.005183999892324209
+          },
+          {
+            "index": 4,
+            "group": 2,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.86965012550354,
+            "copy_call_ms": 0.03254413604736328,
+            "buffer_host_wait_ms": 0.002535104751586914,
+            "cuda_ms": 1.8210879564285278,
+            "gpu_start_ms": 38.71529769897461,
+            "gpu_end_ms": 40.53638458251953,
+            "buffer_gpu_wait_ms": 0.006335999816656113
+          },
+          {
+            "index": 5,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8557441234588623,
+            "copy_call_ms": 0.0287935733795166,
+            "buffer_host_wait_ms": 0.0021140575408935547,
+            "cuda_ms": 1.8165440559387207,
+            "gpu_start_ms": 41.264190673828125,
+            "gpu_end_ms": 43.08073425292969,
+            "buffer_gpu_wait_ms": 0.006463999859988689
+          },
+          {
+            "index": 6,
+            "group": 2,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8836338520050049,
+            "copy_call_ms": 0.04100680351257324,
+            "buffer_host_wait_ms": 0.0031960010528564453,
+            "cuda_ms": 1.8315520286560059,
+            "gpu_start_ms": 53.01740646362305,
+            "gpu_end_ms": 54.848960876464844,
+            "buffer_gpu_wait_ms": 0.008320000022649765
+          },
+          {
+            "index": 7,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8722171783447266,
+            "copy_call_ms": 0.03477954864501953,
+            "buffer_host_wait_ms": 0.0023620128631591797,
+            "cuda_ms": 1.8244479894638062,
+            "gpu_start_ms": 55.78847885131836,
+            "gpu_end_ms": 57.6129264831543,
+            "buffer_gpu_wait_ms": 0.007968000136315823
+          }
+        ],
+        "compute": [
+          {
+            "group": 2,
+            "past": 0,
+            "compute_cuda_ms": 0.8549759984016418,
+            "gpu_start_ms": 11.995455741882324,
+            "gpu_end_ms": 12.850432395935059,
+            "weight_host_wait_ms": 0.0019550323486328125,
+            "weight_gpu_wait_ms": 0.009535999968647957
+          },
+          {
+            "group": 3,
+            "past": 0,
+            "compute_cuda_ms": 0.5185920000076294,
+            "gpu_start_ms": 14.862560272216797,
+            "gpu_end_ms": 15.381152153015137,
+            "weight_host_wait_ms": 0.0015838146209716797,
+            "weight_gpu_wait_ms": 0.00886400043964386
+          },
+          {
+            "group": 2,
+            "past": 128,
+            "compute_cuda_ms": 0.44835200905799866,
+            "gpu_start_ms": 26.707359313964844,
+            "gpu_end_ms": 27.155712127685547,
+            "weight_host_wait_ms": 0.0010600090026855469,
+            "weight_gpu_wait_ms": 0.008415999822318554
+          },
+          {
+            "group": 3,
+            "past": 128,
+            "compute_cuda_ms": 0.39743998646736145,
+            "gpu_start_ms": 29.109376907348633,
+            "gpu_end_ms": 29.506816864013672,
+            "weight_host_wait_ms": 0.0010449886322021484,
+            "weight_gpu_wait_ms": 0.008415999822318554
+          },
+          {
+            "group": 2,
+            "past": 129,
+            "compute_cuda_ms": 0.5355520248413086,
+            "gpu_start_ms": 40.67763137817383,
+            "gpu_end_ms": 41.21318435668945,
+            "weight_host_wait_ms": 0.0015101432800292969,
+            "weight_gpu_wait_ms": 0.01071999967098236
+          },
+          {
+            "group": 3,
+            "past": 129,
+            "compute_cuda_ms": 0.4111360013484955,
+            "gpu_start_ms": 43.19513702392578,
+            "gpu_end_ms": 43.60627365112305,
+            "weight_host_wait_ms": 0.0011777877807617188,
+            "weight_gpu_wait_ms": 0.00848000030964613
+          },
+          {
+            "group": 2,
+            "past": 130,
+            "compute_cuda_ms": 0.685920000076294,
+            "gpu_start_ms": 55.02783966064453,
+            "gpu_end_ms": 55.71376037597656,
+            "weight_host_wait_ms": 0.0017368793487548828,
+            "weight_gpu_wait_ms": 0.013952000066637993
+          },
+          {
+            "group": 3,
+            "past": 130,
+            "compute_cuda_ms": 0.4801279902458191,
+            "gpu_start_ms": 57.74476623535156,
+            "gpu_end_ms": 58.22489547729492,
+            "weight_host_wait_ms": 0.0016629695892333984,
+            "weight_gpu_wait_ms": 0.010495999827980995
+          }
+        ],
+        "communication": [
+          {
+            "step": 0,
+            "group": 2,
+            "sender": false,
+            "bytes": 196608,
+            "wall_ms": 9.840913772583008,
+            "staging_host_ms": 0.10261297225952148,
+            "staging_cuda_ms": 0.037408001720905304
+          },
+          {
+            "step": 1,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 8.638535976409912,
+            "staging_host_ms": 0.08148813247680664,
+            "staging_cuda_ms": 0.025887999683618546
+          },
+          {
+            "step": 2,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 8.559520244598389,
+            "staging_host_ms": 0.07127976417541504,
+            "staging_cuda_ms": 0.024064000695943832
+          },
+          {
+            "step": 3,
+            "group": 2,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 8.746717929840088,
+            "staging_host_ms": 0.08563017845153809,
+            "staging_cuda_ms": 0.025599999353289604
+          }
+        ],
+        "endpoint": [
+          {
+            "step": 0,
+            "embed_host_submit_ms": 0.00021004676818847656,
+            "head_and_token_host_ms": 0.37197303771972656
+          },
+          {
+            "step": 1,
+            "embed_host_submit_ms": 0.0005900859832763672,
+            "head_and_token_host_ms": 0.26571178436279297
+          },
+          {
+            "step": 2,
+            "embed_host_submit_ms": 0.0006310939788818359,
+            "head_and_token_host_ms": 0.2512388229370117
+          },
+          {
+            "step": 3,
+            "embed_host_submit_ms": 0.0006768703460693359,
+            "head_and_token_host_ms": 0.2597839832305908
+          }
+        ],
+        "sent_wire_bytes": 558,
+        "activation_payload_bytes": 0,
+        "endpoint_weight_bytes": 77220864,
+        "kv_bytes": 2414592,
+        "weight_slot_bytes": 85054464,
+        "resident_block_bytes": 0,
+        "pinned_weight_bytes": 85054464,
+        "tokens": [
+          [
+            [
+              1617
+            ]
+          ],
+          [
+            [
+              4
+            ]
+          ],
+          [
+            [
+              4028
+            ]
+          ],
+          [
+            [
+              10490
+            ]
+          ]
+        ],
+        "sample": 0,
+        "warmup": false
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1765605376,
+      "gpu_allocated_peak_bytes": 187819520,
+      "gpu_reserved_peak_bytes": 209715200,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": 537919498,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 1477443586,
+        "allocated_bytes.current": 403701770,
+        "allocated_bytes.freed": 1073741816,
+        "allocated_bytes.peak": 537919498,
+        "allocation.allocated": 31,
+        "allocation.current": 3,
+        "allocation.freed": 28,
+        "allocation.peak": 7,
+        "host_alloc_time.avg": 7159,
+        "host_alloc_time.count": 7,
+        "host_alloc_time.max": 13046,
+        "host_alloc_time.min": 18,
+        "host_alloc_time.total": 50116,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 7,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 268763137,
+        "reserved_bytes.current": 268763137,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 268763137,
+        "segment.allocated": 7,
+        "segment.current": 7,
+        "segment.freed": 0,
+        "segment.peak": 7
+      },
+      "pinned_reserved_peak_bytes_process_lifetime": 268763137,
+      "host_allocator_negative_counter_observed": false,
+      "pinned_allocator_peak_scope": "process_lifetime_not_reset_per_case"
+    }
+  },
+  {
+    "workload": {
+      "batch": 1,
+      "q": 128,
+      "steps": 4
+    },
+    "case": {
+      "layout": "relay",
+      "mode": "demand"
+    },
+    "owners": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "rows": [
+      {
+        "e2e_ms": 62.6917290687561,
+        "step_ms": [
+          18.006587266921997,
+          14.027337074279785,
+          14.487940788269043,
+          14.936052083969116
+        ],
+        "capture_overhead_included": true,
+        "errors": {
+          "tokens_exact": true,
+          "logits_max_abs": 0.0,
+          "kv_max_abs": 0.0
+        },
+        "correct": true,
+        "copies": [
+          {
+            "index": 0,
+            "group": 1,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8584671020507812,
+            "copy_call_ms": 0.026448488235473633,
+            "buffer_host_wait_ms": 0.00036406517028808594,
+            "cuda_ms": 1.8164160251617432,
+            "gpu_start_ms": 6.1411519050598145,
+            "gpu_end_ms": 7.957568168640137,
+            "buffer_gpu_wait_ms": 0.0038079998921602964
+          },
+          {
+            "index": 1,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8432729244232178,
+            "copy_call_ms": 0.024151086807250977,
+            "buffer_host_wait_ms": 0.00033402442932128906,
+            "cuda_ms": 1.8133440017700195,
+            "gpu_start_ms": 15.188480377197266,
+            "gpu_end_ms": 17.00182342529297,
+            "buffer_gpu_wait_ms": 0.0033279999624937773
+          },
+          {
+            "index": 2,
+            "group": 1,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8430242538452148,
+            "copy_call_ms": 0.023706436157226562,
+            "buffer_host_wait_ms": 0.0020949840545654297,
+            "cuda_ms": 1.8122880458831787,
+            "gpu_start_ms": 22.78825569152832,
+            "gpu_end_ms": 24.600543975830078,
+            "buffer_gpu_wait_ms": 0.004767999984323978
+          },
+          {
+            "index": 3,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8430697917938232,
+            "copy_call_ms": 0.024869680404663086,
+            "buffer_host_wait_ms": 0.002046823501586914,
+            "cuda_ms": 1.8130240440368652,
+            "gpu_start_ms": 29.715103149414062,
+            "gpu_end_ms": 31.528127670288086,
+            "buffer_gpu_wait_ms": 0.0049600000493228436
+          },
+          {
+            "index": 4,
+            "group": 1,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.852066993713379,
+            "copy_call_ms": 0.027634859085083008,
+            "buffer_host_wait_ms": 0.0021631717681884766,
+            "cuda_ms": 1.8156800270080566,
+            "gpu_start_ms": 37.123966217041016,
+            "gpu_end_ms": 38.93964767456055,
+            "buffer_gpu_wait_ms": 0.005535999778658152
+          },
+          {
+            "index": 5,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8603839874267578,
+            "copy_call_ms": 0.03130197525024414,
+            "buffer_host_wait_ms": 0.0024819374084472656,
+            "cuda_ms": 1.8207999467849731,
+            "gpu_start_ms": 44.302398681640625,
+            "gpu_end_ms": 46.123199462890625,
+            "buffer_gpu_wait_ms": 0.006432000081986189
+          },
+          {
+            "index": 6,
+            "group": 1,
+            "slot": 0,
+            "bytes": 42527232,
+            "host_submit_ms": 1.8627591133117676,
+            "copy_call_ms": 0.032897233963012695,
+            "buffer_host_wait_ms": 0.0026619434356689453,
+            "cuda_ms": 1.8222399950027466,
+            "gpu_start_ms": 52.02105712890625,
+            "gpu_end_ms": 53.84329605102539,
+            "buffer_gpu_wait_ms": 0.006335999816656113
+          },
+          {
+            "index": 7,
+            "group": 3,
+            "slot": 1,
+            "bytes": 42527232,
+            "host_submit_ms": 1.886599063873291,
+            "copy_call_ms": 0.0396113395690918,
+            "buffer_host_wait_ms": 0.0025680065155029297,
+            "cuda_ms": 1.8421440124511719,
+            "gpu_start_ms": 59.42911911010742,
+            "gpu_end_ms": 61.271263122558594,
+            "buffer_gpu_wait_ms": 0.0074880002066493034
+          }
+        ],
+        "compute": [
+          {
+            "group": 1,
+            "past": 0,
+            "compute_cuda_ms": 0.8167039752006531,
+            "gpu_start_ms": 8.145088195800781,
+            "gpu_end_ms": 8.9617919921875,
+            "weight_host_wait_ms": 0.0018379688262939453,
+            "weight_gpu_wait_ms": 0.008063999935984612
+          },
+          {
+            "group": 3,
+            "past": 0,
+            "compute_cuda_ms": 0.5600320100784302,
+            "gpu_start_ms": 17.114368438720703,
+            "gpu_end_ms": 17.674400329589844,
+            "weight_host_wait_ms": 0.0013082027435302734,
+            "weight_gpu_wait_ms": 0.008383999578654766
+          },
+          {
+            "group": 1,
+            "past": 128,
+            "compute_cuda_ms": 0.4451200067996979,
+            "gpu_start_ms": 24.709184646606445,
+            "gpu_end_ms": 25.15430450439453,
+            "weight_host_wait_ms": 0.0010380744934082031,
+            "weight_gpu_wait_ms": 0.008383999578654766
+          },
+          {
+            "group": 3,
+            "past": 128,
+            "compute_cuda_ms": 0.436383992433548,
+            "gpu_start_ms": 31.640159606933594,
+            "gpu_end_ms": 32.07654571533203,
+            "weight_host_wait_ms": 0.0010271072387695312,
+            "weight_gpu_wait_ms": 0.008352000266313553
+          },
+          {
+            "group": 1,
+            "past": 129,
+            "compute_cuda_ms": 0.46380800008773804,
+            "gpu_start_ms": 39.06233596801758,
+            "gpu_end_ms": 39.52614212036133,
+            "weight_host_wait_ms": 0.0012183189392089844,
+            "weight_gpu_wait_ms": 0.008960000239312649
+          },
+          {
+            "group": 3,
+            "past": 129,
+            "compute_cuda_ms": 0.5594239830970764,
+            "gpu_start_ms": 46.26335906982422,
+            "gpu_end_ms": 46.822784423828125,
+            "weight_host_wait_ms": 0.0014731884002685547,
+            "weight_gpu_wait_ms": 0.010847999714314938
+          },
+          {
+            "group": 1,
+            "past": 130,
+            "compute_cuda_ms": 0.5726079940795898,
+            "gpu_start_ms": 53.984832763671875,
+            "gpu_end_ms": 54.55744171142578,
+            "weight_host_wait_ms": 0.0013420581817626953,
+            "weight_gpu_wait_ms": 0.01065600011497736
+          },
+          {
+            "group": 3,
+            "past": 130,
+            "compute_cuda_ms": 0.6167680025100708,
+            "gpu_start_ms": 61.432865142822266,
+            "gpu_end_ms": 62.04963302612305,
+            "weight_host_wait_ms": 0.0015919208526611328,
+            "weight_gpu_wait_ms": 0.012223999947309494
+          }
+        ],
+        "communication": [
+          {
+            "step": 0,
+            "group": 1,
+            "sender": false,
+            "bytes": 196608,
+            "wall_ms": 6.007542848587036,
+            "staging_host_ms": 0.14724087715148926,
+            "staging_cuda_ms": 0.05459199845790863
+          },
+          {
+            "step": 0,
+            "group": 2,
+            "sender": true,
+            "bytes": 196608,
+            "wall_ms": 1.1351549625396729,
+            "staging_host_ms": 0.05107998847961426,
+            "staging_cuda_ms": 0.014431999996304512
+          },
+          {
+            "step": 0,
+            "group": 3,
+            "sender": false,
+            "bytes": 196608,
+            "wall_ms": 4.990797758102417,
+            "staging_host_ms": 0.04780912399291992,
+            "staging_cuda_ms": 0.01817600056529045
+          },
+          {
+            "step": 1,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.416461944580078,
+            "staging_host_ms": 0.05165219306945801,
+            "staging_cuda_ms": 0.012671999633312225
+          },
+          {
+            "step": 1,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.32282495498657227,
+            "staging_host_ms": 0.039988040924072266,
+            "staging_cuda_ms": 0.010528000071644783
+          },
+          {
+            "step": 1,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.159954071044922,
+            "staging_host_ms": 0.039288997650146484,
+            "staging_cuda_ms": 0.01228800043463707
+          },
+          {
+            "step": 2,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.441200017929077,
+            "staging_host_ms": 0.055433034896850586,
+            "staging_cuda_ms": 0.01414399966597557
+          },
+          {
+            "step": 2,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.40891289710998535,
+            "staging_host_ms": 0.04427599906921387,
+            "staging_cuda_ms": 0.011103999800980091
+          },
+          {
+            "step": 2,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.274033069610596,
+            "staging_host_ms": 0.049263715744018555,
+            "staging_cuda_ms": 0.01539199985563755
+          },
+          {
+            "step": 3,
+            "group": 1,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.531038045883179,
+            "staging_host_ms": 0.0666353702545166,
+            "staging_cuda_ms": 0.017632000148296356
+          },
+          {
+            "step": 3,
+            "group": 2,
+            "sender": true,
+            "bytes": 1536,
+            "wall_ms": 0.4759237766265869,
+            "staging_host_ms": 0.04799604415893555,
+            "staging_cuda_ms": 0.012864000163972378
+          },
+          {
+            "step": 3,
+            "group": 3,
+            "sender": false,
+            "bytes": 1536,
+            "wall_ms": 4.28312611579895,
+            "staging_host_ms": 0.057282209396362305,
+            "staging_cuda_ms": 0.020896000787615776
+          }
+        ],
+        "endpoint": [
+          {
+            "step": 0,
+            "embed_host_submit_ms": 0.0002541542053222656,
+            "head_and_token_host_ms": 0.3644139766693115
+          },
+          {
+            "step": 1,
+            "embed_host_submit_ms": 0.00047707557678222656,
+            "head_and_token_host_ms": 0.2596898078918457
+          },
+          {
+            "step": 2,
+            "embed_host_submit_ms": 0.0005121231079101562,
+            "head_and_token_host_ms": 0.26069116592407227
+          },
+          {
+            "step": 3,
+            "embed_host_submit_ms": 0.0007560253143310547,
+            "head_and_token_host_ms": 0.2753410339355469
+          }
+        ],
+        "sent_wire_bytes": 202546,
+        "activation_payload_bytes": 201216,
+        "endpoint_weight_bytes": 77220864,
+        "kv_bytes": 2414592,
+        "weight_slot_bytes": 85054464,
+        "resident_block_bytes": 0,
+        "pinned_weight_bytes": 85054464,
+        "tokens": [
+          [
+            [
+              1617
+            ]
+          ],
+          [
+            [
+              4
+            ]
+          ],
+          [
+            [
+              4028
+            ]
+          ],
+          [
+            [
+              10490
+            ]
+          ]
+        ],
+        "sample": 0,
+        "warmup": false
+      }
+    ],
+    "memory": {
+      "rss_sampled_peak_bytes": 1765285888,
+      "gpu_allocated_peak_bytes": 187817984,
+      "gpu_reserved_peak_bytes": 209715200,
+      "rss_sampling_ms": 10,
+      "pinned_allocator_peak_bytes": 538181645,
+      "host_allocator_stats": {
+        "allocated_bytes.allocated": 1611923458,
+        "allocated_bytes.current": 538181645,
+        "allocated_bytes.freed": 1073741813,
+        "allocated_bytes.peak": 538181645,
+        "allocation.allocated": 34,
+        "allocation.current": 3,
+        "allocation.freed": 31,
+        "allocation.peak": 7,
+        "host_alloc_time.avg": 7159,
+        "host_alloc_time.count": 7,
+        "host_alloc_time.max": 13046,
+        "host_alloc_time.min": 18,
+        "host_alloc_time.total": 50116,
+        "host_free_time.avg": 0,
+        "host_free_time.count": 0,
+        "host_free_time.max": 0,
+        "host_free_time.min": 0,
+        "host_free_time.total": 0,
+        "num_host_alloc": 7,
+        "num_host_free": 0,
+        "reserved_bytes.allocated": 268763137,
+        "reserved_bytes.current": 268763137,
+        "reserved_bytes.freed": 0,
+        "reserved_bytes.peak": 268763137,
+        "segment.allocated": 7,
+        "segment.current": 7,
+        "segment.freed": 0,
+        "segment.peak": 7
+      },
+      "pinned_reserved_peak_bytes_process_lifetime": 268763137,
+      "host_allocator_negative_counter_observed": false,
+      "pinned_allocator_peak_scope": "process_lifetime_not_reset_per_case"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "fetch_exit_code": 0,
+  "exit_codes": {
+    "A": -15,
+    "B": 255
+  }
+}
